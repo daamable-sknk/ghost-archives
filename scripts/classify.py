@@ -32,7 +32,7 @@ PROMPT_TEMPLATE = """다음은 '아카이브'라는 단어가 포함된 뉴스/�
 JSON으로만 응답. 다른 텍스트 없이: {{"category": "...", "implied_meaning": "..."}}"""
 
 
-def classify_item(title: str) -> dict | None:
+def classify_item(title: str, retries: int = 3) -> dict | None:
     if not GEMINI_API_KEY:
         print("[Classify] GEMINI_API_KEY not set")
         return None
@@ -46,30 +46,48 @@ def classify_item(title: str) -> dict | None:
         }
     }
     
-    try:
-        resp = requests.post(
-            f"{GEMINI_URL}?key={GEMINI_API_KEY}",
-            headers=headers,
-            json=payload,
-            timeout=30
-        )
-        resp.raise_for_status()
-        
-        result = resp.json()
-        text = result["candidates"][0]["content"]["parts"][0]["text"]
-        text = text.strip()
-        if text.startswith("```"):
-            text = text.split("\n", 1)[1].rsplit("```", 1)[0]
-        
-        parsed = json.loads(text)
-        
-        if parsed.get("category") not in CATEGORIES:
+    for attempt in range(retries):
+        try:
+            resp = requests.post(
+                f"{GEMINI_URL}?key={GEMINI_API_KEY}",
+                headers=headers,
+                json=payload,
+                timeout=30
+            )
+            
+            if resp.status_code == 429:
+                wait_time = (attempt + 1) * 5
+                print(f"  → Rate limited, waiting {wait_time}s...")
+                time.sleep(wait_time)
+                continue
+            
+            resp.raise_for_status()
+            
+            result = resp.json()
+            text = result["candidates"][0]["content"]["parts"][0]["text"]
+            text = text.strip()
+            if text.startswith("```"):
+                text = text.split("\n", 1)[1].rsplit("```", 1)[0]
+            
+            parsed = json.loads(text)
+            
+            if parsed.get("category") not in CATEGORIES:
+                return None
+            
+            return parsed
+        except requests.exceptions.HTTPError as e:
+            if "429" in str(e):
+                wait_time = (attempt + 1) * 5
+                print(f"  → Rate limited, waiting {wait_time}s...")
+                time.sleep(wait_time)
+                continue
+            print(f"[Classify] Error: {e}")
             return None
-        
-        return parsed
-    except Exception as e:
-        print(f"[Classify] Error: {e}")
-        return None
+        except Exception as e:
+            print(f"[Classify] Error: {e}")
+            return None
+    
+    return None
 
 
 def load_data() -> dict:
@@ -110,7 +128,7 @@ def main(limit: int = 50, dry_run: bool = False):
         else:
             print(f"  → Failed")
         
-        time.sleep(0.5)
+        time.sleep(2)
     
     if not dry_run and classified_count > 0:
         data["meta"]["reviewed_count"] = sum(1 for item in items if item.get("reviewed"))
