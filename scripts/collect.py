@@ -3,13 +3,13 @@
 ghost-archive 자동 수집 스크립트
 
 수집 소스:
-- Google Alerts RSS (뉴스, 학술)
-- Bluesky API (#아카이브, #archive)
+- Google News RSS (한국어/영어)
+- Naver News API (한국어)
 
 사용법:
     python scripts/collect.py
     python scripts/collect.py --source rss
-    python scripts/collect.py --source bluesky
+    python scripts/collect.py --source naver
 """
 
 import json
@@ -38,8 +38,6 @@ RSS_FEEDS = {
     "google_news_en": "https://news.google.com/rss/search?q=archive&hl=en-US&gl=US&ceid=US:en",
 }
 
-BLUESKY_HANDLE = os.getenv("BLUESKY_HANDLE", "")
-BLUESKY_APP_PASSWORD = os.getenv("BLUESKY_APP_PASSWORD", "")
 NAVER_CLIENT_ID = os.getenv("NAVER_CLIENT_ID", "")
 NAVER_CLIENT_SECRET = os.getenv("NAVER_CLIENT_SECRET", "")
 
@@ -224,116 +222,6 @@ def collect_naver() -> list:
 
 
 # =============================================================================
-# Bluesky 수집
-# =============================================================================
-
-def get_bluesky_token() -> Optional[str]:
-    if not BLUESKY_HANDLE or not BLUESKY_APP_PASSWORD:
-        print("[Bluesky] Credentials not configured, skipping")
-        return None
-    
-    try:
-        resp = requests.post(
-            "https://bsky.social/xrpc/com.atproto.server.createSession",
-            json={"identifier": BLUESKY_HANDLE, "password": BLUESKY_APP_PASSWORD},
-            timeout=30
-        )
-        resp.raise_for_status()
-        return resp.json().get("accessJwt")
-    except Exception as e:
-        print(f"[Bluesky] Auth error: {e}")
-        return None
-
-
-def search_bluesky(query: str, token: str, limit: int = 100) -> list:
-    url = "https://bsky.social/xrpc/app.bsky.feed.searchPosts"
-    headers = {"Authorization": f"Bearer {token}"}
-    params = {"q": query, "limit": limit}
-    
-    try:
-        response = requests.get(url, headers=headers, params=params, timeout=30)
-        response.raise_for_status()
-        return response.json().get("posts", [])
-    except Exception as e:
-        print(f"[Bluesky] Search error for '{query}': {e}")
-        return []
-
-
-def collect_bluesky() -> list:
-    token = get_bluesky_token()
-    if not token:
-        return []
-    
-    collected = []
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    
-    search_queries = ["아카이브", "archive"]
-    
-    for query in search_queries:
-        print(f"[Bluesky] Searching '{query}'...")
-        posts = search_bluesky(query, token)
-        
-        for post in posts:
-            record = post.get("record", {})
-            text = record.get("text", "")
-            uri = post.get("uri", "")
-            author = post.get("author", {})
-            handle = author.get("handle", "")
-            
-            if not text or not uri:
-                continue
-            
-            # Bluesky 포스트 URL 생성
-            # uri 형식: at://did:plc:xxx/app.bsky.feed.post/yyy
-            parts = uri.split("/")
-            if len(parts) >= 5:
-                did = parts[2]
-                post_id = parts[-1]
-                post_url = f"https://bsky.app/profile/{handle}/post/{post_id}"
-            else:
-                post_url = uri
-            
-            # 날짜 파싱
-            created_at = record.get("createdAt", "")
-            if created_at:
-                try:
-                    post_date = datetime.fromisoformat(created_at.replace("Z", "+00:00")).strftime("%Y-%m-%d")
-                except:
-                    post_date = today
-            else:
-                post_date = today
-            
-            keyword = detect_keyword(text)
-            if not keyword:
-                continue
-            
-            # 텍스트 요약 (최대 100자)
-            title = text[:100] + "..." if len(text) > 100 else text
-            title = title.replace("\n", " ")
-            
-            item = {
-                "id": generate_id(post_url, post_date),
-                "source_type": "bluesky",
-                "source_url": post_url,
-                "source_title": title,
-                "collected_at": today,
-                "published_at": post_date,
-                "keyword": keyword,
-                "language": detect_language(text),
-                "auto_collected": True,
-                "reviewed": False,
-                "category": None,
-                "implied_meaning": None,
-                "note": None
-            }
-            collected.append(item)
-        
-        print(f"[Bluesky] '{query}': {len(posts)} posts found")
-    
-    return collected
-
-
-# =============================================================================
 # 메인 로직
 # =============================================================================
 
@@ -415,17 +303,6 @@ def main(source: Optional[str] = None):
         
         save_json(naver_path, naver_data)
     
-    # Bluesky 수집
-    if source is None or source == "bluesky":
-        bluesky_path = SOURCES_DIR / "bluesky.json"
-        bluesky_data = load_json(bluesky_path)
-        
-        new_items = collect_bluesky()
-        bluesky_data["items"] = merge_items(bluesky_data.get("items", []), new_items)
-        bluesky_data["last_fetched"] = datetime.now(timezone.utc).isoformat()
-        
-        save_json(bluesky_path, bluesky_data)
-    
     # 메인 데이터 업데이트
     update_main_data()
     
@@ -436,7 +313,7 @@ if __name__ == "__main__":
     import argparse
     
     parser = argparse.ArgumentParser(description="ghost-archive collector")
-    parser.add_argument("--source", choices=["rss", "naver", "bluesky"], help="Collect from specific source only")
+    parser.add_argument("--source", choices=["rss", "naver"], help="Collect from specific source only")
     
     args = parser.parse_args()
     main(source=args.source)
