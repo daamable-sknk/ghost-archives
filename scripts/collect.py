@@ -40,6 +40,8 @@ RSS_FEEDS = {
 
 BLUESKY_HANDLE = os.getenv("BLUESKY_HANDLE", "")
 BLUESKY_APP_PASSWORD = os.getenv("BLUESKY_APP_PASSWORD", "")
+NAVER_CLIENT_ID = os.getenv("NAVER_CLIENT_ID", "")
+NAVER_CLIENT_SECRET = os.getenv("NAVER_CLIENT_SECRET", "")
 
 
 def generate_id(url: str, date: str) -> str:
@@ -144,6 +146,79 @@ def collect_rss() -> list:
             
         except Exception as e:
             print(f"[RSS] {feed_name}: Error - {e}")
+    
+    return collected
+
+
+def collect_naver() -> list:
+    if not NAVER_CLIENT_ID or not NAVER_CLIENT_SECRET:
+        print("[Naver] Credentials not configured, skipping")
+        return []
+    
+    collected = []
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    
+    headers = {
+        "X-Naver-Client-Id": NAVER_CLIENT_ID,
+        "X-Naver-Client-Secret": NAVER_CLIENT_SECRET
+    }
+    
+    search_queries = ["아카이브", "아카이빙"]
+    
+    for query in search_queries:
+        print(f"[Naver] Searching '{query}'...")
+        
+        try:
+            params = {"query": query, "display": 100, "sort": "date"}
+            resp = requests.get(
+                "https://openapi.naver.com/v1/search/news.json",
+                headers=headers, params=params, timeout=30
+            )
+            resp.raise_for_status()
+            data = resp.json()
+            
+            for item_data in data.get("items", []):
+                url = item_data.get("originallink") or item_data.get("link", "")
+                title = re.sub(r'<[^>]+>', '', item_data.get("title", ""))
+                
+                if not url or not title:
+                    continue
+                
+                pub_date = item_data.get("pubDate", "")
+                if pub_date:
+                    try:
+                        from email.utils import parsedate_to_datetime
+                        entry_date = parsedate_to_datetime(pub_date).strftime("%Y-%m-%d")
+                    except:
+                        entry_date = today
+                else:
+                    entry_date = today
+                
+                keyword = detect_keyword(title)
+                if not keyword:
+                    continue
+                
+                item = {
+                    "id": generate_id(url, entry_date),
+                    "source_type": "news",
+                    "source_url": url,
+                    "source_title": title,
+                    "collected_at": today,
+                    "published_at": entry_date,
+                    "keyword": keyword,
+                    "language": "ko",
+                    "auto_collected": True,
+                    "reviewed": False,
+                    "category": None,
+                    "implied_meaning": None,
+                    "note": None
+                }
+                collected.append(item)
+            
+            print(f"[Naver] '{query}': {len(data.get('items', []))} items found")
+            
+        except Exception as e:
+            print(f"[Naver] '{query}': Error - {e}")
     
     return collected
 
@@ -329,6 +404,17 @@ def main(source: Optional[str] = None):
         
         save_json(rss_path, rss_data)
     
+    # Naver 수집
+    if source is None or source == "naver":
+        naver_path = SOURCES_DIR / "naver.json"
+        naver_data = load_json(naver_path)
+        
+        new_items = collect_naver()
+        naver_data["items"] = merge_items(naver_data.get("items", []), new_items)
+        naver_data["last_fetched"] = datetime.now(timezone.utc).isoformat()
+        
+        save_json(naver_path, naver_data)
+    
     # Bluesky 수집
     if source is None or source == "bluesky":
         bluesky_path = SOURCES_DIR / "bluesky.json"
@@ -350,7 +436,7 @@ if __name__ == "__main__":
     import argparse
     
     parser = argparse.ArgumentParser(description="ghost-archive collector")
-    parser.add_argument("--source", choices=["rss", "bluesky"], help="Collect from specific source only")
+    parser.add_argument("--source", choices=["rss", "naver", "bluesky"], help="Collect from specific source only")
     
     args = parser.parse_args()
     main(source=args.source)

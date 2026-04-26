@@ -26,10 +26,10 @@ jobs:
       
       - name: Run collector
         env:
-          RSS_GOOGLE_ALERTS_KO: ${{ secrets.RSS_GOOGLE_ALERTS_KO }}
-          RSS_GOOGLE_ALERTS_EN: ${{ secrets.RSS_GOOGLE_ALERTS_EN }}
           BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
           BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
         run: |
           python scripts/collect.py
       
