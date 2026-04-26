@@ -39,8 +39,8 @@ RSS_FEEDS = {
     "google_alerts_en": os.getenv("RSS_GOOGLE_ALERTS_EN", ""),
 }
 
-# Bluesky 설정
-BLUESKY_API = "https://public.api.bsky.app"
+BLUESKY_HANDLE = os.getenv("BLUESKY_HANDLE", "")
+BLUESKY_APP_PASSWORD = os.getenv("BLUESKY_APP_PASSWORD", "")
 
 
 def generate_id(url: str, date: str) -> str:
@@ -153,13 +153,31 @@ def collect_rss() -> list:
 # Bluesky 수집
 # =============================================================================
 
-def search_bluesky(query: str, limit: int = 50) -> list:
-    """Bluesky 검색 API 호출"""
-    url = f"{BLUESKY_API}/xrpc/app.bsky.feed.searchPosts"
+def get_bluesky_token() -> Optional[str]:
+    if not BLUESKY_HANDLE or not BLUESKY_APP_PASSWORD:
+        print("[Bluesky] Credentials not configured, skipping")
+        return None
+    
+    try:
+        resp = requests.post(
+            "https://bsky.social/xrpc/com.atproto.server.createSession",
+            json={"identifier": BLUESKY_HANDLE, "password": BLUESKY_APP_PASSWORD},
+            timeout=30
+        )
+        resp.raise_for_status()
+        return resp.json().get("accessJwt")
+    except Exception as e:
+        print(f"[Bluesky] Auth error: {e}")
+        return None
+
+
+def search_bluesky(query: str, token: str, limit: int = 100) -> list:
+    url = "https://bsky.social/xrpc/app.bsky.feed.searchPosts"
+    headers = {"Authorization": f"Bearer {token}"}
     params = {"q": query, "limit": limit}
     
     try:
-        response = requests.get(url, params=params, timeout=30)
+        response = requests.get(url, headers=headers, params=params, timeout=30)
         response.raise_for_status()
         return response.json().get("posts", [])
     except Exception as e:
@@ -168,7 +186,10 @@ def search_bluesky(query: str, limit: int = 50) -> list:
 
 
 def collect_bluesky() -> list:
-    """Bluesky에서 수집"""
+    token = get_bluesky_token()
+    if not token:
+        return []
+    
     collected = []
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     
@@ -176,7 +197,7 @@ def collect_bluesky() -> list:
     
     for query in search_queries:
         print(f"[Bluesky] Searching '{query}'...")
-        posts = search_bluesky(query)
+        posts = search_bluesky(query, token)
         
         for post in posts:
             record = post.get("record", {})
