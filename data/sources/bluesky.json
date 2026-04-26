@@ -1,6 +1,6 @@
 {
   "source": "bluesky",
-  "last_fetched": "2026-04-26T14:53:36.476000+00:00",
+  "last_fetched": "2026-04-26T14:56:05.943178+00:00",
   "items": [
     {
       "id": "ghost-2026-04-26-70286fd6",
@@ -3127,6 +3127,36 @@
       "source_type": "bluesky",
       "source_url": "https://bsky.app/profile/hyperallergic.com/post/3mkfs3xmvl22m",
       "source_title": "The Center for Craft is accepting applications for the 2026 Craft Archive Fellowship, offering four ...",
+      "collected_at": "2026-04-26",
+      "published_at": "2026-04-26",
+      "keyword": "archive",
+      "language": "en",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-04-26-9d8e504b",
+      "source_type": "bluesky",
+      "source_url": "https://bsky.app/profile/andrewtanyongyi.bsky.social/post/3mkfsrjfrmc27",
+      "source_title": "I read this magazine, Der Stürmer.What do I read? 'Jews are controlling the media. They're controlli...",
+      "collected_at": "2026-04-26",
+      "published_at": "2026-04-26",
+      "keyword": "archive",
+      "language": "en",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-04-26-273ec73d",
+      "source_type": "bluesky",
+      "source_url": "https://bsky.app/profile/relevantusername.bsky.social/post/3mkfsqf62bs2u",
+      "source_title": "It even makes sense for media publishers & the Internet Archive (or other archive sites). Sure most ...",
       "collected_at": "2026-04-26",
       "published_at": "2026-04-26",
       "keyword": "archive",
