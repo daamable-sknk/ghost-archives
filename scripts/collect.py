@@ -33,10 +33,9 @@ KEYWORDS = {
     "en": ["archive", "archiving", "archived"]
 }
 
-# RSS 피드 URL (Google Alerts 설정 후 업데이트 필요)
 RSS_FEEDS = {
-    "google_alerts_ko": os.getenv("RSS_GOOGLE_ALERTS_KO", ""),
-    "google_alerts_en": os.getenv("RSS_GOOGLE_ALERTS_EN", ""),
+    "google_news_ko": "https://news.google.com/rss/search?q=%EC%95%84%EC%B9%B4%EC%9D%B4%EB%B8%8C&hl=ko&gl=KR&ceid=KR:ko",
+    "google_news_en": "https://news.google.com/rss/search?q=archive&hl=en-US&gl=US&ceid=US:en",
 }
 
 BLUESKY_HANDLE = os.getenv("BLUESKY_HANDLE", "")
