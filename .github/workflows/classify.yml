@@ -1,0 +1,40 @@
+name: Classify Items
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'Max items to classify'
+        required: false
+        default: '50'
+
+permissions:
+  contents: write
+
+jobs:
+  classify:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: pip install requests
+      
+      - name: Run classifier
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python scripts/classify.py --limit ${{ github.event.inputs.limit }}
+      
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --staged --quiet || git commit -m "chore: classify items $(date -u +%Y-%m-%d)"
+          git push
