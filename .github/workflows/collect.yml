@@ -1,0 +1,37 @@
+name: Collect Ghosts
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 매일 00:00 UTC (09:00 KST)
+  workflow_dispatch:
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install feedparser requests
+      
+      - name: Run collector
+        env:
+          RSS_GOOGLE_ALERTS_KO: ${{ secrets.RSS_GOOGLE_ALERTS_KO }}
+          RSS_GOOGLE_ALERTS_EN: ${{ secrets.RSS_GOOGLE_ALERTS_EN }}
+        run: |
+          python scripts/collect.py
+      
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --staged --quiet || git commit -m "chore: auto-collect $(date -u +%Y-%m-%d)"
+          git push
