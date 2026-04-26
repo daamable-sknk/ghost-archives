@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ghost-archive</title>
+  <meta name="description" content="'아카이브'라는 단어가 실제로 어떻게 쓰이는지 수집합니다.">
+  <meta name="author" content="담 (daam)">
+  
+  <meta property="og:title" content="ghost-archive">
+  <meta property="og:description" content="'아카이브'라는 단어가 실제로 어떻게 쓰이는지 수집합니다.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ghost.meta-archives.xyz">
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="ghost-archive">
+  <meta name="twitter:description" content="'아카이브'라는 단어가 실제로 어떻게 쓰이는지 수집합니다.">
+  
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👻</text></svg>">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header>
+    <h1>ghost-archive</h1>
+    <p class="description">'아카이브'라는 단어의 용례 수집</p>
+    <nav>
+      <a href="index.html" class="active">목록</a>
+      <a href="about.html">소개</a>
+      <a href="methodology.html">방법론</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="stats">
+      <span id="total-count">0</span>개 수집
+      <span class="separator">·</span>
+      <span id="reviewed-count">0</span>개 검토됨
+      <span class="separator">·</span>
+      최근 업데이트: <span id="last-updated">-</span>
+    </section>
+
+    <section class="filters">
+      <button class="filter-btn active" data-filter="all">전체</button>
+      <button class="filter-btn" data-filter="news">뉴스</button>
+      <button class="filter-btn" data-filter="bluesky">Bluesky</button>
+      <span class="separator">|</span>
+      <button class="filter-btn" data-filter="ko">한국어</button>
+      <button class="filter-btn" data-filter="en">English</button>
+    </section>
+
+    <section class="items" id="items-container">
+      <!-- 동적 렌더링 -->
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      <a href="https://github.com/daamable-sknk/ghost-archives">GitHub</a>
+      <span class="separator">·</span>
+      <a href="https://are.na/daehwan-jang/ghost-archive">Are.na</a>
+    </p>
+  </footer>
+
+  <script>
+    const DATA_URL = 'data/ghosts.json';
+    
+    let allItems = [];
+    let currentFilter = 'all';
+
+    async function loadData() {
+      try {
+        const res = await fetch(DATA_URL);
+        const data = await res.json();
+        
+        document.getElementById('total-count').textContent = data.meta.total_count;
+        document.getElementById('reviewed-count').textContent = data.meta.reviewed_count;
+        document.getElementById('last-updated').textContent = formatDate(data.meta.last_updated);
+        
+        allItems = data.items;
+        renderItems(allItems);
+      } catch (e) {
+        console.error('Failed to load data:', e);
+        document.getElementById('items-container').innerHTML = '<p class="error">데이터를 불러오지 못했습니다.</p>';
+      }
+    }
+
+    function formatDate(iso) {
+      if (!iso) return '-';
+      return iso.split('T')[0];
+    }
+
+    function renderItems(items) {
+      const container = document.getElementById('items-container');
+      
+      if (items.length === 0) {
+        container.innerHTML = '<p class="empty">항목이 없습니다.</p>';
+        return;
+      }
+      
+      container.innerHTML = items.map(item => `
+        <article class="item" data-type="${item.source_type}" data-lang="${item.language}">
+          <a href="${item.source_url}" target="_blank" rel="noopener">
+            <h2>${escapeHtml(item.source_title)}</h2>
+          </a>
+          <div class="meta">
+            <span class="source-type">${item.source_type}</span>
+            <span class="separator">·</span>
+            <span class="date">${item.published_at}</span>
+            <span class="separator">·</span>
+            <span class="language">${item.language === 'ko' ? '한국어' : 'English'}</span>
+            ${item.category ? `<span class="separator">·</span><span class="category">${item.category}</span>` : ''}
+          </div>
+        </article>
+      `).join('');
+    }
+
+    function escapeHtml(text) {
+      const div = document.createElement('div');
+      div.textContent = text;
+      return div.innerHTML;
+    }
+
+    function applyFilter(filter) {
+      currentFilter = filter;
+      
+      document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.filter === filter);
+      });
+      
+      let filtered = allItems;
+      
+      if (filter === 'news') {
+        filtered = allItems.filter(item => item.source_type === 'news');
+      } else if (filter === 'bluesky') {
+        filtered = allItems.filter(item => item.source_type === 'bluesky');
+      } else if (filter === 'ko') {
+        filtered = allItems.filter(item => item.language === 'ko');
+      } else if (filter === 'en') {
+        filtered = allItems.filter(item => item.language === 'en');
+      }
+      
+      renderItems(filtered);
+    }
+
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => applyFilter(btn.dataset.filter));
+    });
+
+    loadData();
+  </script>
+</body>
+</html>
