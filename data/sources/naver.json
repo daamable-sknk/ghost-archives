@@ -104,7 +104,37 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-04-27-831a0f71",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/879840685",
+      "source_title": "[뉴공 아카이브]겸손NSC: 美 양보 없으면 장기전 우려… 미-이란 전쟁 해...",
+      "collected_at": "2026-04-27",
+      "published_at": "2026-04-27",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-04-27-ef865bc6",
+      "source_type": "news",
+      "source_url": "http://www.inews24.com/view/1963623",
+      "source_title": "[ICTF2026] 일본 장악한 K-서브컬쳐 게임⋯'블루 아카이브'의 흥행 비결",
+      "collected_at": "2026-04-27",
+      "published_at": "2026-04-27",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-04-26T15:03:24.573518+00:00"
+  "last_fetched": "2026-04-27T02:26:39.295154+00:00"
 }
