@@ -1034,7 +1034,52 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-05-04-378c8833",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/880338367",
+      "source_title": "[뉴공 아카이브]박시영 박시영TV 대표, 이택수 리얼미터 대표: 지방선거...",
+      "collected_at": "2026-05-04",
+      "published_at": "2026-05-04",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-05-04-2dcf29b2",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/880337646",
+      "source_title": "[뉴공 아카이브]퍼니포: ’공소 취소’ 특검법에 보수세력 반발… 근거...",
+      "collected_at": "2026-05-04",
+      "published_at": "2026-05-04",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-05-04-eac4c0e2",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/880335229",
+      "source_title": "[뉴공 아카이브]추미애 더불어민주당 경기도지사 예비후보: 민주당의 일...",
+      "collected_at": "2026-05-04",
+      "published_at": "2026-05-04",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-05-03T02:32:16.969623+00:00"
+  "last_fetched": "2026-05-04T02:30:41.919419+00:00"
 }
