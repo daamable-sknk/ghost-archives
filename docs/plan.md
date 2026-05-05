@@ -1,46 +1,52 @@
 # ghost-archives 작업 계획
 
-## 현황 (2026-05-05 기준)
+## 현황 (2026-05-06 기준)
 
 - 수집: 803건 (Google News RSS + 네이버 뉴스), 전부 news 소스
-- 분류: 0건 완료 (category 전부 null) — dry-run 5건 테스트 성공
-- 리뷰: 0건 완료
-- 웹사이트: 페이지 3개 (index, about, methodology), 데이터 렌더링 동작함
-- 도메인: ghost.meta-archives.xyz — DNS 연결 완료, HTTPS 적용 완료
+- 분류: 720건 완료 / 83건 실패 (미분류)
+- 웹사이트: ghost.meta-archives.xyz — HTTPS 라이브
 - 자동화: GitHub Actions 매일 수집 가동 중, 분류는 수동 실행
+- 모델: gemini-2.5-flash-lite (classify.py)
 
-### 오늘 완료한 것
+### 분류 결과 분포
 
-- [x] CNAME 도메인 변경 (ghost.web-archivists.xyz → ghost.meta-archives.xyz)
-- [x] DNS CNAME 레코드 추가 (가비아) + GitHub Pages 설정
+| 카테고리 | 건수 | 비율 |
+|---|---|---|
+| 예술 | 234 | 32.5% |
+| 제도 | 217 | 30.1% |
+| 마케팅 | 88 | 12.2% |
+| 감성 | 53 | 7.4% |
+| 큐레이션 | 47 | 6.5% |
+| 시민 | 47 | 6.5% |
+| 기술 | 34 | 4.7% |
+| 미분류 | 83 | — |
+
+### 완료한 것
+
+- [x] CNAME 도메인 변경 → ghost.meta-archives.xyz
+- [x] DNS CNAME 레코드 추가 (가비아) + GitHub Pages 설정 + HTTPS
 - [x] 전체 문서에서 Bluesky 참조 제거 (README, methodology, about, index)
 - [x] 분류 체계 7개로 통일 (README, methodology.html, classify.py)
-- [x] classify.py 모델 업데이트 (gemini-1.5-flash → gemini-2.5-flash)
-- [x] classify.py maxOutputTokens 수정 (100 → 1024)
-- [x] classify.py dry-run 테스트 성공 (5건)
+- [x] classify.py 모델 업데이트 (gemini-1.5-flash → 2.5-flash → 2.5-flash-lite)
+- [x] classify.py 중간 저장 기능 추가 (10건마다)
+- [x] 720건 자동 분류 실행 완료, 커밋 & 푸시
 - [x] docs/ 폴더 생성 — structure.md, plan.md, references.md
 - [x] .venv 환경 구성 (requests, feedparser)
 
 ---
 
-## Phase 0: 즉시 실행 ← 지금 여기
-
-- [ ] classify.py 전체 실행 (803건) — 약 27분 소요 예상
-- [ ] 분류 결과 커밋 & 푸시
-- [ ] 분류 결과 샘플 검토 (정확도 체감 확인)
-- [ ] .venv을 .gitignore에 추가
-
----
-
-## Phase 1: 데이터 품질 확보
+## Phase 1: 데이터 품질 확보 ← 지금 여기
 
 ### 1-1. 분류 체계 검증
-- [ ] 803건 분류 결과 기반 카테고리별 분포 확인
-- [ ] 분류 체계 재검토 — 7개 카테고리가 실제 데이터에 맞는지 귀납적 조정
+- [ ] 미분류 83건 원인 파악 및 재시도
+- [ ] 분류 결과 샘플 검토 (정확도 체감 확인)
+- [ ] 분류 체계 재검토 — 예술+제도가 62.6%로 편중, 카테고리 세분화 필요한지 판단
 - [ ] 카테고리 간 경계 사례 정리
 - [ ] `reviewed` 필드 정책 결정 — 자동 분류 = reviewed인지, 수동 검토만 reviewed인지
 
 ### 1-2. 데이터 파이프라인 정비
+- [ ] .venv을 .gitignore에 추가
+- [ ] classify.log를 .gitignore에 추가
 - [ ] sources/ → ghosts.json 병합 흐름 재확인
 - [ ] 중복 제거 로직 점검
 - [ ] 수집 로그/이력 관리 (날짜별 수집 건수)
@@ -164,8 +170,8 @@
 
 ## 우선순위
 
-1. **Phase 0** — 803건 자동 분류 실행. 즉시.
-2. **Phase 1-1** — 분류 결과 검증 및 카테고리 조정.
+1. **Phase 1-1** — 분류 결과 검증. 미분류 83건 처리, 편중 분석.
+2. **Phase 1-3 Are.na** — 수동 수집 파이프라인 완성 (인스타 등 SNS → Are.na → ghosts.json).
 3. **Phase 2-1** — 웹사이트에 카테고리 색상·필터 추가.
 4. **Phase 1-2** — 파이프라인 안정화 (Actions에 분류 연동).
 5. 나머지는 순차적으로.
