@@ -13,19 +13,20 @@ GHOSTS_PATH = DATA_DIR / "ghosts.json"
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent"
 
-CATEGORIES = ["마케팅", "예술", "제도", "시민", "감성", "기술"]
+CATEGORIES = ["마케팅", "감성", "큐레이션", "시민", "제도", "기술", "예술"]
 
 PROMPT_TEMPLATE = """다음은 '아카이브'라는 단어가 포함된 뉴스/소셜미디어 제목입니다.
 
 제목: "{title}"
 
 1. category: 다음 중 하나만 선택
-   - 마케팅 (브랜드 헤리티지, 컬렉션, 빈티지, 패션)
-   - 예술 (전시, 미술관, 큐레이션, 영화, 음악)
+   - 마케팅 (브랜드 헤리티지, 컬렉션, 빈티지, 패션, 굿즈)
+   - 감성 (힙함, 구별짓기, 레트로, 추억, 향수, SNS)
+   - 큐레이션 (선별, 플레이리스트, 콘텐츠 모음, 리스트)
+   - 시민 (대항 기억, 커뮤니티 기록, 구술, 사회운동)
    - 제도 (공공기록, 도서관, 법적 보존, 기관)
-   - 시민 (커뮤니티 기록, 구술, 사회운동)
-   - 감성 (추억, 향수, 개인 저장, SNS)
    - 기술 (백업, 압축, 버전관리, 소프트웨어)
+   - 예술 (전시, 미술관, 영화, 음악, 창작 재료, 형식 실험)
 
 2. implied_meaning: 이 맥락에서 '아카이브'가 실제로 뜻하는 바 (10자 이내, 한국어)
 

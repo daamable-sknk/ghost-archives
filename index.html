@@ -42,7 +42,6 @@
     <section class="filters">
       <button class="filter-btn active" data-filter="all">전체</button>
       <button class="filter-btn" data-filter="news">뉴스</button>
-      <button class="filter-btn" data-filter="bluesky">Bluesky</button>
       <span class="separator">|</span>
       <button class="filter-btn" data-filter="ko">한국어</button>
       <button class="filter-btn" data-filter="en">English</button>
@@ -131,8 +130,6 @@
       
       if (filter === 'news') {
         filtered = allItems.filter(item => item.source_type === 'news');
-      } else if (filter === 'bluesky') {
-        filtered = allItems.filter(item => item.source_type === 'bluesky');
       } else if (filter === 'ko') {
         filtered = allItems.filter(item => item.language === 'ko');
       } else if (filter === 'en') {
