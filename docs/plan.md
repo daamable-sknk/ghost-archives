@@ -2,30 +2,88 @@
 
 ## 현황 (2026-05-05 기준)
 
-- 수집: 244건 (Google News RSS + 네이버 뉴스), 전부 news 소스
-- 분류: 0건 완료 (category 전부 null)
+- 수집: 803건 (Google News RSS + 네이버 뉴스), 전부 news 소스
+- 분류: 0건 완료 (category 전부 null) — dry-run 5건 테스트 성공
 - 리뷰: 0건 완료
-- 웹사이트: 페이지 3개 존재 (index, about, methodology), 데이터 렌더링 없음
-- 자동화: GitHub Actions 매일 수집, Gemini 분류 스크립트 존재하나 미실행
+- 웹사이트: 페이지 3개 (index, about, methodology), 데이터 렌더링 동작함
+- 도메인: ghost.meta-archives.xyz — DNS 연결 완료, HTTPS 적용 완료
+- 자동화: GitHub Actions 매일 수집 가동 중, 분류는 수동 실행
+
+### 오늘 완료한 것
+
+- [x] CNAME 도메인 변경 (ghost.web-archivists.xyz → ghost.meta-archives.xyz)
+- [x] DNS CNAME 레코드 추가 (가비아) + GitHub Pages 설정
+- [x] 전체 문서에서 Bluesky 참조 제거 (README, methodology, about, index)
+- [x] 분류 체계 7개로 통일 (README, methodology.html, classify.py)
+- [x] classify.py 모델 업데이트 (gemini-1.5-flash → gemini-2.5-flash)
+- [x] classify.py maxOutputTokens 수정 (100 → 1024)
+- [x] classify.py dry-run 테스트 성공 (5건)
+- [x] docs/ 폴더 생성 — structure.md, plan.md, references.md
+- [x] .venv 환경 구성 (requests, feedparser)
+
+---
+
+## Phase 0: 즉시 실행 ← 지금 여기
+
+- [ ] classify.py 전체 실행 (803건) — 약 27분 소요 예상
+- [ ] 분류 결과 커밋 & 푸시
+- [ ] 분류 결과 샘플 검토 (정확도 체감 확인)
+- [ ] .venv을 .gitignore에 추가
 
 ---
 
 ## Phase 1: 데이터 품질 확보
 
-### 1-1. 자동 분류 실행 및 검증
-- [ ] classify.py 점검 — Gemini API 호출 상태, 분류 카테고리 매핑 확인
-- [ ] 244건에 대해 자동 분류 실행
-- [ ] 분류 결과 샘플 검토 (정확도 체감 확인)
-- [ ] 분류 체계 자체 재검토 — 7개 카테고리가 실제 데이터에 맞는지 귀납적 조정
+### 1-1. 분류 체계 검증
+- [ ] 803건 분류 결과 기반 카테고리별 분포 확인
+- [ ] 분류 체계 재검토 — 7개 카테고리가 실제 데이터에 맞는지 귀납적 조정
+- [ ] 카테고리 간 경계 사례 정리
+- [ ] `reviewed` 필드 정책 결정 — 자동 분류 = reviewed인지, 수동 검토만 reviewed인지
 
 ### 1-2. 데이터 파이프라인 정비
-- [ ] sources/ → ghosts.json 병합 흐름 확인 및 정리
+- [ ] sources/ → ghosts.json 병합 흐름 재확인
 - [ ] 중복 제거 로직 점검
-- [ ] 수집 로그/이력 관리 방안 (날짜별 수집 건수 등)
+- [ ] 수집 로그/이력 관리 (날짜별 수집 건수)
+- [ ] GitHub Actions에 분류 단계 추가 검토 (GEMINI_API_KEY 시크릿 필요)
 
 ### 1-3. 수집 소스 확장
-- [ ] Are.na 연동 (수동 수집 → arena.json 반영)
-- [ ] 수집 소스 다양화 검토: 학술(Google Scholar), SNS, 브랜드/전시
+
+#### Are.na 자동 동기화 (우선)
+- [ ] collect.py에 Are.na API 연동 추가
+- [ ] Are.na ghost-archive 채널의 블록을 arena.json으로 자동 가져오기
+- [ ] 인스타그램, X/Twitter 등 수동 수집은 Are.na에 URL 저장 → 자동 동기화로 ghosts.json 반영
+- [ ] source_type을 블록 출처에 따라 구분 (sns, brand, exhibition 등)
+
+#### SNS 직접 수집 (검토)
+
+| 플랫폼 | API | 키워드 검색 | 현실성 | 비고 |
+|---|---|---|---|---|
+| Bluesky | 무료 공개 | 가능 | ✓ | 이전 구현 코드 재활용 가능 |
+| Reddit | 무료 | 가능 | ✓ | r/korea 등 서브레딧에서 "archive" 검색 |
+| YouTube | 무료 | 가능 | △ | 영상 제목/설명에서 "아카이브" 검색 |
+| X/Twitter | 유료 ($200/월~) | 가능 | ✗ | 비용 대비 효용 낮음 |
+| Instagram | 공식 API 없음 | 불가 | ✗ | Are.na 수동 수집이 유일한 방법 |
+| Mastodon | 무료 공개 | 가능 | △ | 한국어 사용자 적음 |
+
+#### 수집 경로 정리
+
+```
+[자동 수집]
+  Google News RSS ──→ rss.json
+  Naver News API ──→ naver.json
+  (Bluesky API) ──→ bluesky.json     ← 재도입 검토
+  (Reddit API) ──→ reddit.json       ← 추가 검토
+
+[수동 → 자동 동기화]
+  Instagram ──→ Are.na ──→ arena.json
+  X/Twitter ──→ Are.na ──→ arena.json
+  브랜드/전시 ──→ Are.na ──→ arena.json
+
+  모든 sources/*.json ──→ ghosts.json (병합)
+```
+
+#### 학술
+- [ ] Google Scholar Alerts 연동 검토 (RSS 가능 여부)
 
 ---
 
@@ -33,35 +91,34 @@
 
 참고: nemotron explorer의 정적 사이트 탐색 패턴
 
-### 2-1. 데이터 렌더링
-- [ ] ghosts.json을 읽어 목록으로 표시 (index.html)
-- [ ] 카테고리별 색상 태그
-- [ ] 시계열 뷰 (수집일 기준)
+### 2-1. 데이터 렌더링 개선
+- [ ] 카테고리별 색상 태그 (7색 매핑)
+- [ ] implied_meaning 표시
+- [ ] 시계열 뷰 (수집일/발행일 기준)
 
 ### 2-2. 필터 및 탐색
-- [ ] 카테고리 필터
-- [ ] 소스 타입 필터 (news, sns, brand, academic 등)
-- [ ] 언어 필터 (ko/en)
+- [ ] 카테고리 필터 (7개)
+- [ ] 언어 필터 (ko/en) — 기존 구현됨
 - [ ] 검색 (제목 텍스트)
+- [ ] 소스 타입 필터 (소스 다양화 이후)
 
 ### 2-3. 통계 대시보드
-- [ ] 카테고리별 분포
-- [ ] 소스별 분포
+- [ ] 카테고리별 분포 차트
 - [ ] 시간에 따른 수집량 추이
+- [ ] 언어별 분포
 
 ---
 
 ## Phase 3: 분석과 글쓰기 지원
 
 ### 3-1. 분류 체계 정교화
-- [ ] 수집 데이터 기반 카테고리 재조정
-- [ ] implied_meaning 필드 활용 — 각 용례가 '아카이브'를 어떤 의미로 사용하는지 기록
-- [ ] 카테고리 간 경계 사례 정리
+- [ ] implied_meaning 필드 패턴 분석
+- [ ] 카테고리별 대표 사례 큐레이션
+- [ ] 통계적 근거 정리 (카테고리 비율, 시간 추이 등)
 
 ### 3-2. 본문 연결
 - [ ] 〈아카이브라는 이름의 유령〉 글의 논거로 사용할 데이터 선별
-- [ ] 카테고리별 대표 사례 큐레이션
-- [ ] 통계적 근거 정리 (카테고리 비율, 시간 추이 등)
+- [ ] ghost-archives 데이터를 meta-archives.xyz에서 인용하는 구조
 
 ---
 
@@ -69,20 +126,20 @@
 
 참고: ai-readable-gazette-kr의 원칙 명시, 보정 이력 관리 방식
 
-### 4-1. 방법론 문서
-- [ ] methodology.html 내용 보강 — 수집·분류·검증 파이프라인 상세 기술
+### 4-1. 방법론 문서 보강
+- [ ] methodology.html — 수집·분류·검증 파이프라인 상세 기술
 - [ ] 분류 기준 변경 이력 기록
 - [ ] 한계와 편향 명시 (뉴스 편중, 자동 분류 오류율 등)
 
 ### 4-2. 프로젝트 원칙
-- [ ] ghost-archives의 태도 선언 (gazette-kr의 "핵심 원칙" 참고)
+- [ ] ghost-archives의 태도 선언
   - 예: "수집은 증거 확보다 / 분류는 해석의 시작이다 / 아카이브라는 이름 자체가 분석 대상이다"
 
 ---
 
 ## 데이터 규모 대응
 
-현재 244건(~170KB). 모든 데이터는 GitHub 레포 `data/` 폴더에 JSON으로 저장.
+현재 803건(~500KB). 모든 데이터는 GitHub 레포 `data/` 폴더에 JSON으로 저장.
 
 ### 단계별 대응
 
@@ -103,14 +160,12 @@
 | GitHub Actions | 무료 (월 2,000분) | 수집만이면 충분. 분류까지 자동화하면 모니터링 필요 |
 | GitHub 레포 | 무료 (권장 1GB) | 수년간 문제 없음 |
 
-### 당장 할 것
-- [ ] ghosts.json을 프론트에서 전체 로드하는 구조 → 페이지네이션 또는 분할 로드 방식을 Phase 2에서 설계
-
 ---
 
 ## 우선순위
 
-1. **Phase 1-1** (자동 분류) — 244건이 분류 없이 방치 중. 가장 시급.
-2. **Phase 2-1** (데이터 렌더링) — 웹사이트에서 데이터를 볼 수 있어야 프로젝트가 작동.
-3. **Phase 1-2** (파이프라인 정비) — 수집이 계속 돌아가고 있으므로 구조 안정화 필요.
-4. 나머지는 순차적으로.
+1. **Phase 0** — 803건 자동 분류 실행. 즉시.
+2. **Phase 1-1** — 분류 결과 검증 및 카테고리 조정.
+3. **Phase 2-1** — 웹사이트에 카테고리 색상·필터 추가.
+4. **Phase 1-2** — 파이프라인 안정화 (Actions에 분류 연동).
+5. 나머지는 순차적으로.

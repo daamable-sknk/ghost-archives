@@ -11,7 +11,7 @@ DATA_DIR = BASE_DIR / "data"
 GHOSTS_PATH = DATA_DIR / "ghosts.json"
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
-GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent"
+GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent"
 
 CATEGORIES = ["마케팅", "감성", "큐레이션", "시민", "제도", "기술", "예술"]
 
@@ -43,7 +43,7 @@ def classify_item(title: str, retries: int = 3) -> dict | None:
         "contents": [{"parts": [{"text": PROMPT_TEMPLATE.format(title=title)}]}],
         "generationConfig": {
             "temperature": 0.1,
-            "maxOutputTokens": 100
+            "maxOutputTokens": 1024
         }
     }
     
@@ -101,8 +101,8 @@ def save_data(data: dict) -> None:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 
-def main(limit: int = 50, dry_run: bool = False):
-    print(f"[Classify] Starting (limit={limit}, dry_run={dry_run})")
+def main(limit: int = 50, dry_run: bool = False, batch_save: int = 10):
+    print(f"[Classify] Starting (limit={limit}, dry_run={dry_run}, batch_save={batch_save})")
     
     data = load_data()
     items = data.get("items", [])
@@ -111,30 +111,39 @@ def main(limit: int = 50, dry_run: bool = False):
     print(f"[Classify] {len(unclassified)} unclassified items found")
     
     classified_count = 0
-    for item in unclassified[:limit]:
+    failed_count = 0
+    for i, item in enumerate(unclassified[:limit]):
         title = item.get("source_title", "")
         if not title:
             continue
         
-        print(f"[Classify] Processing: {title[:50]}...")
+        print(f"[Classify] [{i+1}/{min(limit, len(unclassified))}] {title[:50]}...")
         result = classify_item(title)
         
         if result:
             if not dry_run:
                 item["category"] = result["category"]
                 item["implied_meaning"] = result.get("implied_meaning")
-                item["reviewed"] = True
             print(f"  → {result['category']} / {result.get('implied_meaning', '')}")
             classified_count += 1
         else:
             print(f"  → Failed")
+            failed_count += 1
         
-        time.sleep(2)
+        # 중간 저장
+        if not dry_run and classified_count > 0 and classified_count % batch_save == 0:
+            data["meta"]["reviewed_count"] = sum(1 for item in items if item.get("category"))
+            data["meta"]["total_count"] = len(items)
+            save_data(data)
+            print(f"[Classify] 중간 저장 ({classified_count}건 완료)")
+        
+        time.sleep(1)
     
     if not dry_run and classified_count > 0:
-        data["meta"]["reviewed_count"] = sum(1 for item in items if item.get("reviewed"))
+        data["meta"]["reviewed_count"] = sum(1 for item in items if item.get("category"))
+        data["meta"]["total_count"] = len(items)
         save_data(data)
-        print(f"[Classify] Saved {classified_count} classifications")
+        print(f"[Classify] 최종 저장: {classified_count}건 분류, {failed_count}건 실패")
     else:
         print(f"[Classify] Would classify {classified_count} items (dry run)")
     
