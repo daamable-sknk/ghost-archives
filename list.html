@@ -184,13 +184,31 @@
       }
 
       const max = sorted[0][1];
-      title.textContent = `"${cat}" 안에서의 의미`;
-      tags.innerHTML = sorted.slice(0, 20).map(([meaning, count]) => {
-        const size = 0.7 + (count / max) * 0.8;
-        const opacity = 0.4 + (count / max) * 0.6;
-        return `<span class="meaning-tag" style="font-size:${size}rem;opacity:${opacity}" title="${count}건">${meaning} <small>${count}</small></span>`;
-      }).join('');
+      const top = sorted.slice(0, 5);
+      const rest = sorted.slice(5, 20);
 
+      title.textContent = `"${cat}" 안에서의 의미`;
+
+      let html = '<div class="meaning-bars">';
+      top.forEach(([meaning, count]) => {
+        const width = Math.round((count / max) * 100);
+        html += `<div class="meaning-bar-row">
+          <span class="meaning-bar-label">${meaning}</span>
+          <div class="meaning-bar-track"><div class="meaning-bar-fill" style="width:${width}%"></div></div>
+          <span class="meaning-bar-count">${count}</span>
+        </div>`;
+      });
+      html += '</div>';
+
+      if (rest.length > 0) {
+        html += '<div class="meaning-rest">';
+        rest.forEach(([meaning, count]) => {
+          html += `<span class="meaning-tag">${meaning} <small>${count}</small></span>`;
+        });
+        html += '</div>';
+      }
+
+      tags.innerHTML = html;
       cloud.style.display = 'block';
     }
 

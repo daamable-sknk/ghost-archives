@@ -175,20 +175,68 @@ footer a:hover {
 
 #meaning-cloud-tags {
   display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.meaning-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.meaning-bar-row {
+  display: grid;
+  grid-template-columns: 1fr 120px 30px;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.meaning-bar-label {
+  text-align: right;
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.meaning-bar-track {
+  background: var(--border);
+  border-radius: 2px;
+  height: 14px;
+  overflow: hidden;
+}
+
+.meaning-bar-fill {
+  height: 100%;
+  background: var(--text);
+  border-radius: 2px;
+}
+
+.meaning-bar-count {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+}
+
+.meaning-rest {
+  display: flex;
   flex-wrap: wrap;
-  gap: 0.4rem 0.6rem;
-  align-items: baseline;
+  gap: 0.3rem 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--border);
 }
 
 .meaning-tag {
   display: inline-block;
-  color: var(--text);
+  font-size: 0.75rem;
+  color: var(--text-muted);
   white-space: nowrap;
 }
 
 .meaning-tag small {
   font-size: 0.6rem;
-  color: var(--text-muted);
+  color: var(--border);
 }
 
 .prose h2 {
