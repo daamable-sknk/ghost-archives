@@ -59,6 +59,7 @@
 
     <section class="meaning-cloud" id="meaning-cloud" style="display:none;">
       <h3 id="meaning-cloud-title"></h3>
+      <p class="meaning-cloud-summary" id="meaning-cloud-summary"></p>
       <div id="meaning-cloud-tags"></div>
     </section>
 
@@ -160,9 +161,12 @@
       renderItems(filtered);
     }
 
+    let currentCatItems = [];
+
     function renderMeaningCloud(items, filter) {
       const cloud = document.getElementById('meaning-cloud');
       const title = document.getElementById('meaning-cloud-title');
+      const summary = document.getElementById('meaning-cloud-summary');
       const tags = document.getElementById('meaning-cloud-tags');
 
       if (!filter.startsWith('cat:') || filter === 'cat:미분류') {
@@ -171,6 +175,7 @@
       }
 
       const cat = filter.slice(4);
+      currentCatItems = items;
       const meanings = {};
       items.forEach(item => {
         const m = item.implied_meaning;
@@ -188,11 +193,12 @@
       const rest = sorted.slice(5, 20);
 
       title.textContent = `"${cat}" 안에서의 의미`;
+      summary.textContent = `${items.length}건 · ${sorted.length}개 의미 유형`;
 
       let html = '<div class="meaning-bars">';
       top.forEach(([meaning, count]) => {
         const width = Math.round((count / max) * 100);
-        html += `<div class="meaning-bar-row">
+        html += `<div class="meaning-bar-row" data-meaning="${meaning}" style="cursor:pointer">
           <span class="meaning-bar-label">${meaning}</span>
           <div class="meaning-bar-track"><div class="meaning-bar-fill" style="width:${width}%"></div></div>
           <span class="meaning-bar-count">${count}</span>
@@ -203,13 +209,34 @@
       if (rest.length > 0) {
         html += '<div class="meaning-rest">';
         rest.forEach(([meaning, count]) => {
-          html += `<span class="meaning-tag">${meaning} <small>${count}</small></span>`;
+          html += `<span class="meaning-tag" data-meaning="${meaning}" style="cursor:pointer">${meaning} <small>${count}</small></span>`;
         });
         html += '</div>';
       }
 
       tags.innerHTML = html;
       cloud.style.display = 'block';
+
+      // 클릭 이벤트
+      tags.querySelectorAll('[data-meaning]').forEach(el => {
+        el.addEventListener('click', () => {
+          const meaning = el.dataset.meaning;
+          const filtered = currentCatItems.filter(item => item.implied_meaning === meaning);
+          // 활성 표시
+          tags.querySelectorAll('[data-meaning]').forEach(e => e.classList.remove('active'));
+          el.classList.add('active');
+          summary.textContent = `"${meaning}" — ${filtered.length}건`;
+          renderItems(filtered);
+        });
+      });
+
+      // 타이틀 클릭으로 전체 복귀
+      title.style.cursor = 'pointer';
+      title.onclick = () => {
+        tags.querySelectorAll('[data-meaning]').forEach(e => e.classList.remove('active'));
+        summary.textContent = `${currentCatItems.length}건 · ${sorted.length}개 의미 유형`;
+        renderItems(currentCatItems);
+      };
     }
 
     document.querySelectorAll('.filter-btn').forEach(btn => {

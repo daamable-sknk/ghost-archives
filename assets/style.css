@@ -170,7 +170,30 @@ footer a:hover {
   font-size: 0.8rem;
   font-weight: 600;
   color: var(--text-muted);
+  margin-bottom: 0.25rem;
+}
+
+.meaning-cloud-summary {
+  font-size: 0.75rem;
+  color: var(--text-muted);
   margin-bottom: 0.75rem;
+}
+
+.meaning-bar-row:hover .meaning-bar-fill {
+  opacity: 0.7;
+}
+
+.meaning-bar-row.active .meaning-bar-label {
+  font-weight: 600;
+}
+
+.meaning-bar-row.active .meaning-bar-fill {
+  background: #118ab2;
+}
+
+.meaning-tag.active {
+  color: var(--text);
+  font-weight: 600;
 }
 
 #meaning-cloud-tags {
