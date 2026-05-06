@@ -25,6 +25,7 @@
     <p class="description">'아카이브'라는 단어의 용례 수집</p>
     <nav>
       <a href="index.html" class="active">목록</a>
+      <a href="dashboard.html">대시보드</a>
       <a href="about.html">소개</a>
       <a href="methodology.html">방법론</a>
     </nav>
@@ -34,7 +35,7 @@
     <section class="stats">
       <span id="total-count">0</span>개 수집
       <span class="separator">·</span>
-      <span id="reviewed-count">0</span>개 검토됨
+      <span id="classified-count">0</span>개 분류됨
       <span class="separator">·</span>
       최근 업데이트: <span id="last-updated">-</span>
     </section>
@@ -72,7 +73,7 @@
         const data = await res.json();
         
         document.getElementById('total-count').textContent = data.meta.total_count;
-        document.getElementById('reviewed-count').textContent = data.meta.reviewed_count;
+        document.getElementById('classified-count').textContent = data.items.filter(i => i.category).length;
         document.getElementById('last-updated').textContent = formatDate(data.meta.last_updated);
         
         allItems = data.items;
