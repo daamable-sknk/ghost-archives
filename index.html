@@ -3,53 +3,146 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ghost-archive</title>
-  <meta name="description" content="'아카이브'라는 단어가 실제로 어떻게 쓰이는지 수집합니다.">
-  <meta name="author" content="담 (daam)">
-  
-  <meta property="og:title" content="ghost-archive">
-  <meta property="og:description" content="'아카이브'라는 단어가 실제로 어떻게 쓰이는지 수집합니다.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://ghost.meta-archives.xyz">
-  
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="ghost-archive">
-  <meta name="twitter:description" content="'아카이브'라는 단어가 실제로 어떻게 쓰이는지 수집합니다.">
-  
+  <title>대시보드 — ghost-archive</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👻</text></svg>">
   <link rel="stylesheet" href="assets/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
+  <style>
+    .dashboard-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+    .card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 1rem;
+      text-align: center;
+    }
+    .card .number {
+      font-size: 2rem;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+    .card .label {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-top: 0.25rem;
+    }
+    .chart-section {
+      margin-bottom: 2.5rem;
+    }
+    .chart-section h2 {
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+    .chart-container {
+      position: relative;
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 1rem;
+    }
+    .pipeline {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      margin-bottom: 2rem;
+      font-size: 0.85rem;
+    }
+    .pipeline-step {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 0.5rem 1rem;
+      text-align: center;
+    }
+    .pipeline-step .step-number {
+      font-size: 1.25rem;
+      font-weight: 700;
+    }
+    .pipeline-step .step-label {
+      font-size: 0.7rem;
+      color: var(--text-muted);
+    }
+    .pipeline-arrow {
+      color: var(--text-muted);
+      font-size: 1.2rem;
+    }
+  </style>
 </head>
 <body>
   <header>
     <h1>ghost-archive</h1>
     <p class="description">'아카이브'라는 단어의 용례 수집</p>
     <nav>
-      <a href="index.html" class="active">목록</a>
-      <a href="dashboard.html">대시보드</a>
+      <a href="index.html" class="active">대시보드</a>
+      <a href="list.html">목록</a>
       <a href="about.html">소개</a>
       <a href="methodology.html">방법론</a>
     </nav>
   </header>
 
   <main>
-    <section class="stats">
-      <span id="total-count">0</span>개 수집
-      <span class="separator">·</span>
-      <span id="classified-count">0</span>개 분류됨
-      <span class="separator">·</span>
-      최근 업데이트: <span id="last-updated">-</span>
+    <!-- 파이프라인 상태 -->
+    <section>
+      <h2 style="font-size:1rem;font-weight:600;margin-bottom:1rem;">파이프라인</h2>
+      <div class="pipeline">
+        <div class="pipeline-step">
+          <div class="step-number" id="pipe-total">-</div>
+          <div class="step-label">수집</div>
+        </div>
+        <div class="pipeline-arrow">→</div>
+        <div class="pipeline-step">
+          <div class="step-number" id="pipe-classified">-</div>
+          <div class="step-label">분류 완료</div>
+        </div>
+        <div class="pipeline-arrow">→</div>
+        <div class="pipeline-step">
+          <div class="step-number" id="pipe-unclassified">-</div>
+          <div class="step-label">미분류</div>
+        </div>
+      </div>
     </section>
 
-    <section class="filters">
-      <button class="filter-btn active" data-filter="all">전체</button>
-      <button class="filter-btn" data-filter="news">뉴스</button>
-      <span class="separator">|</span>
-      <button class="filter-btn" data-filter="ko">한국어</button>
-      <button class="filter-btn" data-filter="en">English</button>
+    <!-- 요약 카드 -->
+    <div class="dashboard-cards">
+      <div class="card">
+        <div class="number" id="card-total">-</div>
+        <div class="label">전체</div>
+      </div>
+      <div class="card">
+        <div class="number" id="card-ko">-</div>
+        <div class="label">한국어</div>
+      </div>
+      <div class="card">
+        <div class="number" id="card-en">-</div>
+        <div class="label">English</div>
+      </div>
+      <div class="card">
+        <div class="number" id="card-sources">-</div>
+        <div class="label">소스 유형</div>
+      </div>
+    </div>
+
+    <!-- 카테고리 분포 -->
+    <section class="chart-section">
+      <h2>카테고리 분포</h2>
+      <div class="chart-container">
+        <canvas id="category-chart"></canvas>
+      </div>
     </section>
 
-    <section class="items" id="items-container">
-      <!-- 동적 렌더링 -->
+    <!-- 시간 추이 -->
+    <section class="chart-section">
+      <h2>수집 추이 (주간)</h2>
+      <div class="chart-container">
+        <canvas id="timeline-chart"></canvas>
+      </div>
     </section>
   </main>
 
@@ -62,89 +155,105 @@
   </footer>
 
   <script>
-    const DATA_URL = 'data/ghosts.json';
-    
-    let allItems = [];
-    let currentFilter = 'all';
+    const CATEGORY_COLORS = {
+      '마케팅': '#e63946',
+      '감성': '#9b5de5',
+      '큐레이션': '#fee440',
+      '시민': '#06d6a0',
+      '제도': '#8d99ae',
+      '기술': '#212529',
+      '예술': '#118ab2'
+    };
 
-    async function loadData() {
-      try {
-        const res = await fetch(DATA_URL);
-        const data = await res.json();
-        
-        document.getElementById('total-count').textContent = data.meta.total_count;
-        document.getElementById('classified-count').textContent = data.items.filter(i => i.category).length;
-        document.getElementById('last-updated').textContent = formatDate(data.meta.last_updated);
-        
-        allItems = data.items;
-        renderItems(allItems);
-      } catch (e) {
-        console.error('Failed to load data:', e);
-        document.getElementById('items-container').innerHTML = '<p class="error">데이터를 불러오지 못했습니다.</p>';
-      }
-    }
+    async function init() {
+      const res = await fetch('data/ghosts.json');
+      const data = await res.json();
+      const items = data.items;
 
-    function formatDate(iso) {
-      if (!iso) return '-';
-      return iso.split('T')[0];
-    }
+      // 파이프라인
+      const total = items.length;
+      const classified = items.filter(i => i.category).length;
+      const unclassified = total - classified;
 
-    function renderItems(items) {
-      const container = document.getElementById('items-container');
-      
-      if (items.length === 0) {
-        container.innerHTML = '<p class="empty">항목이 없습니다.</p>';
-        return;
-      }
-      
-      container.innerHTML = items.map(item => `
-        <article class="item" data-type="${item.source_type}" data-lang="${item.language}">
-          <a href="${item.source_url}" target="_blank" rel="noopener">
-            <h2>${escapeHtml(item.source_title)}</h2>
-          </a>
-          <div class="meta">
-            <span class="source-type">${item.source_type}</span>
-            <span class="separator">·</span>
-            <span class="date">${item.published_at}</span>
-            <span class="separator">·</span>
-            <span class="language">${item.language === 'ko' ? '한국어' : 'English'}</span>
-            ${item.category ? `<span class="separator">·</span><span class="category">${item.category}</span>` : ''}
-          </div>
-        </article>
-      `).join('');
-    }
+      document.getElementById('pipe-total').textContent = total;
+      document.getElementById('pipe-classified').textContent = classified;
+      document.getElementById('pipe-unclassified').textContent = unclassified;
 
-    function escapeHtml(text) {
-      const div = document.createElement('div');
-      div.textContent = text;
-      return div.innerHTML;
-    }
+      // 카드
+      document.getElementById('card-total').textContent = total;
+      document.getElementById('card-ko').textContent = items.filter(i => i.language === 'ko').length;
+      document.getElementById('card-en').textContent = items.filter(i => i.language === 'en').length;
+      document.getElementById('card-sources').textContent = [...new Set(items.map(i => i.source_type))].length;
 
-    function applyFilter(filter) {
-      currentFilter = filter;
-      
-      document.querySelectorAll('.filter-btn').forEach(btn => {
-        btn.classList.toggle('active', btn.dataset.filter === filter);
+      // 카테고리 분포
+      const catCounts = {};
+      items.forEach(i => {
+        const cat = i.category || '미분류';
+        catCounts[cat] = (catCounts[cat] || 0) + 1;
       });
-      
-      let filtered = allItems;
-      
-      if (filter === 'news') {
-        filtered = allItems.filter(item => item.source_type === 'news');
-      } else if (filter === 'ko') {
-        filtered = allItems.filter(item => item.language === 'ko');
-      } else if (filter === 'en') {
-        filtered = allItems.filter(item => item.language === 'en');
-      }
-      
-      renderItems(filtered);
+
+      const catLabels = Object.keys(catCounts).sort((a, b) => catCounts[b] - catCounts[a]);
+      const catData = catLabels.map(l => catCounts[l]);
+      const catColors = catLabels.map(l => CATEGORY_COLORS[l] || '#ccc');
+
+      new Chart(document.getElementById('category-chart'), {
+        type: 'bar',
+        data: {
+          labels: catLabels,
+          datasets: [{
+            data: catData,
+            backgroundColor: catColors,
+            borderWidth: 0
+          }]
+        },
+        options: {
+          indexAxis: 'y',
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { grid: { display: false } },
+            y: { grid: { display: false } }
+          }
+        }
+      });
+
+      // 시간 추이 (주간 집계)
+      const weekMap = {};
+      items.forEach(i => {
+        const d = new Date(i.collected_at || i.published_at);
+        if (isNaN(d)) return;
+        // ISO week start (Monday)
+        const day = d.getDay();
+        const diff = d.getDate() - day + (day === 0 ? -6 : 1);
+        const weekStart = new Date(d.setDate(diff));
+        const key = weekStart.toISOString().split('T')[0];
+        weekMap[key] = (weekMap[key] || 0) + 1;
+      });
+
+      const weeks = Object.keys(weekMap).sort();
+      new Chart(document.getElementById('timeline-chart'), {
+        type: 'line',
+        data: {
+          labels: weeks,
+          datasets: [{
+            data: weeks.map(w => weekMap[w]),
+            borderColor: '#333',
+            backgroundColor: 'rgba(0,0,0,0.05)',
+            fill: true,
+            tension: 0.3,
+            pointRadius: 2
+          }]
+        },
+        options: {
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { grid: { display: false }, ticks: { maxTicksLimit: 8, font: { size: 10 } } },
+            y: { beginAtZero: true, grid: { color: '#eee' } }
+          }
+        }
+      });
     }
 
-    document.querySelectorAll('.filter-btn').forEach(btn => {
-      btn.addEventListener('click', () => applyFilter(btn.dataset.filter));
-    });
-
-    loadData();
+    init();
   </script>
 </body>
 </html>

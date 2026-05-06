@@ -87,8 +87,8 @@ header nav a.active {
 
 .filter-btn.active {
   background: var(--text);
-  color: var(--bg);
-  border-color: var(--text);
+  color: var(--bg) !important;
+  border-color: var(--text) !important;
 }
 
 .items {
@@ -156,6 +156,39 @@ footer a:hover {
   text-align: center;
   color: var(--text-muted);
   padding: 2rem;
+}
+
+.meaning-cloud {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+}
+
+.meaning-cloud h3 {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  margin-bottom: 0.75rem;
+}
+
+#meaning-cloud-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 0.6rem;
+  align-items: baseline;
+}
+
+.meaning-tag {
+  display: inline-block;
+  color: var(--text);
+  white-space: nowrap;
+}
+
+.meaning-tag small {
+  font-size: 0.6rem;
+  color: var(--text-muted);
 }
 
 .prose h2 {

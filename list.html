@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ghost-archive</title>
+  <meta name="description" content="'아카이브'라는 단어가 실제로 어떻게 쓰이는지 수집합니다.">
+  <meta name="author" content="담 (daam)">
+  
+  <meta property="og:title" content="ghost-archive">
+  <meta property="og:description" content="'아카이브'라는 단어가 실제로 어떻게 쓰이는지 수집합니다.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ghost.meta-archives.xyz">
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="ghost-archive">
+  <meta name="twitter:description" content="'아카이브'라는 단어가 실제로 어떻게 쓰이는지 수집합니다.">
+  
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👻</text></svg>">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header>
+    <h1>ghost-archive</h1>
+    <p class="description">'아카이브'라는 단어의 용례 수집</p>
+    <nav>
+      <a href="index.html">대시보드</a>
+      <a href="list.html" class="active">목록</a>
+      <a href="about.html">소개</a>
+      <a href="methodology.html">방법론</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="stats">
+      <span id="total-count">0</span>개 수집
+      <span class="separator">·</span>
+      <span id="classified-count">0</span>개 분류됨
+      <span class="separator">·</span>
+      최근 업데이트: <span id="last-updated">-</span>
+    </section>
+
+    <section class="filters">
+      <button class="filter-btn active" data-filter="all">전체</button>
+      <button class="filter-btn" data-filter="ko">한국어</button>
+      <button class="filter-btn" data-filter="en">English</button>
+    </section>
+
+    <section class="filters category-filters">
+      <button class="filter-btn" data-filter="cat:마케팅" style="border-color:#e63946;color:#e63946">마케팅</button>
+      <button class="filter-btn" data-filter="cat:감성" style="border-color:#9b5de5;color:#9b5de5">감성</button>
+      <button class="filter-btn" data-filter="cat:큐레이션" style="border-color:#b8860b;color:#b8860b">큐레이션</button>
+      <button class="filter-btn" data-filter="cat:시민" style="border-color:#06d6a0;color:#06d6a0">시민</button>
+      <button class="filter-btn" data-filter="cat:제도" style="border-color:#8d99ae;color:#8d99ae">제도</button>
+      <button class="filter-btn" data-filter="cat:기술" style="border-color:#212529;color:#212529">기술</button>
+      <button class="filter-btn" data-filter="cat:예술" style="border-color:#118ab2;color:#118ab2">예술</button>
+      <button class="filter-btn" data-filter="cat:미분류" style="border-color:#ccc;color:#999">미분류</button>
+    </section>
+
+    <section class="meaning-cloud" id="meaning-cloud" style="display:none;">
+      <h3 id="meaning-cloud-title"></h3>
+      <div id="meaning-cloud-tags"></div>
+    </section>
+
+    <section class="items" id="items-container">
+      <!-- 동적 렌더링 -->
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      <a href="https://github.com/daamable-sknk/ghost-archives">GitHub</a>
+      <span class="separator">·</span>
+      <a href="https://are.na/daehwan-jang/ghost-archive">Are.na</a>
+    </p>
+  </footer>
+
+  <script>
+    const DATA_URL = 'data/ghosts.json';
+    
+    let allItems = [];
+    let currentFilter = 'all';
+
+    async function loadData() {
+      try {
+        const res = await fetch(DATA_URL);
+        const data = await res.json();
+        
+        document.getElementById('total-count').textContent = data.meta.total_count;
+        document.getElementById('classified-count').textContent = data.items.filter(i => i.category).length;
+        document.getElementById('last-updated').textContent = formatDate(data.meta.last_updated);
+        
+        allItems = data.items;
+        renderItems(allItems);
+      } catch (e) {
+        console.error('Failed to load data:', e);
+        document.getElementById('items-container').innerHTML = '<p class="error">데이터를 불러오지 못했습니다.</p>';
+      }
+    }
+
+    function formatDate(iso) {
+      if (!iso) return '-';
+      return iso.split('T')[0];
+    }
+
+    function renderItems(items) {
+      const container = document.getElementById('items-container');
+      
+      if (items.length === 0) {
+        container.innerHTML = '<p class="empty">항목이 없습니다.</p>';
+        return;
+      }
+      
+      container.innerHTML = items.map(item => `
+        <article class="item" data-type="${item.source_type}" data-lang="${item.language}">
+          <a href="${item.source_url}" target="_blank" rel="noopener">
+            <h2>${escapeHtml(item.source_title)}</h2>
+          </a>
+          <div class="meta">
+            <span class="source-type">${item.source_type}</span>
+            <span class="separator">·</span>
+            <span class="date">${item.published_at}</span>
+            <span class="separator">·</span>
+            <span class="language">${item.language === 'ko' ? '한국어' : 'English'}</span>
+            ${item.category ? `<span class="separator">·</span><span class="category">${item.category}</span>` : ''}
+          </div>
+        </article>
+      `).join('');
+    }
+
+    function escapeHtml(text) {
+      const div = document.createElement('div');
+      div.textContent = text;
+      return div.innerHTML;
+    }
+
+    function applyFilter(filter) {
+      currentFilter = filter;
+      
+      document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.filter === filter);
+      });
+      
+      let filtered = allItems;
+      
+      if (filter === 'ko') {
+        filtered = allItems.filter(item => item.language === 'ko');
+      } else if (filter === 'en') {
+        filtered = allItems.filter(item => item.language === 'en');
+      } else if (filter.startsWith('cat:')) {
+        const cat = filter.slice(4);
+        if (cat === '미분류') {
+          filtered = allItems.filter(item => !item.category);
+        } else {
+          filtered = allItems.filter(item => item.category === cat);
+        }
+      }
+      
+      renderMeaningCloud(filtered, filter);
+      renderItems(filtered);
+    }
+
+    function renderMeaningCloud(items, filter) {
+      const cloud = document.getElementById('meaning-cloud');
+      const title = document.getElementById('meaning-cloud-title');
+      const tags = document.getElementById('meaning-cloud-tags');
+
+      if (!filter.startsWith('cat:') || filter === 'cat:미분류') {
+        cloud.style.display = 'none';
+        return;
+      }
+
+      const cat = filter.slice(4);
+      const meanings = {};
+      items.forEach(item => {
+        const m = item.implied_meaning;
+        if (m) meanings[m] = (meanings[m] || 0) + 1;
+      });
+
+      const sorted = Object.entries(meanings).sort((a, b) => b[1] - a[1]);
+      if (sorted.length === 0) {
+        cloud.style.display = 'none';
+        return;
+      }
+
+      const max = sorted[0][1];
+      title.textContent = `"${cat}" 안에서의 의미`;
+      tags.innerHTML = sorted.slice(0, 20).map(([meaning, count]) => {
+        const size = 0.7 + (count / max) * 0.8;
+        const opacity = 0.4 + (count / max) * 0.6;
+        return `<span class="meaning-tag" style="font-size:${size}rem;opacity:${opacity}" title="${count}건">${meaning} <small>${count}</small></span>`;
+      }).join('');
+
+      cloud.style.display = 'block';
+    }
+
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => applyFilter(btn.dataset.filter));
+    });
+
+    loadData();
+  </script>
+</body>
+</html>
