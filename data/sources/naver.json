@@ -1904,7 +1904,52 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-05-09-8b7fd062",
+      "source_type": "news",
+      "source_url": "https://sports.khan.co.kr/article/202605090223003?pt=nv",
+      "source_title": "‘AOMG 1호 걸크루’ 키비츠, 자체 콘텐츠 ‘Keyveatz ARCHIVE’ 첫 공개",
+      "collected_at": "2026-05-09",
+      "published_at": "2026-05-09",
+      "keyword": "archive",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-05-08-5f1128bb",
+      "source_type": "news",
+      "source_url": "https://www.imaeil.com/page/view/2026050410011125885",
+      "source_title": "[백년대구 아카이브] 녹지 공간의 확보… 공원 도시로 향하다",
+      "collected_at": "2026-05-09",
+      "published_at": "2026-05-08",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-05-08-fabf2730",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/880680855",
+      "source_title": "[뉴공 아카이브]임희윤 음악평론가, 박희아 음악평론가, 김도헌 음악평...",
+      "collected_at": "2026-05-09",
+      "published_at": "2026-05-08",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-05-08T02:38:17.415523+00:00"
+  "last_fetched": "2026-05-09T02:31:25.346193+00:00"
 }
