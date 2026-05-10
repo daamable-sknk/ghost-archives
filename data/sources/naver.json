@@ -1949,7 +1949,22 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-05-09-6bc1cc62",
+      "source_type": "news",
+      "source_url": "https://www.sportsseoul.com/news/read/1608106?ref=naver",
+      "source_title": "‘공연 기록자’ 자처한 이기영…아카이브로 남기는 무대, 2번째 이야기...",
+      "collected_at": "2026-05-10",
+      "published_at": "2026-05-09",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-05-09T02:31:25.346193+00:00"
+  "last_fetched": "2026-05-10T02:35:00.826183+00:00"
 }
