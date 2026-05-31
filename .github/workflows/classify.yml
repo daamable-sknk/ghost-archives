@@ -1,12 +1,14 @@
 name: Classify Items
 
 on:
+  schedule:
+    - cron: '30 0 * * *'  # 매일 00:30 UTC (09:30 KST) — 수집 후 백로그 정리
   workflow_dispatch:
     inputs:
       limit:
-        description: 'Max items to classify'
+        description: 'Max items to classify (0 = all unclassified)'
         required: false
-        default: '50'
+        default: '0'
 
 permissions:
   contents: write
@@ -29,7 +31,7 @@ jobs:
       - name: Run classifier
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python scripts/classify.py --limit ${{ github.event.inputs.limit }}
+        run: python scripts/classify.py --limit ${{ github.event.inputs.limit || '0' }}
       
       - name: Commit and push
         run: |

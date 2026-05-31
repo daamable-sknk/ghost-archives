@@ -101,23 +101,33 @@ def save_data(data: dict) -> None:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 
-def main(limit: int = 50, dry_run: bool = False, batch_save: int = 10):
-    print(f"[Classify] Starting (limit={limit}, dry_run={dry_run}, batch_save={batch_save})")
+def main(limit: int = 0, dry_run: bool = False, batch_save: int = 10):
+    limit_label = "all" if limit <= 0 else str(limit)
+    print(f"[Classify] Starting (limit={limit_label}, dry_run={dry_run}, batch_save={batch_save})")
+
+    if not GEMINI_API_KEY:
+        print("[Classify] GEMINI_API_KEY not set — skipping")
+        return
     
     data = load_data()
     items = data.get("items", [])
     
     unclassified = [item for item in items if not item.get("category")]
-    print(f"[Classify] {len(unclassified)} unclassified items found")
+    batch = unclassified if limit <= 0 else unclassified[:limit]
+    print(f"[Classify] {len(unclassified)} unclassified items found, processing {len(batch)}")
+    
+    if not batch:
+        print("[Classify] Nothing to classify")
+        return
     
     classified_count = 0
     failed_count = 0
-    for i, item in enumerate(unclassified[:limit]):
+    for i, item in enumerate(batch):
         title = item.get("source_title", "")
         if not title:
             continue
         
-        print(f"[Classify] [{i+1}/{min(limit, len(unclassified))}] {title[:50]}...")
+        print(f"[Classify] [{i+1}/{len(batch)}] {title[:50]}...")
         result = classify_item(title)
         
         if result:
@@ -154,7 +164,7 @@ if __name__ == "__main__":
     import argparse
     
     parser = argparse.ArgumentParser(description="Classify ghost-archive items using Gemini")
-    parser.add_argument("--limit", type=int, default=50, help="Max items to classify")
+    parser.add_argument("--limit", type=int, default=0, help="Max items to classify (0 = all unclassified)")
     parser.add_argument("--dry-run", action="store_true", help="Preview without saving")
     
     args = parser.parse_args()

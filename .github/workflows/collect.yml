@@ -31,10 +31,16 @@ jobs:
         run: |
           python scripts/collect.py
       
+      - name: Run classifier
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python scripts/classify.py
+      
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
-          git diff --staged --quiet || git commit -m "chore: auto-collect $(date -u +%Y-%m-%d)"
+          git diff --staged --quiet || git commit -m "chore: auto-collect and classify $(date -u +%Y-%m-%d)"
           git push
