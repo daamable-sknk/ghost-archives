@@ -131,9 +131,57 @@ header nav a.active {
 }
 
 .item .category {
-  background: var(--border);
   padding: 0.1rem 0.4rem;
   border-radius: 2px;
+  font-weight: 500;
+}
+
+.item .implied-meaning {
+  font-style: italic;
+}
+
+.event-toggle {
+  margin-top: 0.5rem;
+  background: none;
+  border: 1px solid var(--border);
+  padding: 0.15rem 0.5rem;
+  font-size: 0.7rem;
+  cursor: pointer;
+  border-radius: 3px;
+  color: var(--text-muted);
+}
+
+.event-toggle:hover {
+  border-color: var(--text-muted);
+  color: var(--text);
+}
+
+.event-extra {
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px dashed var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.event-extra-item {
+  font-size: 0.8rem;
+}
+
+.event-extra-item a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.event-extra-item a:hover {
+  text-decoration: underline;
+}
+
+.event-extra-meta {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  margin-left: 0.35rem;
 }
 
 footer {

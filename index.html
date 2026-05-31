@@ -73,6 +73,45 @@
       color: var(--text-muted);
       font-size: 1.2rem;
     }
+    .dashboard-meta {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 2rem;
+      line-height: 1.8;
+    }
+    .dashboard-meta strong {
+      color: var(--text);
+      font-weight: 600;
+    }
+    .chart-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+    }
+    .chart-header h2 {
+      margin-bottom: 0;
+    }
+    .chart-toggle {
+      display: flex;
+      gap: 0.25rem;
+    }
+    .chart-toggle button {
+      background: #fff;
+      border: 1px solid var(--border);
+      padding: 0.2rem 0.6rem;
+      font-size: 0.75rem;
+      cursor: pointer;
+      border-radius: 3px;
+      color: var(--text-muted);
+    }
+    .chart-toggle button.active {
+      background: var(--text);
+      color: var(--bg);
+      border-color: var(--text);
+    }
   </style>
 </head>
 <body>
@@ -88,6 +127,16 @@
   </header>
 
   <main>
+    <section class="dashboard-meta">
+      <div>
+        수집 기간 <strong id="collection-period">-</strong>
+        <span class="collection-days" id="collection-days"></span>
+      </div>
+      <div>
+        마지막 업데이트 <strong id="last-updated">-</strong>
+      </div>
+    </section>
+
     <!-- 파이프라인 상태 -->
     <section>
       <h2 style="font-size:1rem;font-weight:600;margin-bottom:1rem;">파이프라인</h2>
@@ -127,13 +176,31 @@
         <div class="number" id="card-sources">-</div>
         <div class="label">소스 유형</div>
       </div>
+      <div class="card">
+        <div class="number" id="card-events">-</div>
+        <div class="label">고유 이벤트</div>
+      </div>
     </div>
 
     <!-- 카테고리 분포 -->
     <section class="chart-section">
-      <h2>카테고리 분포</h2>
+      <div class="chart-header">
+        <h2>카테고리 분포</h2>
+        <div class="chart-toggle" id="category-mode-toggle">
+          <button type="button" data-mode="articles" class="active">기사</button>
+          <button type="button" data-mode="events">이벤트</button>
+        </div>
+      </div>
       <div class="chart-container">
         <canvas id="category-chart"></canvas>
+      </div>
+    </section>
+
+    <!-- 월별 카테고리 -->
+    <section class="chart-section">
+      <h2>월별 카테고리</h2>
+      <div class="chart-container">
+        <canvas id="monthly-chart"></canvas>
       </div>
     </section>
 
@@ -155,6 +222,7 @@
   </footer>
 
   <script>
+    const CATEGORY_ORDER = ['제도', '예술', '마케팅', '큐레이션', '시민', '감성', '기술'];
     const CATEGORY_COLORS = {
       '마케팅': '#e63946',
       '감성': '#9b5de5',
@@ -165,10 +233,84 @@
       '예술': '#118ab2'
     };
 
+    function formatDateTime(iso) {
+      if (!iso) return '-';
+      return new Date(iso).toLocaleString('ko-KR', {
+        timeZone: 'Asia/Seoul',
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit',
+        hour: '2-digit',
+        minute: '2-digit',
+        hour12: false
+      });
+    }
+
+    function getCollectionRange(items) {
+      let min = null;
+      let max = null;
+      for (const item of items) {
+        const day = (item.collected_at || item.published_at || '').split('T')[0];
+        if (!day) continue;
+        if (!min || day < min) min = day;
+        if (!max || day > max) max = day;
+      }
+      if (!min || !max) return { label: '-', days: null };
+      const label = min === max ? min : `${min} ~ ${max}`;
+      const days = Math.round((new Date(max) - new Date(min)) / 86400000) + 1;
+      return { label, days };
+    }
+
+    function countUniqueEvents(items) {
+      const seen = new Set();
+      items.forEach(i => seen.add(i.event_id || i.id));
+      return seen.size;
+    }
+
+    function countByCategory(items, mode) {
+      const counts = {};
+      if (mode === 'articles') {
+        items.forEach(i => {
+          const cat = i.category || '미분류';
+          counts[cat] = (counts[cat] || 0) + 1;
+        });
+      } else {
+        const seen = new Set();
+        items.forEach(i => {
+          const key = i.event_id || i.id;
+          if (seen.has(key)) return;
+          seen.add(key);
+          const cat = i.category || '미분류';
+          counts[cat] = (counts[cat] || 0) + 1;
+        });
+      }
+      return counts;
+    }
+
+    function buildMonthlyData(items) {
+      const monthMap = {};
+      items.forEach(i => {
+        const month = (i.collected_at || i.published_at || '').slice(0, 7);
+        const cat = i.category;
+        if (!month || !cat) return;
+        if (!monthMap[month]) monthMap[month] = {};
+        monthMap[month][cat] = (monthMap[month][cat] || 0) + 1;
+      });
+      const months = Object.keys(monthMap).sort();
+      return { months, monthMap };
+    }
+
     async function init() {
       const res = await fetch('data/ghosts.json');
       const data = await res.json();
       const items = data.items;
+
+      const range = getCollectionRange(items);
+      document.getElementById('collection-period').textContent = range.label;
+      if (range.days && range.days > 1) {
+        document.getElementById('collection-days').textContent = ` (${range.days}일)`;
+      }
+      document.getElementById('last-updated').textContent = formatDateTime(data.meta?.last_updated);
 
       // 파이프라인
       const total = items.length;
@@ -184,34 +326,63 @@
       document.getElementById('card-ko').textContent = items.filter(i => i.language === 'ko').length;
       document.getElementById('card-en').textContent = items.filter(i => i.language === 'en').length;
       document.getElementById('card-sources').textContent = [...new Set(items.map(i => i.source_type))].length;
+      document.getElementById('card-events').textContent = countUniqueEvents(items);
 
-      // 카테고리 분포
-      const catCounts = {};
-      items.forEach(i => {
-        const cat = i.category || '미분류';
-        catCounts[cat] = (catCounts[cat] || 0) + 1;
+      let categoryChart = null;
+      let categoryMode = 'articles';
+
+      function renderCategoryChart(mode) {
+        categoryMode = mode;
+        const catCounts = countByCategory(items, mode);
+        const catLabels = Object.keys(catCounts).sort((a, b) => catCounts[b] - catCounts[a]);
+        const catData = catLabels.map(l => catCounts[l]);
+        const catColors = catLabels.map(l => CATEGORY_COLORS[l] || '#ccc');
+
+        if (categoryChart) categoryChart.destroy();
+        categoryChart = new Chart(document.getElementById('category-chart'), {
+          type: 'bar',
+          data: {
+            labels: catLabels,
+            datasets: [{ data: catData, backgroundColor: catColors, borderWidth: 0 }]
+          },
+          options: {
+            indexAxis: 'y',
+            plugins: { legend: { display: false } },
+            scales: {
+              x: { grid: { display: false } },
+              y: { grid: { display: false } }
+            }
+          }
+        });
+      }
+
+      document.querySelectorAll('#category-mode-toggle button').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('#category-mode-toggle button').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          renderCategoryChart(btn.dataset.mode);
+        });
       });
 
-      const catLabels = Object.keys(catCounts).sort((a, b) => catCounts[b] - catCounts[a]);
-      const catData = catLabels.map(l => catCounts[l]);
-      const catColors = catLabels.map(l => CATEGORY_COLORS[l] || '#ccc');
+      renderCategoryChart('articles');
 
-      new Chart(document.getElementById('category-chart'), {
+      const { months, monthMap } = buildMonthlyData(items);
+      new Chart(document.getElementById('monthly-chart'), {
         type: 'bar',
         data: {
-          labels: catLabels,
-          datasets: [{
-            data: catData,
-            backgroundColor: catColors,
+          labels: months,
+          datasets: CATEGORY_ORDER.map(cat => ({
+            label: cat,
+            data: months.map(m => monthMap[m]?.[cat] || 0),
+            backgroundColor: CATEGORY_COLORS[cat],
             borderWidth: 0
-          }]
+          }))
         },
         options: {
-          indexAxis: 'y',
-          plugins: { legend: { display: false } },
+          plugins: { legend: { position: 'bottom', labels: { boxWidth: 10, font: { size: 10 } } } },
           scales: {
-            x: { grid: { display: false } },
-            y: { grid: { display: false } }
+            x: { stacked: true, grid: { display: false } },
+            y: { stacked: true, beginAtZero: true, grid: { color: '#eee' } }
           }
         }
       });

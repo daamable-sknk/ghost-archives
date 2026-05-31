@@ -78,6 +78,16 @@
 
   <script>
     const DATA_URL = 'data/ghosts.json';
+
+    const CATEGORY_COLORS = {
+      '마케팅': '#e63946',
+      '감성': '#9b5de5',
+      '큐레이션': '#b8860b',
+      '시민': '#06d6a0',
+      '제도': '#8d99ae',
+      '기술': '#212529',
+      '예술': '#118ab2'
+    };
     
     let allItems = [];
     let currentFilter = 'all';
@@ -104,6 +114,58 @@
       return iso.split('T')[0];
     }
 
+    function renderItemMeta(item) {
+      const catColor = CATEGORY_COLORS[item.category] || '#999';
+      return `
+        <div class="meta">
+          <span class="source-type">${item.source_type}</span>
+          <span class="separator">·</span>
+          <span class="date">${item.published_at || item.collected_at || '-'}</span>
+          <span class="separator">·</span>
+          <span class="language">${item.language === 'ko' ? '한국어' : 'English'}</span>
+          ${item.category ? `<span class="separator">·</span><span class="category" style="background:${catColor};color:#fff">${item.category}</span>` : ''}
+          ${item.implied_meaning ? `<span class="separator">·</span><span class="implied-meaning">${escapeHtml(item.implied_meaning)}</span>` : ''}
+        </div>`;
+    }
+
+    function renderSingleItem(item) {
+      return `
+        <article class="item" data-type="${item.source_type}" data-lang="${item.language}">
+          <a href="${item.source_url}" target="_blank" rel="noopener">
+            <h2>${escapeHtml(item.source_title)}</h2>
+          </a>
+          ${renderItemMeta(item)}
+        </article>`;
+    }
+
+    function buildRows(items) {
+      const eventMap = new Map();
+      const rows = [];
+      const seenEvents = new Set();
+
+      items.forEach(item => {
+        if (item.event_id && item.event_size > 1) {
+          if (!eventMap.has(item.event_id)) eventMap.set(item.event_id, []);
+          eventMap.get(item.event_id).push(item);
+        }
+      });
+
+      items.forEach(item => {
+        if (item.event_id && item.event_size > 1) {
+          if (seenEvents.has(item.event_id)) return;
+          seenEvents.add(item.event_id);
+          const members = eventMap.get(item.event_id).sort((a, b) =>
+            (b.published_at || '').localeCompare(a.published_at || '')
+          );
+          rows.push({ type: 'event', members, date: members[0].published_at || members[0].collected_at });
+        } else {
+          rows.push({ type: 'single', item, date: item.published_at || item.collected_at });
+        }
+      });
+
+      return rows.sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+    }
+
     function renderItems(items) {
       const container = document.getElementById('items-container');
       
@@ -111,22 +173,39 @@
         container.innerHTML = '<p class="empty">항목이 없습니다.</p>';
         return;
       }
-      
-      container.innerHTML = items.map(item => `
-        <article class="item" data-type="${item.source_type}" data-lang="${item.language}">
-          <a href="${item.source_url}" target="_blank" rel="noopener">
-            <h2>${escapeHtml(item.source_title)}</h2>
-          </a>
-          <div class="meta">
-            <span class="source-type">${item.source_type}</span>
-            <span class="separator">·</span>
-            <span class="date">${item.published_at}</span>
-            <span class="separator">·</span>
-            <span class="language">${item.language === 'ko' ? '한국어' : 'English'}</span>
-            ${item.category ? `<span class="separator">·</span><span class="category">${item.category}</span>` : ''}
-          </div>
-        </article>
-      `).join('');
+
+      const rows = buildRows(items);
+      container.innerHTML = rows.map(row => {
+        if (row.type === 'single') return renderSingleItem(row.item);
+
+        const [head, ...rest] = row.members;
+        const extra = rest.map(item => `
+          <div class="event-extra-item">
+            <a href="${item.source_url}" target="_blank" rel="noopener">${escapeHtml(item.source_title)}</a>
+            <span class="event-extra-meta">${item.published_at || ''}</span>
+          </div>`).join('');
+
+        return `
+          <article class="item event-group" data-event="${head.event_id}">
+            <a href="${head.source_url}" target="_blank" rel="noopener">
+              <h2>${escapeHtml(head.source_title)}</h2>
+            </a>
+            ${renderItemMeta(head)}
+            ${rest.length ? `<button type="button" class="event-toggle" aria-expanded="false">외 ${rest.length}건</button>
+            <div class="event-extra" hidden>${extra}</div>` : ''}
+          </article>`;
+      }).join('');
+
+      container.querySelectorAll('.event-toggle').forEach(btn => {
+        const panel = btn.nextElementSibling;
+        const count = panel.querySelectorAll('.event-extra-item').length;
+        btn.addEventListener('click', () => {
+          const open = btn.getAttribute('aria-expanded') === 'true';
+          btn.setAttribute('aria-expanded', String(!open));
+          panel.hidden = open;
+          btn.textContent = open ? `외 ${count}건` : `접기 (${count}건)`;
+        });
+      });
     }
 
     function escapeHtml(text) {
