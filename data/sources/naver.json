@@ -6314,7 +6314,82 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-06-04-5ed41785",
+      "source_type": "news",
+      "source_url": "https://www.stardailynews.co.kr/news/articleView.html?idxno=538395",
+      "source_title": "디지털 아카이브 체험관 '기억문화관-헤븐스', TV조선 '슬기로운 아침'...",
+      "collected_at": "2026-06-04",
+      "published_at": "2026-06-04",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-04-2cf1ecdb",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/883313742",
+      "source_title": "[뉴공 아카이브]정근식 서울 교육감 당선자, 이병도 충남 교육감 당선자...",
+      "collected_at": "2026-06-04",
+      "published_at": "2026-06-04",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-04-5a0398e3",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/883311227",
+      "source_title": "[뉴공 아카이브]퍼니포: 제9회 지방선거 그 후… 선거판을 누빈 주역들...",
+      "collected_at": "2026-06-04",
+      "published_at": "2026-06-04",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-04-d8f9730d",
+      "source_type": "news",
+      "source_url": "https://www.fashionbiz.co.kr/article/226819",
+      "source_title": "패스트 소비 피로감 속,‘아카이브’를 찾는 사람들",
+      "collected_at": "2026-06-04",
+      "published_at": "2026-06-04",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-04-0da7b0d7",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/883298389",
+      "source_title": "[뉴공 아카이브]이택수 리얼미터 대표, 박구용 전북대 철학과 교수: 6.3...",
+      "collected_at": "2026-06-04",
+      "published_at": "2026-06-04",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-06-03T03:39:48.355103+00:00"
+  "last_fetched": "2026-06-04T03:35:29.675367+00:00"
 }
