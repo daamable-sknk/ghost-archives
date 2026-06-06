@@ -6539,7 +6539,82 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-06-05-fb71c75a",
+      "source_type": "news",
+      "source_url": "https://www.gameple.co.kr/news/articleView.html?idxno=215771",
+      "source_title": "[인터뷰] 김용하가 말하는 '블루 아카이브'의 4.5주년",
+      "collected_at": "2026-06-06",
+      "published_at": "2026-06-05",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-05-231b78b5",
+      "source_type": "news",
+      "source_url": "http://www.djtimes.co.kr/news/articleView.html?idxno=112130",
+      "source_title": "[마을 아카이브 ⑤] 송산면 동곡리 바다는 사라졌지만 정 넘치는 마을",
+      "collected_at": "2026-06-06",
+      "published_at": "2026-06-05",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-05-56c33683",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/883524654",
+      "source_title": "[뉴공 아카이브]임희윤 음악평론가, 박희아 음악평론가, 김도헌 음악평...",
+      "collected_at": "2026-06-06",
+      "published_at": "2026-06-05",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-05-ffc1f79b",
+      "source_type": "news",
+      "source_url": "https://gamefocus.co.kr/detail.php?number=176238",
+      "source_title": "[인터뷰]'블루 아카이브' 한국 서비스 4.5주년, 김용하 EPD와 이준호 부...",
+      "collected_at": "2026-06-06",
+      "published_at": "2026-06-05",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-05-267f0e69",
+      "source_type": "news",
+      "source_url": "https://www.techm.kr/news/articleView.html?idxno=152393",
+      "source_title": "'일상 기록에 꽂혔다'...'셋로그' 열풍에 티맵도 아카이빙 역할로 '진화...",
+      "collected_at": "2026-06-06",
+      "published_at": "2026-06-05",
+      "keyword": "아카이빙",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-06-05T02:57:29.315894+00:00"
+  "last_fetched": "2026-06-06T02:44:24.828130+00:00"
 }
