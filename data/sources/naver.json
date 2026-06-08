@@ -6614,7 +6614,67 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-06-08-dfdc5f1d",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/883999610",
+      "source_title": "[뉴공 아카이브]황희두 노무현재단 이사, 박태훈 진보당 전국대학생위원...",
+      "collected_at": "2026-06-08",
+      "published_at": "2026-06-08",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-08-27f56eb5",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/883993564",
+      "source_title": "[뉴공 아카이브]퍼니포: 잠실 개표소 시위대 운집… 경찰 과잉 진압 사...",
+      "collected_at": "2026-06-08",
+      "published_at": "2026-06-08",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-08-cb393776",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/883987371",
+      "source_title": "[뉴공 아카이브]박시영 박시영TV대표, 이택수 리얼미터 대표: 李정부 1년...",
+      "collected_at": "2026-06-08",
+      "published_at": "2026-06-08",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-07-de0db70f",
+      "source_type": "news",
+      "source_url": "https://www.yeongnam.com/web/view.php?key=20260607020598435",
+      "source_title": "사진으로 보는 배우 송승환의 60년…9일부터 청문당서 아카이브 전시",
+      "collected_at": "2026-06-08",
+      "published_at": "2026-06-07",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-06-07T03:27:42.047882+00:00"
+  "last_fetched": "2026-06-08T03:33:16.373705+00:00"
 }
