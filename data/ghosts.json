@@ -2,11 +2,1076 @@
   "meta": {
     "title": "ghost-archive",
     "description": "'아카이브'라는 단어의 용례 수집",
-    "last_updated": "2026-06-10T02:56:31.292866+00:00",
-    "total_count": 2989,
-    "reviewed_count": 0
+    "last_updated": "2026-06-11T03:31:46.118623+00:00",
+    "total_count": 3060,
+    "reviewed_count": 3060
   },
   "items": [
+    {
+      "id": "ghost-2026-06-11-80f83dad",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9OUUZ0VW50ai1FWGtQdE9nTjZ5SHNCWVZvYWZkb2lFQXNqY2lCLVA2OXlxY3JabWt5U3lFQjFwUTFaUUlwQkoxenNJRWxvdDZ2OC1COEQyNU53UV9yN0RWUDNCckxyS0ExM3Myc2JqVQ?oc=5",
+      "source_title": "푸른 빛으로 마주하는 4·3… 산지천갤러리 ‘SJC 아카이브 윈도우-푸른 날’ - 제주도민일보",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-11",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "예술",
+      "implied_meaning": "기록물 전시",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-11-af8ad76b",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ad29Hdk5oN1F0bVFlaHFFb0JYbkpBeTU4YldtSTMySWpndDhBOC1UOXhtb1lpeVM3OFhGeUlLSENiaktSbzVBOXNPcVBIWHVoOVRpN3VMaldHT1ZjcUs4a1ZkME9JYkVCNlE?oc=5",
+      "source_title": "상주아카이브 상주! '그 해 우리는' 콘텐츠 공개 - 한국시사경제",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-11",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "예술",
+      "implied_meaning": "콘텐츠 모음",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-11-5439e19e",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE80c2pXbmZlR2ZRNDk0dXRHSUJrOWJVbjkwMkRsNFJTWGRsNldQRjY5c1VQNVVQYUN1TUtyLW53SkVDZGUwcTlrb1BWdjRmeVE2?oc=5",
+      "source_title": "‘로봇에게 옷을?’ 더비아카이브, 휴머노이드 의상 전시서 컬렉션 선봬 - 패션비즈",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-11",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "예술",
+      "implied_meaning": "의상 컬렉션",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-44dc5414",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB2SnVLS0R0MDhNX2tsYlBPNENoM2JGWS1wU0I5ang0bUtJd3JVbjFrSGhnNDMxRlE0VW9LREF0QUZUNC1rNHFTNXA5aGFhVWtpbUI2clFtUXczczhkQTJ4WFVFcw?oc=5",
+      "source_title": "수원지역 미술계 한자리에… 「2026 수원시 미술단체 아카이브전」 성황리 개막 - 시사뉴스",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "예술",
+      "implied_meaning": "미술 작품 모음",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-11-7cbe5337",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBMcnVhTEFLTHRjcFBfMl9hSHBQMHljV1VDeWVOM0NNY05DcWRDNk1kN01pUzNMVzJSNVBkeGpiRmpjTktyQzNBWUVPaFBEVGhyR1lNdE4yTTdCWGd3UWthRGdtelpDa1JCVVNaQi1RcXFtQ2xRNGh5SkRXME1sQQ?oc=5",
+      "source_title": "상주시, ‘1992년 아카이브 상주’...사진 1,229점 공개 - 경북문화신문",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-11",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "제도",
+      "implied_meaning": "공공 기록물",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-b6b5c959",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5HUkxIaDdVTXN2VkNoQlkyenhsTWliSGoxSlpkWHh5OXN6aVJQQ3VIUmd0M0FVWC1XeENnUWRMZWxrSVBOTjZiaUhzR2RLSFpUaGk2dW5TanBReFVEeG9YQ0FfSG1lOVNDZDJGUGs1Y1Y?oc=5",
+      "source_title": "[박혜진의 블록체인 아카이브] 어게인 크립토 윈터? 이번 겨울이 다른 이유 - 오피니언뉴스",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "기술",
+      "implied_meaning": "과거 데이터 기록",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-11-5e260de8",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE54cVdIOUs4MkdRbXlZT1BmcXJMeV9wbmVsZXcxZzAwLWNlbUJvVzZDU1pfOUtzQ05zdFJodFB6M3kyTXFleWI4bExWQURpQjRSallPUFZhN2RQQWxzbjVCUW1DdGdoNklYSFVJ0gFvQVVfeXFMUDdFWEdmeW1NZVZPd1pzMzBybjd0T3hFYXdsR1JVU2xwcEZDbFlTSTFqOTdhWk9kOW92MEhEbGJHdXZTN2VDMU9ZUEprQlhlaHVVSXRnTkprVTNLems1Qk9vSFRpUnZ0ZndfTGNrZTlz?oc=5",
+      "source_title": "넥슨게임즈 〈블루아카이브〉, 스팀 국내 매출 2위 등극 - 글로벌E",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-11",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "예술",
+      "implied_meaning": "게임 콘텐츠 모음",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-94eae2d2",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9vSnY2ZTNtOVdDQ0FxNjRYclQ5SXJqTWdEQTdXT2JlRGJjb01JaTNFRzNlQlJBeW1LQkMtUW9oYUt4ZTRaM3JiVkx0Q3JYVEwyYjhHOWFka1J2TjJSRG9YRk1wM0hPQ0ZxM0VWNnlydEJHRl8zWEZzNkxfUWh3LTg?oc=5",
+      "source_title": "\"우리 딸이 하늘을 날아요\"…블루 아카이브, 스팀 매출 1위 - 글로벌이코노믹",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "예술",
+      "implied_meaning": "게임 콘텐츠 모음",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-09-c04ce73a",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5lRE50aHFINnRYQjJESmJCUzlhY010eGlJcXNBRGt6UzNhc2tIdDlRa3dkZVRKOHNMek13clVhVVhuSFVlZG5JMnViRk9hSHg2MlNDdG4yNkh1VHphdmk4d0t6aTA?oc=5",
+      "source_title": "합천군, 기록물 아카이브 전면 개편 완료 - 국제일보",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-09",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "제도",
+      "implied_meaning": "공공 기록물 보관",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-71a16f30",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE85U2diMEt4RkhGQ3FTX05kZEZSUkR6NTAzbXNRQkp3dTBXMnplekpBMlIwUFg0LXc5a0hpNURtMnJtazZQQ08xcEdQblQxY0NJ?oc=5",
+      "source_title": "[패션비즈 아카이브] 기사로 보는 ‘10년 전 오늘’은? : 2016년 6월호 - 패션비즈",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "마케팅",
+      "implied_meaning": "과거 패션 정보 모음",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-851439ca",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1pU3ZHTWhvUUh4aXhTWHcwcmFNTlZ2MElmeWtGRUkzMV9WUUpOV000NDRQeFZNcjdDR1FHbkx4NmxZWFRockRQZGx5aVFNd3ltdVFDSDc4U3NrQUxhRXJyd0NYaW5IQnYyZEUtQnpxdFhQOWVsRGc?oc=5",
+      "source_title": "더 비 아카이브, 휴머노이드 웨어 전시 참여 - 어패럴뉴스",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "예술",
+      "implied_meaning": "전시된 의류 컬렉션",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-11-8e0b143c",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ncjRqTUhDMWVJcHU1OTFjVnlZOUZ0V05TS0hkdW92UkVrbDRVTGhCUUZaU1RlS0pYalh6Q2lLdUtCblo4TVgxV1BGYTFnb0xUUjFUakFvSEJoN0d1Z1BpM1kwUHU2NDVxc044SnlEQmwwSG14azJ3TmExWG5rZ00?oc=5",
+      "source_title": "댓글 : [아카이브 읽어주는 기자] 삼성테스코에서 기업회생까지…홈플러스 28년 흥망성쇠 - 네이버 프리미엄콘텐츠",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-11",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "큐레이션",
+      "implied_meaning": "과거 기록 모음",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-ad31f975",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5wWE5aeGZmMXBObzhBNmFRSThHc1djaTZ1OFN6RkNOUExmcWk2ZGRvSnZQX25YV1VhckhXaHAwUE5LTGwxZ3ZMZE5jdGg3aXBtSWY5MWFQaXJmcGlKTzVoV3VfUDcydTV5bTVYSg?oc=5",
+      "source_title": "로봇도 옷을 입는 시대…더 비 아카이브가 제시한 ‘휴머노이드 패션’ - 뉴스탭",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "마케팅",
+      "implied_meaning": "브랜드 컬렉션",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-08-4f14e3e4",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE0tNlFJOTlJUS12Z1g1LTBXSm91aW9VV0RtQ1piWlhZaGI0TXYwc3VZSTM3RUpJZVptTkU3NkJ3b2JyU2pBYVk4OQ?oc=5",
+      "source_title": "지역유산아카이브 오래된 미래 - EP21. 영도 옛 도선터 물양장 - knn.co.kr",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-08",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "제도",
+      "implied_meaning": "공공 기록 보존",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-f8099b13",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4zVkRxX2lTRTFwYVNyNFpUWnA0cElMS1lGTnJlZUVheUpRUG9zaDFsSEQtZFAxZkxESEdQclAzQnU5ajRHUnJ5bUlvN1NMV044UHZ0Ym5B?oc=5",
+      "source_title": "한세엠케이 ‘더 비 아카이브’, 로봇 의상 공개…버커루 입혔다 - 헤럴드경제",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "마케팅",
+      "implied_meaning": "브랜드 컬렉션",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-867e2cd0",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9yeGVzSVZOcVM4U25zTWlMOERNVWxfV28xRlpjYWJsbGU5LURyWWNNVm82NGQ1bjlGbkljMERIVDJLVHdIYVBRb1VwNk1oRVZjMXZv?oc=5",
+      "source_title": "한세엠케이, 더 비 아카이브로 '휴머노이드 패션' 가능성 제시 - 네이트",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "마케팅",
+      "implied_meaning": "브랜드 컬렉션",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-97eee342",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9fdlFTTk1fMlU4UzRyN3hpdElWdVpESklPcXJFenpyWEZlMmlROXI5WUhJSVpObHprTDhOMzZSQzVqZnZQd0lacXVBMWZFandxWHFjVzFFLVdRNEFBd0tLd0tyWGEyUTJQWDloLQ?oc=5",
+      "source_title": "블루 아카이브, 스팀에서 또 한 번의 기록 썼다 - 게임톡",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "마케팅",
+      "implied_meaning": "게임 출시 기록",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-68517804",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9yMDJwcEFxNTAybWFCcW1WN01KbVdfX1Zua1gzX3gyNzdpakNnQWRLNjZZT3hPXzdtV2ItcWo0TjhNRFVtSURQMjNSaTh2V3VXVGY4NnR4SmJpeEtVSWRIczRXTzlRSUZWT2cwRw?oc=5",
+      "source_title": "[주간 스팀 종합] ‘블루 아카이브’ 첫 국내 매출 1위, ‘데스티니 가디언즈’ 마지막 업데이트 - 경향게임스",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "예술",
+      "implied_meaning": "게임 콘텐츠 모음",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-f88a6f94",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5JcGliaDZSUEtPbVRyMnNKdkVIUk5SYmJWMklWOUNNM3p1Q3pqN3E2MlZVNVhGbWNTYWFna0pDZ2tfOGpBWVprNXpmZzhrZGFGYkRWb1d2RnRZYVJjdkNtU09SR1ZlWXN6NTQwN0J3?oc=5",
+      "source_title": "합천군, 기록물 아카이브 전면 개편 완료 - gukjenews.com",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "제도",
+      "implied_meaning": "공공 기록물 보관",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-e5349e2f",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQY2Fnam55S19ISmRHekU2cl9CVFhPUng2Q2pPRDlPcEJFOWcybTJZYVh3N0dCMG5mZzBabFZEdmQwSlo4cGJjS0U2YWt1MUlhZU5MQk8tUGg0Wm9SN05OeVRUcWRXbjdQX1dlcHMyTkRNODFUdUFXMjlkN2tFck9icEotcFB3VEJoVWhqc25HTGZhR1BnX3pQWE9QNkIxMHh6OUlKUC02dElkUERFSVFsLVFvTW9EV0RMNUp2TlRpQUFFbXFla29EZjlZdmQzTndQeEs1VDR4UGd1c21KaTJUTTdZRWUwZi1LOW1KczNTV3RFWU84b3ExNkZHbEJQTHBHUXRCdjJqQlVsQWdHRER6cGhzeko0MXZJaDZncQ?oc=5",
+      "source_title": "500 Years Ago, Leonardo da Vinci’s Notebook Was Cut Up and Separated. Now, the Inventor's Manuscripts and Drawings Are Reconstructed in an Online Archive - Smithsonian Magazine",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "archive",
+      "language": "en",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "예술",
+      "implied_meaning": "온라인 자료 모음",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-5ac8dc04",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYWxOSUR1akt4eGFxWHZwcmVYc25yMUIwWExTUGFrTmZUVXBuX1cwZzlPbHJiWVV1RGtVMFJxaGYySUZ0NWw1Nl9uTUhHLXBSS0NiN0FtcXNXRzUtR29yYXo4dFl3NW95X09ESkt0dHZ5Q2szRi1YbWE3MlRKV2RMS2ZCOTJYUkgzUmFQaGZwMW5JQW5YOHpzZWZONmJLX2o4SjFKQ0EybjFTay1saEE?oc=5",
+      "source_title": "Sagrada Família, Gaudi’s eccentric homage to Catalonia – archive, 1983 - The Guardian",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "archive",
+      "language": "en",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "예술",
+      "implied_meaning": "과거 기록물",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-c7e8eb63",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE92eHdqd1Fzb0hFcDgwQWhRWVBiUFE1ODRYWVdGQzd3WGtJVnZIYUNPTjI0VGtDMFNBTzFzeWlKZFdlTkFwc1lFaTl4RDVNYl9aNUVYSXlVYXEtRjQxR1ZJN2JaVUZMaGJBTkdqaGVCd1NRcmw1Rmc?oc=5",
+      "source_title": "1984 Adult Braces WAVY Archive - WAVY.com",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "archive",
+      "language": "en",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "감성",
+      "implied_meaning": "과거 자료",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-11-b38c0d45",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcHZ4dWxHWjFqMEMtMkZEdklpV3BuMGQxRmVDd1RlZlRYZTRXdGFXQ3pscEEwRFAtdkU4NzB1T3V4elk3WFE5YkNCREZNUVFZY3F5d3NVYzl3MFRxLXJJbmFpUmRUSHVGMGhzT3JoSnlrTnBWM2Q3WXNEY1c3U0gzUF9kWHNDdmVIV1M3bFZ0YVJpTnBI?oc=5",
+      "source_title": "‘Blue Archive’ “EX. DECAGRAMMATON CHAPTER 3″ Pt. 3 Live - playday.one",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-11",
+      "keyword": "archive",
+      "language": "en",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "예술",
+      "implied_meaning": "게임 콘텐츠 기록",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-f93aaa63",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA2aGZ4U1ZSd1hBbW4wU3MyNHdQQ1FDc1pKa2hHRnpjVmRaRmlub01jXzhLb0Y3bS1VcV95MmQ4ZzU3RnplcmNKWFB0SGhjaTE2a3pQNXQzTXpjR0NmbDlRd2JqWUR4NjhtSE5NMmVpTGJHUQ?oc=5",
+      "source_title": "The World in an Archive: Preserving the Websites of Geographers, Cartographers, and Map Enthusiasts - The Library of Congress (.gov)",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "archive",
+      "language": "en",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "제도",
+      "implied_meaning": "웹사이트 기록 보존",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-3546c0dc",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQQm9EVzZIb0NPaVlmRWgyYkhHTFpfTHplVUVHamUxbnROY09wUE81bXhmal9EQkRSUktWRU9oV0pvQkJEQXFOcmhmTkNXMWtXWG9iNVR1dG5OSjhwTU10VGNjSXp1V3NzRGYwbUdZQU1QVDlEVnlEcUVUbUh2U1cyRDNHd240ZEctNUhvUTRCOFZvcDNhSUhzMWk5aGczdFN6V25veTVyZ0ExVi1tY21HWGtWQzNISE9LQnA2VHJSMFQtWVIxWVNnQ1JLa3N5VEsyTTJGVkxGUmVDRklWTXM4Wk52S0hYNjRyWWNlN1luS0VWSkNvOG9PbGpHVmZsSWp0eWpUeGh3NA?oc=5",
+      "source_title": "Images and Metaphors: Inside the Shirley Jackson Archive at Bennington Museum - Bennington Banner",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "archive",
+      "language": "en",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "예술",
+      "implied_meaning": "작가 자료 모음",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-d90dd4b7",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaGNLYjJzREZnbUVVNDFZUW1BdUtzdFJVb0tkOHkzZ2tqQ3Jsc2Jkb3M4ekJMTEZfQ0pGdVdvb3VlN1R3LVh5RmRJMW5HRkJ5UlQ0ZXNycUs3M3ZHLVYwbTNFWjR2Y2NtYVFwemI4OGY2SzhGNU50Ul9HU2FDcmtOVE9Ha0ZPa3dKVHNiYk9ncmwtcm1TV1NiZ3ZPd2x4UnNiUWc?oc=5",
+      "source_title": "Graterford Archives Seeks to Unlock Stories of the Incarcerated - Hidden City Philadelphia",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "archive",
+      "language": "en",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "시민",
+      "implied_meaning": "수감자들의 기억 보존",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-9cc4f0f0",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWURpeXFuX0tFVmw4anQ0a1dudUJmRUlDMi1ETXhYWmp6a2U4ZlRCakxwNDYtSTVOZURhamthaG5TUW1NWGV2LWtSSlI5Y0xhaS10Zi1sWHR4Y2tlNkVmWWh1cWd1SktmZk92WmdQMXQtMk8wSmtteC1yQWxhdmZ6dnRQZmEydkY4ZGluMzhfUW12bnlHbW9ZQTZFUkZWU0YwQV9J?oc=5",
+      "source_title": "1984 General Assembly/Cameras in the Courtroom Study WAVY Archive - WAVY.com",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "archive",
+      "language": "en",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "제도",
+      "implied_meaning": "과거 기록 보관",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-28c79e54",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVjFZdDYxd3lmRmlNeVBsTHJuT3pnZzc1QXVkaTFOaDVvUjJHOWc0M2d2OGY5LVgtejJnWk1iNGlrLTlpUWZKQjRUMWtuMEhlMEVDN1ZxSS12Mko2eXdmRGVrLTJIaFRNZHZRZGNuZHBHOXFtOXpJQmxzWll4dlRxbjYxaXo5MjNoYlFLOGM3ZkFvUEhwcjFPRmptcWlHN2E1UFVSTVN0S0V1YlZQR1hRdHlNRjNuQS05TnZzUQ?oc=5",
+      "source_title": "[ARCHIVE] How the decision on Louisiana v. Callais can impact minority voters - Inklings News",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "archive",
+      "language": "en",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "시민",
+      "implied_meaning": "과거 기록 보존",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-11-610b0ab4",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5qb3dvYS1HaGxRRnhubWFuT19JMjBRa05RWDBLcm1Mc0oxNHRFWmVqSnhQQmNvMHBXUlpSQWhQa3JqS2p6eGp4RmFKYTVsNGlsVkdj0gFYQVVfeXFMTjJqVmxRWWxvMmZNQ2Iyc1JOa1czTUZiY3lLZV9nU0M5dTdIVzFfdXl6U1dvUUNWY2x2NWhfYlBPWmRNb1pIMUR6ZTVJcF9rVU5Ed0ZWWDA0bA?oc=5",
+      "source_title": "Conversation Archive Devices - Trend Hunter",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-11",
+      "keyword": "archive",
+      "language": "en",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "기술",
+      "implied_meaning": "대화 기록 저장",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-54b2e5fd",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQ1hYRUdadVM5Z3loRS1VX0JwNmZqX1VfdHNmV08tSnRRLV9DRzdRcW1FTW5WUnZxYThsRVUxLWVGaE9QbWN3dS01U2R2ck92V1NNYVpKeGJKMzNLUVkwUWdhQVpHOGdaWlQzM0pGNFdhMk10aTNjeFgwYkhNMm5mTTFOdmc4b3Bub0dxcGxWUDBlSllCT05n?oc=5",
+      "source_title": "Rice University Launches Indian American Community Archive Initiative - IndiaWest",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "archive",
+      "language": "en",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "시민",
+      "implied_meaning": "커뮤니티 기록 보존",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-ca7e43e7",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1kbm1aZHJBYzBoX2VvazNaYjA5R1BNR2RuUlBRZWMyYmkzLXUza1NtcG1yWTl3bFZySk91YzZsMHl6RDlUVE9ZNXRoMHp1STM0SFRHTG5oRjJubGhrSEE?oc=5",
+      "source_title": "Director General of Algerian archives reaffirms continued cooperation with archival institutions of Sahrawi Republic - وكالة الأنباء الصحراوية",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "archive",
+      "language": "en",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "제도",
+      "implied_meaning": "공공 기록 보존",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-32ddadcf",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB2eUIwQ2dFZjNDaFNOakJuT2k4Q3ZIbkhRM2FPaFkzSGdJdWlkaC05TEVPVVUzanpjdzBkd091RTB1WDFBXzFzTVpsUUVqcDNjVXU3U3FoQXNNdVozR1paTW1YSk5Hb2xl?oc=5",
+      "source_title": "The Archives - Pioneer Tribune",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "archive",
+      "language": "en",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "제도",
+      "implied_meaning": "기록 보관소",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-6e25b773",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQMXhqX3NIc2Ryd1F0eU40elNxUFFOcnhYR0t1cl94dVVWUjNwbW1hb0tuTXlHNjU5am5hcldkWld5MElOQmFkQXItS2NlTlluVmNfUDlLX3R2UV9TRzJqdHR5UVRJbGE4UTB1QlhXQkhLMDhtSy1nUElhbDdfSGNUTUV6aVBfbWdBZmZObThpc2RSMzhlNUlLbVNuLVlIb3h4akVMSHJHVnFnRjk5VFktZGdJT0hjaGVxNDN6RmFaNTE0TGpydnRTTE9ET0tqVm5VZGNVeDNHbUVNLVk0Ym1YUFdiWG1RT0NRNjFvTVdMR2ZWQ0dZWFg5MWFzNldaMkdZd2NoTDNoVQ?oc=5",
+      "source_title": "From the archives — Vermont Dairy Festival parade and a dairy princess - St. Albans Messenger",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "archive",
+      "language": "en",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "감성",
+      "implied_meaning": "과거 기록, 추억",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-2926a024",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQLUtIOVdBTmtGMmRIZTRtUWhFVUtOb2NzYm1tbGNRWFljWVZCa0c5S1lOVm02eGMwcmxSeFNYWGdiR1hVcEMtSnpHV0hPVXpjTHJlSzVTdi1YTnJxYUpXZktMVGo4T3RRMVRRLVpJOXpJb2xYWjBKYTBDV3pXQ1JQUzF1aXJYT25KM2dv?oc=5",
+      "source_title": "From the archive: The state of football - New Statesman",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "archive",
+      "language": "en",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "큐레이션",
+      "implied_meaning": "과거 축구 기록 모음",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-2efdfa42",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMVhkNUI2OVhGYU9WY1c5R05DekFMM0pvNjdUTF9FN0ZxQTkwbTMxQ3BKMkUtRF9oekZKUmJfbVhiaWE4MW5zeXliX1U3UGRDaEZnVG9SZGc1MWpac25ZbFI4ZUNQNnlBRFIweEFvRXhfaGFJbndKa2s2VHFVMHQxZ0NtNlhlM1NkSW5jX1RTeEZFaE5nQmVqLXFsQXBReFBUd285TXROTQ?oc=5",
+      "source_title": "The 'Key' Factor? Blue Archive Hits No. 1 in Domestic Steam Sales - Inven Global",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "archive",
+      "language": "en",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "예술",
+      "implied_meaning": "게임 콘텐츠 모음",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-09-0a35b5a4",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUkRiVU1lTkdKdk94cFRycVRIXzhUTDUwYjBLcFJOUm03VEhpYWtmQUNWb1A1ZjRmLVZlT3lmZHJNamVGRUFQcUZ1VmlEdjZRSGltb2l5VVdIWjNmdUVIdE52ejlUNTJMMV9Da21OYXdvdlNjeHZRQnFDN241ZDJTRlJnT0FneGR3dS1qRFdRS2F0d3lXQ0hnSFdEUzZFNXFicGYtQTAwTmJfLTV0VHc4?oc=5",
+      "source_title": "Opening of the Mark and Paula Hurd NCR Archive Center with Dayton History - WDTN.com",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-09",
+      "keyword": "archive",
+      "language": "en",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "제도",
+      "implied_meaning": "역사 기록 보관소",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-b6b4850f",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBxdExVb0Flb0oxT1ZwVWhOd2ZFbGpmb0Jkb0RlazNEdzFIZ0Qwd1dlMG1Icmg1ZGMyN2lRblc5Q0tibXRaWmRCVENDUlQ4aHA2SFB4al9RR28xY1NzcXc?oc=5",
+      "source_title": "Director General of Algerian National Archives visits Media Archives Center - وكالة الأنباء الصحراوية",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "archive",
+      "language": "en",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "제도",
+      "implied_meaning": "국가 기록 보존소",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-11-eef1ad54",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE02T3pKZFV6OGd2X3BJWEJGb09MdFFlZ0RyWkxSc1h2QnNVemxxYjN6WHBxUWZpX0pmUzNOQ0xZMWs1N3VoNk00eEJscThiR29sVDhqdlFLYkJrN0d1VENZVjRnNVAxNU1RZXNJSzZXbmE2TWJkQURMc19zNVdpU0U?oc=5",
+      "source_title": "Opera x The Grotesque Archive Pop Up - Fashion Journal",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-11",
+      "keyword": "archive",
+      "language": "en",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "마케팅",
+      "implied_meaning": "과거 컬렉션/디자인",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-c74327bf",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOYWY0UU93R1EwZzBPeDc4RXdrRGVQNjlCWF9EUUROeUhwcEdpdGVmVHVWWjZsdFhydlNwNE03b2J0QUVKSkxxTjdRWXUtYUhuS2xaX3NNc21wVUw3bFFvU0E3dEJfeHhjY2xtU0NuOWZPNHVmbXEwZkdxTW13NGsyNk5QTlNTYlh5amIyakpB?oc=5",
+      "source_title": "2026 Library and Archives Canada Scholar Awards highlight five remarkable Canadians - Yahoo Finance Singapore",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "archive",
+      "language": "en",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "제도",
+      "implied_meaning": "공공 기록 보존",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-6bba9c1b",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5ENGM4aUN4RkdQeFkyekZ4QkNxYUI1bnVZTW41aktrN1NhS3MyTmRGSmJJYlB0elpJRlU2RHZURVpJTnZzbDdNdDk3SjdnZDU4bUExRnlSOHlNeHQ5bW5xb21lMHZXMEhrd1BjSGFHNXBJeHNDVWpmYm5BMEcwdw?oc=5",
+      "source_title": "From the Archive: When the Teams Almost Broke Away From F1 - Autosport",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "archive",
+      "language": "en",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "감성",
+      "implied_meaning": "과거의 흥미로운 이야기",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-619badcc",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMUdyeF9rcVRCQndlWDBpaDFaeGtkcFlGV2lEMmJLay1hSEpYYk5Na1NNTUhpVFZnT3Yyd1BMMmttbmpwMXUyaFpzeEw5SE83N0VZMm5aSkZEdlNJWFJKMWlHR01SUW1SX3cyNGRvMWszd1k0WkRaXzBTWWoxbjAxVWdlb2FkcUMxbm9hVU45RzBYdjhETzBDM0JwTThtOVV0SkhRUGJ1djRxMGlMbE44dlVsQQ?oc=5",
+      "source_title": "A Nostalgic Look at Farming Life’s photo archive from 2016 - Farming Life",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "archive",
+      "language": "en",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "감성",
+      "implied_meaning": "과거 사진 모음",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-07-33b5a35f",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxQdlRodklZc2hqQjZOb1lvLUlvOHZUU3YtSnM3NnNzalRiY0dlbVc2cHRrVTdGQVl5SEFGVXdKVjBRdFlNQTR0ZWVDQ1F3WlRQZGJYOTBfNG1hdTRpWFZBdkNfUXpHZjAyUXFqaEt0Y010UW5iZDJrVnpRaEN5SE9MQW1kUmRTbWNaWkZLaWlLTE5XYTl1dXQ0NnlCUk5qaS1mZWl0TDBURXVtS0dHa2QzZXQ1dGlVTVdyWTlSQ1VRWU5FX08zM2pNamUyYy0wR2s1d1VoSTlJUzViRGZsQzdyRnE4X0xFSjV1dTA4ZmszR05RZF9HWTUtSFhtZk1KaGoyLVZKNG9ZLUFMQWV1cXJuZlVRbmxRbUZxSnhSMF94VG16M3BhUXBac3dKZjFMQQ?oc=5",
+      "source_title": "Cultural Archive Era Announces Los Angeles Event Exploring the Cultural Legacy of the 2014–2018 Social Media Era - The Norfolk Daily News",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-07",
+      "keyword": "archive",
+      "language": "en",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "감성",
+      "implied_meaning": "과거 SNS 문화 유산",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-b8a9b8f1",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5kTEcwUjg5c19ZbmFqWWNRWHV3c1BNelhWM3ZIVjEwOU1qa1VmVmxoZWxHLVRSalIzbkt2Y3JBRlVGUTVTY1N5d1Iza0RwSm53VTJmVE9ZNThmaHVWbWpxbHByVHpwUQ?oc=5",
+      "source_title": "3D Printers and a Wig Archive Help the ‘SNL’ Hair and Makeup Team Go Wilder Than Ever - IMDb",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "archive",
+      "language": "en",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "예술",
+      "implied_meaning": "분장 소품 보관소",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-94b239c1",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVzlHRFdFT0ExSGswdDBGeXhoV2xSX0x1eGlEMjg1eGZGQi00bzAxdmYxV3ExQ1ZKNUVsQUxVN2pzUmxXempQYWpJT0p3UFZWMUg1WkpfTW1zcHgxd3p5ZkN5bW16UUhnMGdkbnF1Q1MzZkRudXZXWlBjT2NuQk5qV1NIQlBQUl9LRjV3NUNZdW0zTDRhQXFhOGgtMG53Sy03QUE?oc=5",
+      "source_title": "From the Echo Press archives, 1976: A big year for road work - Alexandria Echo Press",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "archive",
+      "language": "en",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "감성",
+      "implied_meaning": "과거 기록 보관",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-34399fd8",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcmdJUFhLdFZvZkplV2FwaUR2UFFicFV0VjRxcVJGWGJzVEtvZy1TdzRVQUM3YXRQcUt0dEc2aElUQ3lDZ0RIZDRwNjl4Znc2emR2LXVXMzNiSXNPc3VVV3BzUGQwQVhvWkM0TXRDb0lURFl4UFhVUXEzTnlIMWxfdVNjNE1qa0tHRkhtOTAwbGVkVHdPUDFwcw?oc=5",
+      "source_title": "L’Empereur is this week’s Console Archives on Nintendo Switch 2 - Nintendo Everything",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "archive",
+      "language": "en",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "큐레이션",
+      "implied_meaning": "과거 게임 모음",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-11-d2620bed",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSlBlZ0RWNF9BNV9UUFlHVENhaVFSeTQ4NV9JT2xxdEJZcUhsQWNjbnBHcE9STFUxekQ1Wmo3c2lnUjJmbFJKNUxyNFJJV24zaWIyVHdIN1NMbmVFSGd0S0xIdXFZcE5yUE4tSDVqaDRkM3pfLTRGMkcwM2x5WXN6LXBRU0Vpd3FrYWhFelV4NXV3SlBUVkdhZzZXMFNIczg?oc=5",
+      "source_title": "'Once There Was a Tram' Archives the Faces of Alexandrians in Transit - cairoscene.com",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-11",
+      "keyword": "archive",
+      "language": "en",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "예술",
+      "implied_meaning": "기록물 모음",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-4f3797ee",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBaNG1TVDBQTm5rWVlpdzdPM2RLenpfMGRDR0ZFYmxjNklZUk5KMnd5bS1Mem9QV29PTDFRZzlPc1VMbWthX2YzMDVBWndoNnQ2ZVhRaGtySjZIMXFpaWc?oc=5",
+      "source_title": "Director General of Algerian Archives: We will continue supporting Sahrawi archives - وكالة الأنباء الصحراوية",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "archive",
+      "language": "en",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "제도",
+      "implied_meaning": "공공 기록 보존",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-a94cd350",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAzaHRnSUpvcFZvRjRLYTRTVUlCbHNGZkw0ZFdOejVIOWNDREt1WC1kX0x0UzJVT25FZi1ZTFpaSlFUeDZYM25GcHRSR21ZN0p0YXVRSTZLWFdacnIwNWc?oc=5",
+      "source_title": "President of Republic receives Director General of Algerian National Archives - وكالة الأنباء الصحراوية",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "archive",
+      "language": "en",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "제도",
+      "implied_meaning": "국가 기록 보관소",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-07-c334a94a",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONUEyTXhQNFFQTHNadjFmMVpTTEVIRm1Jbl92RG02cFk0VndYY3RZdFNBTklGUGJmMXJiS3dlUTR3RVZWcDZBb0VXdG8xM2xOZElOdzZUVFZiSG5lTUE1YUptUUVuZVpRM0trN0NtOGpVQWVGVmpRQm11TzNNSV9VMjNMVTZpNEdFdUtuLVdTUjlPcXYxb3RRUVUxaEpVX1hNM2dmSFUyeGk0NnZHM0JSMWdiaDhpbU15cFc2Rw?oc=5",
+      "source_title": "Wyoming Archives Has Butch Cassidy Negative, Despite ‘Original’ Offered At Auction - Cowboy State Daily",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-07",
+      "keyword": "archive",
+      "language": "en",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "제도",
+      "implied_meaning": "공공 기록 보관소",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-f6df1a8b",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeUpwUEc1M1BGdlRmME43V090WEk1aVk4TldSb1ZWR1k0YnZNUjJ2Zks3QUpVWllHT3Qyal9BRGllY01lU1owc0NTOFpidlFacS1WU0JZc3BqaTFGaEJNaVVYXzV1WnVUaVZRMTR2aDQ2Qm1jV29INDYyQ0h5bXRpT192dmJid09CQTNOQ3VrYU82MTdlN1ZndDNKMTlDQ3FHckNIdktidzE5QUQtYTVGYWhib3E0bXJwNHM1TFBlcFhSZw?oc=5",
+      "source_title": "Offline Memories: Hong Kong LGBTQ+ Archive of Printed Matter from the Pre-Internet Era - Time Out Worldwide",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "archive",
+      "language": "en",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "감성",
+      "implied_meaning": "과거 기록 보관",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-ee430118",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMmM4d2lLMEFQNGJheHV5M3lELTlzakZ6TDlWcldKNVp3VGhxWURvQlE0LUZvUDhoNVhhcnNLTy02ZlZNazViX3FIWkVJcTdTZUdONmRZNnpfRU94bElHRnR4Mkg3VDU3UUNJd1V2Z3RkWklWM2ZsRms4YVVTMFdEQlFPTWZoc0tMU0FGcjA2Q09kd2h2LURFQmU1elV1QQ?oc=5",
+      "source_title": "From the archives: the top stories over the last eight years - micebook.",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "archive",
+      "language": "en",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "큐레이션",
+      "implied_meaning": "지난 8년간의 주요 기사 모음",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-59baa10f",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZzZZY2N1MXdINE5oSm9KY094V2ZZb0g1REFoVFJIREd1V3kwTzdIQUZjQnhzTjRBOU1WSHpCY2JUVjdvQms2VmExWjFrcDduQWRsQkI5R3RiWEMtcWVsMWFyZnpFb3VXYVJEN2g3dVFjLXc2ZEsyanNCTUROalU3U0ZHeExkNE9PcDg1SGFrNHlpUzhFNnVKNEFqMVdFcU1aS2p3ZWhNc2NIbjVtUWs3RmNB?oc=5",
+      "source_title": "So, siccing the AI censor on archived comments now? - Daily Kos",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "archive",
+      "language": "en",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "시민",
+      "implied_meaning": "과거 기록",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-769ae563",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaHUyNWtrelRZWC1UNmVEUGJIaEt2X2puRWZVaGoxSTd6eFdiQW1RV0pSMFZXSkNhQnZjQXo2Ylh2QmYyZU1ZMUU5MktmUlNRRm8zTkRqeDc1TDRpNk83TC1IaWNFNGhIdF9KOFpMYUtCWW5vSXBhZ1Y1MlRtUGZjZVBCSlpYV1lZSUVURmtSd3hTaF9LRTdJc0dkRzR3TEM1WlVsTFBPa0xTRTIx?oc=5",
+      "source_title": "Stories of enslaved Africans return to Guyana through ‘Voices’ archive project - News Room Guyana",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "archive",
+      "language": "en",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "시민",
+      "implied_meaning": "기억 보존 및 공유",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-fa08adff",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQWJjMFQyNWJ4Y3k3ZzJaeDRQM0NZYmhYVFpsQ2JUbWhva2lyTDN3RVpfbzZpUGY5eU1VdnJJU0xxS3BZZHRkeDhLX3VOcXVVTzh2TVFiSldheV9GWk9pdUlGNjN1OWFjMk5KWk5VZkU5bmhFMURHR1Bhd2dEZVNIenlDdVVGYXJDX2RSREdfdWF4M0xRaXF6eW5JS3dhSGhRcTBYQUtpRFNJZVk1WmhVMG1XRHZLVVVXdWl3U3lQblBjQQ?oc=5",
+      "source_title": "Researching LGBTQ+ histories in the archives of government - Wired-Gov",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "archive",
+      "language": "en",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "제도",
+      "implied_meaning": "정부 기록 보관소",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-3afebcaf",
+      "source_type": "news",
+      "source_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBNRDR6R3ZfT0ZKT2RYdXVPaF9BNzI5NGduYko3TFN3VXZTQ3F2NjY0ekE1MHhSOU1tSFk3OWxJV095TEFYdUZtdXRRZHVXcmE0?oc=5",
+      "source_title": "Good Smile Company Nendoroid \"Blue Archive: Takanashi Hoshino (Imminent Battle)\" Recreates Her Fierce, Mysterious Combat Stance! - 玩具人 TOY PEOPLE",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "archive",
+      "language": "en",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "마케팅",
+      "implied_meaning": "게임 세계관",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-11-df2cf493",
+      "source_type": "news",
+      "source_url": "https://www.nextdaily.co.kr/news/articleView.html?idxno=250273",
+      "source_title": "겐조, 브랜드 첫 프리폴 컬렉션 공개…1970년대 아카이브 모티브 현대적...",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-11",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "마케팅",
+      "implied_meaning": "브랜드 과거 자료",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-11-6a38d468",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/884566017",
+      "source_title": "[뉴공 아카이브] 이재정 더불어민주당 의원, 이용우 더불어민주당 의원...",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-11",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "큐레이션",
+      "implied_meaning": "과거 뉴스 모음",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-11-46c7be4b",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/884560655",
+      "source_title": "[뉴공 아카이브]겸손NSC: 7년 만에 평양 찾은 시진핑, 북중 밀착이 가져...",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-11",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "큐레이션",
+      "implied_meaning": "과거 뉴스 모음",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-11-d450c703",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/884561503",
+      "source_title": "[뉴공 아카이브]퍼니포: 민주당 ‘선거제도 개혁 TF’ 출범… 개헌 카드...",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-11",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "제도",
+      "implied_meaning": "과거 기록 보관",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-11-56597a1d",
+      "source_type": "news",
+      "source_url": "https://www.jejudomin.co.kr/news/articleView.html?idxno=319852",
+      "source_title": "푸른 빛으로 마주하는 4·3… 산지천갤러리 'SJC 아카이브 윈도우-푸른 ...",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-11",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "예술",
+      "implied_meaning": "기록 전시",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-11-4cc4f231",
+      "source_type": "news",
+      "source_url": "https://www.headlinejeju.co.kr/news/articleView.html?idxno=594273",
+      "source_title": "제주 4·3을 바라보는 또 다른 시선…'푸른 날' 아카이브 전시 개최",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-11",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "예술",
+      "implied_meaning": "기록물 모음",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-11-8e57ec34",
+      "source_type": "news",
+      "source_url": "https://www.fashionbiz.co.kr/article/226996",
+      "source_title": "‘로봇에게 옷을?’ 더비아카이브, 휴머노이드 의상 전시서 컬렉션 선봬",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-11",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "예술",
+      "implied_meaning": "의상 컬렉션",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-11-467f28a1",
+      "source_type": "news",
+      "source_url": "https://www.fashionbiz.co.kr/article/226648",
+      "source_title": "[패션비즈 아카이브] 기사로 보는 ‘10년 전 오늘’은? : 2016년 6월호",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-11",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "마케팅",
+      "implied_meaning": "과거 패션 기록",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-11-c7feb0d1",
+      "source_type": "news",
+      "source_url": "https://www.globale.co.kr/news/articleView.html?idxno=38761",
+      "source_title": "넥슨게임즈 〈블루아카이브〉, 스팀 국내 매출 2위 등극",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-11",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "예술",
+      "implied_meaning": "게임 콘텐츠 모음",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-11-d05121b2",
+      "source_type": "news",
+      "source_url": "https://www.dt.co.kr/article/12066966?ref=naver",
+      "source_title": "넥슨 ‘블루 아카이브’, 스팀 국내 매출 1위 달성",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-11",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "예술",
+      "implied_meaning": "게임 콘텐츠 모음",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-f35b31b3",
+      "source_type": "news",
+      "source_url": "https://www.gamechosun.co.kr/webzine/article/view.php?no=222600",
+      "source_title": "스팀·원스토어 동시 1위, 넥슨 ‘블루 아카이브’ 4.5주년 반등이 가지...",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "마케팅",
+      "implied_meaning": "게임 콘텐츠 모음",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-91da10c7",
+      "source_type": "news",
+      "source_url": "https://www.inven.co.kr/webzine/news/?news=317349",
+      "source_title": "케이의 힘? '블루 아카이브' 스팀 국내 매출 1위 기록",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "예술",
+      "implied_meaning": "게임 콘텐츠 모음",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-3b92d7ef",
+      "source_type": "news",
+      "source_url": "https://www.g-enews.com/view.php?ud=202606101609141430c5fa75ef86_1",
+      "source_title": "&quot;우리 딸이 하늘을 날아요&quot;…블루 아카이브, 스팀 매출 1위",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "마케팅",
+      "implied_meaning": "게임 콘텐츠",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-a8e3fa70",
+      "source_type": "news",
+      "source_url": "https://gamefocus.co.kr/detail.php?number=176521",
+      "source_title": "'아리스(무장)'과 '케이' 업데이트 된 '블루 아카이브', '스팀' 국내 지...",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "기술",
+      "implied_meaning": "게임 업데이트 및 보관",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-bc772e7b",
+      "source_type": "news",
+      "source_url": "https://www.cnbnews.com/news/articleView.html?idxno=1004191",
+      "source_title": "넥슨, '블루 아카이브' 메인 스토리 'EX. 데카그라마톤 편 3장' Part 3 업데...",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "예술",
+      "implied_meaning": "게임 콘텐츠",
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-10-0860bde1",
+      "source_type": "news",
+      "source_url": "http://www.opinionnews.co.kr/news/articleView.html?idxno=139822",
+      "source_title": "[박혜진의 블록체인 아카이브] 어게인 크립토 윈터? 이번 겨울이 다른 ...",
+      "collected_at": "2026-06-11",
+      "published_at": "2026-06-10",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": "기술",
+      "implied_meaning": "데이터 저장소",
+      "note": null
+    },
     {
       "id": "ghost-2026-06-09-59e340c2",
       "source_type": "news",
@@ -18,8 +1083,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "공공 기록물 보관",
       "note": null
     },
     {
@@ -33,8 +1098,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "공공 기록 보존",
       "note": null
     },
     {
@@ -48,8 +1113,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "게임 콘텐츠 모음",
       "note": null
     },
     {
@@ -63,8 +1128,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "군정 기록물 보존",
       "note": null
     },
     {
@@ -78,8 +1143,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "마케팅",
+      "implied_meaning": "브랜드의 과거 유산",
       "note": null
     },
     {
@@ -93,8 +1158,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "마케팅",
+      "implied_meaning": "게임 콘텐츠 모음",
       "note": null
     },
     {
@@ -108,8 +1173,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "마케팅",
+      "implied_meaning": "게임 세계관의 팬 공간",
       "note": null
     },
     {
@@ -123,8 +1188,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "게임 콘텐츠 모음",
       "note": null
     },
     {
@@ -138,8 +1203,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "게임 콘텐츠",
       "note": null
     },
     {
@@ -153,8 +1218,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "영화 기록 보관소",
       "note": null
     },
     {
@@ -168,8 +1233,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "게임 콘텐츠 모음",
       "note": null
     },
     {
@@ -183,8 +1248,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "게임 콘텐츠",
       "note": null
     },
     {
@@ -198,8 +1263,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "공공 기록 보관소",
       "note": null
     },
     {
@@ -213,8 +1278,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "기술",
+      "implied_meaning": "게임 콘텐츠 저장소",
       "note": null
     },
     {
@@ -228,8 +1293,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "게임 콘텐츠",
       "note": null
     },
     {
@@ -243,8 +1308,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "게임 콘텐츠 모음",
       "note": null
     },
     {
@@ -258,8 +1323,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "기술",
+      "implied_meaning": "게임 콘텐츠",
       "note": null
     },
     {
@@ -273,8 +1338,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "게임 스토리 콘텐츠",
       "note": null
     },
     {
@@ -288,8 +1353,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "게임 콘텐츠 모음",
       "note": null
     },
     {
@@ -303,8 +1368,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "게임 콘텐츠 모음",
       "note": null
     },
     {
@@ -318,8 +1383,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "큐레이션",
+      "implied_meaning": "게임 콘텐츠 모음",
       "note": null
     },
     {
@@ -333,8 +1398,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "마케팅",
+      "implied_meaning": "게임 콘텐츠 모음",
       "note": null
     },
     {
@@ -348,8 +1413,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "게임 콘텐츠 모음",
       "note": null
     },
     {
@@ -363,8 +1428,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "게임 콘텐츠",
       "note": null
     },
     {
@@ -378,8 +1443,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "시민",
+      "implied_meaning": "마을의 역사 기록",
       "note": null
     },
     {
@@ -393,8 +1458,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "게임 음악 창작",
       "note": null
     },
     {
@@ -408,8 +1473,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "시민",
+      "implied_meaning": "5·18 민주화운동 기록물 보존",
       "note": null
     },
     {
@@ -423,8 +1488,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "향토음식 기록 보존",
       "note": null
     },
     {
@@ -438,8 +1503,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "마케팅",
+      "implied_meaning": "게임 콘텐츠 모음",
       "note": null
     },
     {
@@ -453,8 +1518,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "영화/영상물 보존",
       "note": null
     },
     {
@@ -468,8 +1533,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "대통령 기록 보관소",
       "note": null
     },
     {
@@ -483,8 +1548,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "디지털 기록물",
       "note": null
     },
     {
@@ -498,8 +1563,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "마케팅",
+      "implied_meaning": "빈티지 패션 보물창고",
       "note": null
     },
     {
@@ -513,8 +1578,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "과거 영상 기록",
       "note": null
     },
     {
@@ -528,8 +1593,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "마케팅",
+      "implied_meaning": "과거 스타일 기록",
       "note": null
     },
     {
@@ -543,8 +1608,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "감성",
+      "implied_meaning": "과거의 기록",
       "note": null
     },
     {
@@ -558,8 +1623,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "역사 기록 보관소",
       "note": null
     },
     {
@@ -573,8 +1638,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "기관 기록 보관",
       "note": null
     },
     {
@@ -588,8 +1653,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "큐레이션",
+      "implied_meaning": "과거 기록 모음",
       "note": null
     },
     {
@@ -603,8 +1668,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "과거 뉴스 기록",
       "note": null
     },
     {
@@ -618,8 +1683,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "과거 기록 보관",
       "note": null
     },
     {
@@ -633,8 +1698,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "분장 소품 보관소",
       "note": null
     },
     {
@@ -648,8 +1713,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "분장 소품 보관소",
       "note": null
     },
     {
@@ -663,8 +1728,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "예술 작품 모음",
       "note": null
     },
     {
@@ -678,8 +1743,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "시민",
+      "implied_meaning": "국가 기록 보관소",
       "note": null
     },
     {
@@ -693,8 +1758,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "마케팅",
+      "implied_meaning": "과거 컬렉션",
       "note": null
     },
     {
@@ -708,8 +1773,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "역사적 기록 보관소",
       "note": null
     },
     {
@@ -723,8 +1788,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "게임 콘텐츠",
       "note": null
     },
     {
@@ -738,8 +1803,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "기관 기록 보관소",
       "note": null
     },
     {
@@ -753,8 +1818,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "오래된 기록물",
       "note": null
     },
     {
@@ -768,8 +1833,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "시민",
+      "implied_meaning": "개인의 역사 기록",
       "note": null
     },
     {
@@ -783,8 +1848,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "기술",
+      "implied_meaning": "게임 업데이트 기록",
       "note": null
     },
     {
@@ -798,8 +1863,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "큐레이션",
+      "implied_meaning": "과거 콘텐츠 모음",
       "note": null
     },
     {
@@ -813,8 +1878,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "큐레이션",
+      "implied_meaning": "과거 기사 모음",
       "note": null
     },
     {
@@ -828,8 +1893,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "공공 기록 보관소",
       "note": null
     },
     {
@@ -843,8 +1908,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "영화 자료",
       "note": null
     },
     {
@@ -858,8 +1923,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "큐레이션",
+      "implied_meaning": "과거 기사 모음",
       "note": null
     },
     {
@@ -873,8 +1938,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "기록 관리",
       "note": null
     },
     {
@@ -888,8 +1953,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "과거 기록 보관",
       "note": null
     },
     {
@@ -903,8 +1968,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "보관된 예술품",
       "note": null
     },
     {
@@ -918,8 +1983,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "기록 보관소",
       "note": null
     },
     {
@@ -933,8 +1998,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "기술",
+      "implied_meaning": "영상 저장소",
       "note": null
     },
     {
@@ -948,8 +2013,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "프레드 허조그의 보관물",
       "note": null
     },
     {
@@ -963,8 +2028,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "시민",
+      "implied_meaning": "기록 보존",
       "note": null
     },
     {
@@ -978,8 +2043,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "공공 기록 보존",
       "note": null
     },
     {
@@ -993,8 +2058,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "공공 기록 보존",
       "note": null
     },
     {
@@ -1008,8 +2073,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "공공 기록 보존",
       "note": null
     },
     {
@@ -1023,8 +2088,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "비틀즈 관련 자료 모음",
       "note": null
     },
     {
@@ -1038,8 +2103,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "마케팅",
+      "implied_meaning": "과거 컬렉션 재판매",
       "note": null
     },
     {
@@ -1053,8 +2118,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "감성",
+      "implied_meaning": "과거 기록",
       "note": null
     },
     {
@@ -1068,8 +2133,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "과거 기록 보관",
       "note": null
     },
     {
@@ -1083,8 +2148,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "감성",
+      "implied_meaning": "과거 SNS 기록",
       "note": null
     },
     {
@@ -1098,8 +2163,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "기록물, 보존된 이야기",
       "note": null
     },
     {
@@ -1113,8 +2178,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "감성",
+      "implied_meaning": "과거 기록 되돌아보기",
       "note": null
     },
     {
@@ -1128,8 +2193,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "공공 기록 보존",
       "note": null
     },
     {
@@ -1143,8 +2208,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "시민",
+      "implied_meaning": "커뮤니티 기록",
       "note": null
     },
     {
@@ -1158,8 +2223,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "마케팅",
+      "implied_meaning": "역사적 의복 보관",
       "note": null
     },
     {
@@ -1173,8 +2238,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "과거 기록 보관",
       "note": null
     },
     {
@@ -1188,8 +2253,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "과거 기록 보관",
       "note": null
     },
     {
@@ -1203,8 +2268,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "과거 보도 기록",
       "note": null
     },
     {
@@ -1218,8 +2283,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "마케팅",
+      "implied_meaning": "브랜드 과거 자료",
       "note": null
     },
     {
@@ -1233,8 +2298,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "공공 기록 보존",
       "note": null
     },
     {
@@ -1248,8 +2313,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "게임 콘텐츠 모음",
       "note": null
     },
     {
@@ -1263,8 +2328,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "기술",
+      "implied_meaning": "게임 콘텐츠 업데이트",
       "note": null
     },
     {
@@ -1278,8 +2343,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "마케팅",
+      "implied_meaning": "게임 콘텐츠",
       "note": null
     },
     {
@@ -1293,8 +2358,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "공공 기록물 보관",
       "note": null
     },
     {
@@ -1308,8 +2373,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "공공 기록물 관리",
       "note": null
     },
     {
@@ -1323,8 +2388,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "게임 콘텐츠",
       "note": null
     },
     {
@@ -1338,8 +2403,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "게임 콘텐츠",
       "note": null
     },
     {
@@ -1353,8 +2418,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "게임 콘텐츠 모음",
       "note": null
     },
     {
@@ -1368,8 +2433,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "게임 콘텐츠 모음",
       "note": null
     },
     {
@@ -1383,8 +2448,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "공공 기록물 보관",
       "note": null
     },
     {
@@ -1398,8 +2463,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "게임 콘텐츠 모음",
       "note": null
     },
     {
@@ -1413,8 +2478,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "게임 콘텐츠",
       "note": null
     },
     {
@@ -1428,8 +2493,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "공공 기록물 관리",
       "note": null
     },
     {
@@ -1443,8 +2508,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "공공 기록물 보관",
       "note": null
     },
     {
@@ -1458,8 +2523,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "공공 기록물 보관",
       "note": null
     },
     {
@@ -1473,8 +2538,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "시민",
+      "implied_meaning": "정의를 위한 기록",
       "note": null
     },
     {
@@ -1488,8 +2553,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "공공 기록 보관",
       "note": null
     },
     {
@@ -1503,8 +2568,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "공공 기록 보관소",
       "note": null
     },
     {
@@ -1518,8 +2583,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "공공 기록물 관리",
       "note": null
     },
     {
@@ -1533,8 +2598,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "문화예술 기록 보관소",
       "note": null
     },
     {
@@ -1548,8 +2613,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "과거 기록 전시",
       "note": null
     },
     {
@@ -1563,8 +2628,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "시민",
+      "implied_meaning": "기록물 구축",
       "note": null
     },
     {
@@ -1578,8 +2643,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "시민",
+      "implied_meaning": "인터넷 기록 보존",
       "note": null
     },
     {
@@ -1593,8 +2658,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "영구 보존 기록물",
       "note": null
     },
     {
@@ -1608,8 +2673,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "레오나르도 다빈치 원본 기록",
       "note": null
     },
     {
@@ -1623,8 +2688,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "기술",
+      "implied_meaning": "데이터 저장소",
       "note": null
     },
     {
@@ -1638,8 +2703,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "온라인 영상 보존",
       "note": null
     },
     {
@@ -1653,8 +2718,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "시민",
+      "implied_meaning": "소수자 이야기 보존",
       "note": null
     },
     {
@@ -1668,8 +2733,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "시민",
+      "implied_meaning": "국가 기록 보관소",
       "note": null
     },
     {
@@ -1683,8 +2748,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "온라인 자료 모음",
       "note": null
     },
     {
@@ -1698,8 +2763,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "음악 콘텐츠 모음",
       "note": null
     },
     {
@@ -1713,8 +2778,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "공공 기록 보관소",
       "note": null
     },
     {
@@ -1728,8 +2793,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "큐레이션",
+      "implied_meaning": "기술 뉴스 모음",
       "note": null
     },
     {
@@ -1743,8 +2808,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "희귀 디자인 모음",
       "note": null
     },
     {
@@ -1758,8 +2823,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "자료 보관소",
       "note": null
     },
     {
@@ -1773,8 +2838,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "디지털 기록 보관소",
       "note": null
     },
     {
@@ -1788,8 +2853,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "기술",
+      "implied_meaning": "영상 저장소",
       "note": null
     },
     {
@@ -1803,8 +2868,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "마케팅",
+      "implied_meaning": "과거 영화 재출시",
       "note": null
     },
     {
@@ -1818,8 +2883,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "음악적 스타일 변화",
       "note": null
     },
     {
@@ -1833,8 +2898,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "개인 소장 기록",
       "note": null
     },
     {
@@ -1848,8 +2913,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "과거 작품 모음",
       "note": null
     },
     {
@@ -1863,8 +2928,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "음악, 이야기 모음",
       "note": null
     },
     {
@@ -1878,8 +2943,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "기록 보존 프로젝트",
       "note": null
     },
     {
@@ -1893,8 +2958,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "시민",
+      "implied_meaning": "기억 보존",
       "note": null
     },
     {
@@ -1908,8 +2973,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "감성",
+      "implied_meaning": "과거의 추억",
       "note": null
     },
     {
@@ -1923,8 +2988,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "기술",
+      "implied_meaning": "방송 다시보기",
       "note": null
     },
     {
@@ -1938,8 +3003,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "감성",
+      "implied_meaning": "과거 SNS 기록",
       "note": null
     },
     {
@@ -1953,8 +3018,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "해양 기록 보존",
       "note": null
     },
     {
@@ -1968,8 +3033,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "마케팅",
+      "implied_meaning": "과거 패션 기록",
       "note": null
     },
     {
@@ -1983,8 +3048,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "큐레이션",
+      "implied_meaning": "지난 경기 영상 모음",
       "note": null
     },
     {
@@ -1998,8 +3063,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "큐레이션",
+      "implied_meaning": "과거 기록 모음",
       "note": null
     },
     {
@@ -2013,8 +3078,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "디지털 작품 모음",
       "note": null
     },
     {
@@ -2028,8 +3093,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "대통령 기록물 보존",
       "note": null
     },
     {
@@ -2043,8 +3108,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "공공 기록 보관소",
       "note": null
     },
     {
@@ -2058,8 +3123,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "마케팅",
+      "implied_meaning": "브랜드 역사 자료",
       "note": null
     },
     {
@@ -2073,8 +3138,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "마케팅",
+      "implied_meaning": "브랜드 역사 자료",
       "note": null
     },
     {
@@ -2088,8 +3153,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "공공 기록물 보관",
       "note": null
     },
     {
@@ -2103,8 +3168,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "큐레이션",
+      "implied_meaning": "과거 콘텐츠 모음",
       "note": null
     },
     {
@@ -2118,8 +3183,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "시민",
+      "implied_meaning": "과거 기록 모음",
       "note": null
     },
     {
@@ -2133,8 +3198,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "과거 기록 보관",
       "note": null
     },
     {
@@ -2148,8 +3213,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "군정 기록 보관소",
       "note": null
     },
     {
@@ -2163,8 +3228,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "문화예술 기록물",
       "note": null
     },
     {
@@ -2178,8 +3243,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "시민",
+      "implied_meaning": "정의를 위한 기록 보관",
       "note": null
     },
     {
