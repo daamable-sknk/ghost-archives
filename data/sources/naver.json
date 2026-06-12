@@ -7289,7 +7289,82 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-06-12-d986a84b",
+      "source_type": "news",
+      "source_url": "https://www.apnews.kr/news/articleView.html?idxno=3049033",
+      "source_title": "'블루 아카이브' 스팀에서도 통했다…스팀 매출 1위, &quot;국내 서비스 4.5주...",
+      "collected_at": "2026-06-12",
+      "published_at": "2026-06-12",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-12-a5bede73",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/884767402",
+      "source_title": "[뉴공 아카이브]민정훈 국립외교원 북미유럽연구부 교수, 윤성욱 충북대...",
+      "collected_at": "2026-06-12",
+      "published_at": "2026-06-12",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-12-3e1c55d7",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/884754791",
+      "source_title": "[뉴공 아카이브]퍼니포: 소쿠리 투표부터 용지 부족까지… 선거사고 반...",
+      "collected_at": "2026-06-12",
+      "published_at": "2026-06-12",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-12-880d7a3d",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/884768013",
+      "source_title": "[뉴공 아카이브]오세진 트레일러너, 안수지 여행 크리에이터·싱어송라...",
+      "collected_at": "2026-06-12",
+      "published_at": "2026-06-12",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-12-04b288ed",
+      "source_type": "news",
+      "source_url": "https://www.munhwa.com/article/11595027?ref=naver",
+      "source_title": "TK 출신 신대경 보좌관 “갑질아카이브 만들 것”…‘국보협’ 출마",
+      "collected_at": "2026-06-12",
+      "published_at": "2026-06-12",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-06-11T03:31:46.074911+00:00"
+  "last_fetched": "2026-06-12T03:30:46.855319+00:00"
 }
