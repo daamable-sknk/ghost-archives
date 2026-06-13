@@ -7364,7 +7364,67 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-06-13-cf56fe5e",
+      "source_type": "news",
+      "source_url": "http://www.djtimes.co.kr/news/articleView.html?idxno=112228",
+      "source_title": "[마을아카이브 ⑥] 정미면 수당리",
+      "collected_at": "2026-06-13",
+      "published_at": "2026-06-13",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-12-1e55e08e",
+      "source_type": "news",
+      "source_url": "https://www.g1tv.co.kr/news?mid=1_207_6&newsid=344594",
+      "source_title": "횡성군, 참전 유공자 아카이브 기록전",
+      "collected_at": "2026-06-13",
+      "published_at": "2026-06-12",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-12-2e3eccb1",
+      "source_type": "news",
+      "source_url": "https://economist.co.kr/article/view/ecn202606120037",
+      "source_title": "대형 아카이브 북 ‘코리안드림 담대한 여정’ 출간",
+      "collected_at": "2026-06-13",
+      "published_at": "2026-06-12",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-12-80a31259",
+      "source_type": "news",
+      "source_url": "https://www.hankyung.com/article/202606123010O",
+      "source_title": "현대경제연구원, '2026 디지털 원격훈련 아카이브' 운영 기관 4년 연속 ...",
+      "collected_at": "2026-06-13",
+      "published_at": "2026-06-12",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-06-12T03:30:46.855319+00:00"
+  "last_fetched": "2026-06-13T02:56:16.232374+00:00"
 }
