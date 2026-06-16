@@ -7964,7 +7964,82 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-06-16-81e111ec",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/885436011",
+      "source_title": "[뉴공 아카이브]윤건영 더불어민주당 의원: 선관위 국조특위 출범… 최...",
+      "collected_at": "2026-06-16",
+      "published_at": "2026-06-16",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-16-2c8bf315",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/885434225",
+      "source_title": "[뉴공 아카이브]박현광 겸손방송국 기자: 李대통령, 레오 14세 교황과 첫...",
+      "collected_at": "2026-06-16",
+      "published_at": "2026-06-16",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-16-a9508985",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/885435092",
+      "source_title": "[뉴공 아카이브]박문성 축구 해설위원: 홍명보호, 16년 만에 월드컵 첫...",
+      "collected_at": "2026-06-16",
+      "published_at": "2026-06-16",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-16-dc5fbf3c",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/885436872",
+      "source_title": "[뉴공 아카이브]퍼니포: 역대 최장기 기록, 이화영 국민참여재판 시작…...",
+      "collected_at": "2026-06-16",
+      "published_at": "2026-06-16",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-16-85e2d4e5",
+      "source_type": "news",
+      "source_url": "https://www.newstnt.com/news/articleView.html?idxno=706489",
+      "source_title": "오뚜기, 옛 안양1공장 재생해 '함태호 홀' 열다…식문화원·아카이브 조...",
+      "collected_at": "2026-06-16",
+      "published_at": "2026-06-16",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-06-15T03:44:02.707191+00:00"
+  "last_fetched": "2026-06-16T03:38:35.799010+00:00"
 }
