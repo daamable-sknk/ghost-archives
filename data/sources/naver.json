@@ -8624,7 +8624,67 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-06-20-7ee38d47",
+      "source_type": "news",
+      "source_url": "https://www.lcnews.co.kr/news/articleView.html?idxno=203729",
+      "source_title": "넥슨 NDC 26 마무리…'블루 아카이브'와 '프로젝트 RX' 기대",
+      "collected_at": "2026-06-20",
+      "published_at": "2026-06-20",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-20-b318e255",
+      "source_type": "news",
+      "source_url": "https://www.econovill.com/news/articleView.html?idxno=742923",
+      "source_title": "'신 진구의 해저비밀성' 27일 상영회 개최…시네 아카이브 A3 포스터 증...",
+      "collected_at": "2026-06-20",
+      "published_at": "2026-06-20",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-19-3869e912",
+      "source_type": "news",
+      "source_url": "http://www.djtimes.co.kr/news/articleView.html?idxno=112353",
+      "source_title": "[마을아카이브 ⑦] 당진2동 용연1통 용이 오른 물길 따라, 스스로 일군 ...",
+      "collected_at": "2026-06-20",
+      "published_at": "2026-06-19",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-19-69e17bbe",
+      "source_type": "news",
+      "source_url": "https://www.lcnews.co.kr/news/articleView.html?idxno=203696",
+      "source_title": "&quot;선생님, 체력 강화합니다!&quot;, '블루 아카이브' 키보토스런 참가해보니",
+      "collected_at": "2026-06-20",
+      "published_at": "2026-06-19",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-06-19T03:52:15.533556+00:00"
+  "last_fetched": "2026-06-20T02:54:27.882151+00:00"
 }
