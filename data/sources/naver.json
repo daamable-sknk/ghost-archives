@@ -8684,7 +8684,37 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-06-20-74a9c742",
+      "source_type": "news",
+      "source_url": "https://gamefocus.co.kr/detail.php?number=176829",
+      "source_title": "'키사키(수영복)'과 '슌(수영복)' 실장, '블루 아카이브' 일본 서버 공식...",
+      "collected_at": "2026-06-21",
+      "published_at": "2026-06-20",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-06-20-8a596a76",
+      "source_type": "news",
+      "source_url": "https://www.dailian.co.kr/news/view/1657221/?sc=Naver",
+      "source_title": "무대는 끝나도 기록은 남는다…공연 시장 지탱하는 ‘아카이빙의 힘’...",
+      "collected_at": "2026-06-21",
+      "published_at": "2026-06-20",
+      "keyword": "아카이빙",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-06-20T02:54:27.882151+00:00"
+  "last_fetched": "2026-06-21T03:40:31.858126+00:00"
 }
