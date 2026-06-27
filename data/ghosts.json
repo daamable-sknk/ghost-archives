@@ -4,7 +4,7 @@
     "description": "'아카이브'라는 단어의 용례 수집",
     "last_updated": "2026-06-27T02:44:09.503119+00:00",
     "total_count": 4064,
-    "reviewed_count": 4061
+    "reviewed_count": 4064
   },
   "items": [
     {
@@ -483,8 +483,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "시민",
+      "implied_meaning": "성소수자 기억 보존",
       "note": null
     },
     {
@@ -888,8 +888,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "마케팅",
+      "implied_meaning": "역사적 기록 보관소",
       "note": null
     },
     {
@@ -1038,8 +1038,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "마케팅",
+      "implied_meaning": "게임 IP 활용",
       "note": null
     },
     {
