@@ -4,7 +4,7 @@
     "description": "'아카이브'라는 단어의 용례 수집",
     "last_updated": "2026-07-01T02:59:21.961280+00:00",
     "total_count": 4402,
-    "reviewed_count": 4396
+    "reviewed_count": 4400
   },
   "items": [
     {
@@ -168,8 +168,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "음악가의 유물 모음",
       "note": null
     },
     {
@@ -528,8 +528,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "감성",
+      "implied_meaning": "과거 기록 되짚어보기",
       "note": null
     },
     {
@@ -678,8 +678,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "마케팅",
+      "implied_meaning": "브랜드 기록 보관소",
       "note": null
     },
     {
@@ -813,8 +813,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "데이비드 보위의 유물 모음",
       "note": null
     },
     {
