@@ -11534,7 +11534,67 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-07-03-9137cabb",
+      "source_type": "news",
+      "source_url": "https://www.gamechosun.co.kr/webzine/article/view.php?no=223195",
+      "source_title": "[체험기] 어른의 카드 꺼내게 만드는 팝업 '블루 아카이브 x 무신사 메가...",
+      "collected_at": "2026-07-04",
+      "published_at": "2026-07-03",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-07-03-b606c232",
+      "source_type": "news",
+      "source_url": "https://gamefocus.co.kr/detail.php?number=177228",
+      "source_title": "일상 속에 스며든 두 번째 기적, '블루 아카이브' X '디스커스 애슬레틱...",
+      "collected_at": "2026-07-04",
+      "published_at": "2026-07-03",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-07-03-e0468ac5",
+      "source_type": "news",
+      "source_url": "https://www.tgdaily.co.kr/news/articleView.html?idxno=405418",
+      "source_title": "홍대~ 용산서 열리는 '블루 아카이브' 팝업 스토어를 가보니..",
+      "collected_at": "2026-07-04",
+      "published_at": "2026-07-03",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-07-03-55d765b8",
+      "source_type": "news",
+      "source_url": "https://www.g-enews.com/view.php?ud=202607031641171106c5fa75ef86_1",
+      "source_title": "[게이머 현장] 돌아온 오타쿠 패션, '블루 아카이브' 무신사 팝업",
+      "collected_at": "2026-07-04",
+      "published_at": "2026-07-03",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-07-03T02:32:33.936969+00:00"
+  "last_fetched": "2026-07-04T02:29:53.162066+00:00"
 }
