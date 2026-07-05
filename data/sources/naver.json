@@ -11594,7 +11594,22 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-07-04-2c48bd34",
+      "source_type": "news",
+      "source_url": "https://www.yna.co.kr/view/AKR20260704030000075?input=1195m",
+      "source_title": "북미 게임팬 만난 넥슨 &quot;'블루 아카이브' 스핀오프 만들고파&quot;",
+      "collected_at": "2026-07-05",
+      "published_at": "2026-07-04",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-07-04T02:29:53.162066+00:00"
+  "last_fetched": "2026-07-05T02:39:41.177935+00:00"
 }
