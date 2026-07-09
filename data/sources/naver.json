@@ -12374,7 +12374,82 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-07-09-d67f2a1c",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/889074770",
+      "source_title": "[뉴공 아카이브]퍼니포: 장윤기 사건에 ‘보완수사권’ 재점화… 검·언...",
+      "collected_at": "2026-07-09",
+      "published_at": "2026-07-09",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-07-09-cfb40bae",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/889069418",
+      "source_title": "[뉴공 아카이브]겸손NSC: 李, 15조 방산시장 나토와 조달협정 추진… 기...",
+      "collected_at": "2026-07-09",
+      "published_at": "2026-07-09",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-07-09-7391bea0",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/889064675",
+      "source_title": "[뉴공 아카이브]박동규 미국 뉴욕/뉴저지 변호사·미주민주참여포럼 법...",
+      "collected_at": "2026-07-09",
+      "published_at": "2026-07-09",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-07-09-d5a854e8",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/889064496",
+      "source_title": "[뉴공 아카이브]이광수 광수네 복덕방 대표·12시에만나요 진행자: 삼성...",
+      "collected_at": "2026-07-09",
+      "published_at": "2026-07-09",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-07-08-924c984d",
+      "source_type": "news",
+      "source_url": "http://www.lak.co.kr/news/boardview.php?id=23461",
+      "source_title": "한국조경학회, ‘디지털 시대의 조경 아카이브’ 포럼 개최",
+      "collected_at": "2026-07-09",
+      "published_at": "2026-07-08",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-07-08T02:13:32.257167+00:00"
+  "last_fetched": "2026-07-09T02:32:22.695055+00:00"
 }
