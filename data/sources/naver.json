@@ -12449,7 +12449,82 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-07-10-a9c2f113",
+      "source_type": "news",
+      "source_url": "https://www.headlinejeju.co.kr/news/articleView.html?idxno=595629",
+      "source_title": "'기억을 넘어 미래로' 제주4·3아카이브 기록관, 무엇을 담아낼 것인가",
+      "collected_at": "2026-07-10",
+      "published_at": "2026-07-10",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-07-10-41ffb190",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/889154532",
+      "source_title": "[뉴공 아카이브]박현광 겸손방송국 기자: 15년 만에 몽골 국빈 방문… 李...",
+      "collected_at": "2026-07-10",
+      "published_at": "2026-07-10",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-07-09-afc7c2c0",
+      "source_type": "news",
+      "source_url": "https://www.thescoop.co.kr/news/articleView.html?idxno=310840",
+      "source_title": "IMF &quot;韓 성장률 1.9%→2.6%&quot;… 연 3%대 찍을까 [아카이브]",
+      "collected_at": "2026-07-10",
+      "published_at": "2026-07-09",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-07-09-71cfaa27",
+      "source_type": "news",
+      "source_url": "http://www.opinionnews.co.kr/news/articleView.html?idxno=141299",
+      "source_title": "[박혜진의 블록체인 아카이브] '오픈 USD'의 경고...&quot;원화스테이블코인...",
+      "collected_at": "2026-07-10",
+      "published_at": "2026-07-09",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-07-09-d5f77f51",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/889079039",
+      "source_title": "[뉴공 아카이브]노은주 건축가, 임형남 건축가: 협소 대지에 한 권의 책...",
+      "collected_at": "2026-07-10",
+      "published_at": "2026-07-09",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-07-09T02:32:22.695055+00:00"
+  "last_fetched": "2026-07-10T02:34:29.943929+00:00"
 }
