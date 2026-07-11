@@ -12524,7 +12524,67 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-07-10-094bf583",
+      "source_type": "news",
+      "source_url": "https://www.jejudomin.co.kr/news/articleView.html?idxno=320569",
+      "source_title": "제주의 문화유산·생태 자원 아카이빙…친환경 탁본 실습",
+      "collected_at": "2026-07-11",
+      "published_at": "2026-07-10",
+      "keyword": "아카이빙",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-07-10-2df70eaf",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/889169298",
+      "source_title": "[뉴공 아카이브]퍼니포: 27년 군 통신 전문가… 12.3 내란 제보를 결심한...",
+      "collected_at": "2026-07-11",
+      "published_at": "2026-07-10",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-07-10-e7bd33f5",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/889169601",
+      "source_title": "[뉴공 아카이브]임희윤 음악평론가, 박희아 음악평론가, 김도헌 음악평...",
+      "collected_at": "2026-07-11",
+      "published_at": "2026-07-10",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-07-10-1e8e70da",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/889168676",
+      "source_title": "[뉴공 아카이브]이광수 광수네 복덕방 대표·12시에 만나요 진행자, 이상...",
+      "collected_at": "2026-07-11",
+      "published_at": "2026-07-10",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-07-10T02:34:29.943929+00:00"
+  "last_fetched": "2026-07-11T02:10:25.812187+00:00"
 }
