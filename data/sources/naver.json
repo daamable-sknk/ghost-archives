@@ -12974,7 +12974,52 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-07-16-875b97ad",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/889705948",
+      "source_title": "[뉴공 아카이브]이억원 금융위원장: 장기채무 탕감·자본시장 정상화…...",
+      "collected_at": "2026-07-16",
+      "published_at": "2026-07-16",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-07-16-38c15a53",
+      "source_type": "news",
+      "source_url": "http://www.fashionn.com/board/read_new.php?table=1006&number=61744",
+      "source_title": "아카이브 앱크, 여름 무더위에 메쉬•레트로 아이템 인기! 호마이카 코...",
+      "collected_at": "2026-07-16",
+      "published_at": "2026-07-16",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-07-16-f030fa36",
+      "source_type": "news",
+      "source_url": "https://www.fashionbiz.co.kr/article/227944",
+      "source_title": "아카이브앱크, 여름 잡화 수요 잡았다… 메시·웨지힐 매출 ↑",
+      "collected_at": "2026-07-16",
+      "published_at": "2026-07-16",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-07-15T01:59:36.335737+00:00"
+  "last_fetched": "2026-07-16T02:09:05.448393+00:00"
 }
