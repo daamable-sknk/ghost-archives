@@ -13274,7 +13274,67 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-07-18-1a24d7c3",
+      "source_type": "news",
+      "source_url": "https://www.hani.co.kr/arti/culture/book/1268792.html",
+      "source_title": "심술 혹은 해악의 시대 헤쳐온 저항의 아카이브 [.txt]",
+      "collected_at": "2026-07-18",
+      "published_at": "2026-07-18",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-07-17-7db74532",
+      "source_type": "news",
+      "source_url": "https://www.elle.co.kr/article/1905390",
+      "source_title": "요즘 젠지는 유행 대신 아카이브 패션을 발굴합니다",
+      "collected_at": "2026-07-18",
+      "published_at": "2026-07-17",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-07-17-23ade93d",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/889820679",
+      "source_title": "[뉴공 아카이브]김보미 전 강진군의회 의장: ‘140만뷰’ 쇼츠에서 李대...",
+      "collected_at": "2026-07-18",
+      "published_at": "2026-07-17",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-07-17-2b746a82",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/889818274",
+      "source_title": "[뉴공 아카이브]퍼니포: “18㎝ 흉기를 커터칼로”… 가덕도 테러 축소...",
+      "collected_at": "2026-07-18",
+      "published_at": "2026-07-17",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-07-17T02:12:11.037892+00:00"
+  "last_fetched": "2026-07-18T02:01:31.759839+00:00"
 }
