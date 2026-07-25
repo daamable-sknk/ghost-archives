@@ -14234,7 +14234,82 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-07-25-29c1a611",
+      "source_type": "news",
+      "source_url": "https://www.gametoc.co.kr/news/articleView.html?idxno=110202",
+      "source_title": "헌혈의 아이콘이 된 '블루 아카이브'",
+      "collected_at": "2026-07-25",
+      "published_at": "2026-07-25",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-07-24-d7f87723",
+      "source_type": "news",
+      "source_url": "http://www.lak.co.kr/news/boardview.php?id=23570",
+      "source_title": "조경 아카이브, 기록의 저장소에서 보여주는 갤러리로",
+      "collected_at": "2026-07-25",
+      "published_at": "2026-07-24",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-07-24-a87d94f0",
+      "source_type": "news",
+      "source_url": "https://www.fashionbiz.co.kr/article/228138",
+      "source_title": "페노메논시퍼, 서울 광진구에 첫 쇼룸 ‘아카이브’ 오픈",
+      "collected_at": "2026-07-25",
+      "published_at": "2026-07-24",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-07-24-ebfc21a8",
+      "source_type": "news",
+      "source_url": "https://www.mhns.co.kr/news/articleView.html?idxno=754308",
+      "source_title": "국립민속박물관·국립인천해양박물관 아카이브 협력...디지털 자료 공동...",
+      "collected_at": "2026-07-25",
+      "published_at": "2026-07-24",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-07-24-cd9550d3",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/890293666",
+      "source_title": "[뉴공 아카이브]안수지 여행크리에이터·싱어송라이터, 김나현 차박 유...",
+      "collected_at": "2026-07-25",
+      "published_at": "2026-07-24",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-07-24T02:12:58.285410+00:00"
+  "last_fetched": "2026-07-25T02:11:56.976773+00:00"
 }
