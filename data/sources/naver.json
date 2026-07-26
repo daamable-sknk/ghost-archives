@@ -14309,7 +14309,67 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-07-25-d5c096cc",
+      "source_type": "news",
+      "source_url": "https://www.livesnews.com/news/article.html?no=62921",
+      "source_title": "국립인천해양박물관·국립민속박물관, 해양·민속 아카이브 공동 활용",
+      "collected_at": "2026-07-26",
+      "published_at": "2026-07-25",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-07-26-83bc89bd",
+      "source_type": "news",
+      "source_url": "https://www.inews365.com/news/article.html?no=929095",
+      "source_title": "증평 기록가 아카이빙 활동 보수교육",
+      "collected_at": "2026-07-26",
+      "published_at": "2026-07-26",
+      "keyword": "아카이빙",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-07-25-fe1be4d0",
+      "source_type": "news",
+      "source_url": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2452462",
+      "source_title": "증평군, '증평기록가' 보수교육 실시···주민 주도 마을 아카이빙 본격...",
+      "collected_at": "2026-07-26",
+      "published_at": "2026-07-25",
+      "keyword": "아카이빙",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-07-25-8370ed6a",
+      "source_type": "news",
+      "source_url": "https://www.newsis.com/view/NISX20260725_0003723107",
+      "source_title": "증평군, 기록가 보수교육…아카이빙 활동 본격화",
+      "collected_at": "2026-07-26",
+      "published_at": "2026-07-25",
+      "keyword": "아카이빙",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-07-25T02:11:56.976773+00:00"
+  "last_fetched": "2026-07-26T02:22:53.065235+00:00"
 }
