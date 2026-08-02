@@ -15734,7 +15734,22 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-08-01-a3403f28",
+      "source_type": "news",
+      "source_url": "https://www.gamechosun.co.kr/webzine/article/view.php?no=223850",
+      "source_title": "선행을 위해 '선생님'들이 팔을 걷었다! '블루 아카이브 2026 2차 헌혈 캠...",
+      "collected_at": "2026-08-02",
+      "published_at": "2026-08-01",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-08-01T02:25:10.229912+00:00"
+  "last_fetched": "2026-08-02T02:21:16.396281+00:00"
 }
