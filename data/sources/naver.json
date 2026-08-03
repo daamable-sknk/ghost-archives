@@ -15749,7 +15749,82 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-08-03-9c7e640b",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/890882155",
+      "source_title": "[뉴공 아카이브]박시동 경제평론가·12시에 만나요 진행자, 이광수 광수...",
+      "collected_at": "2026-08-03",
+      "published_at": "2026-08-03",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-08-03-9427be44",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/890881992",
+      "source_title": "[뉴공 아카이브]퍼니포: ‘더 좋아진 형소법’ 기자간담회 개최… 핵심...",
+      "collected_at": "2026-08-03",
+      "published_at": "2026-08-03",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-08-03-4caff050",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/890876897",
+      "source_title": "[뉴공 아카이브]겸손NSC: 미셸 스틸 美 대사 부임… 쿠팡·대미투자 등 ...",
+      "collected_at": "2026-08-03",
+      "published_at": "2026-08-03",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-08-03-1ebf67a7",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/890874951",
+      "source_title": "[뉴공 아카이브]박시영 박시영TV대표, 이택수 리얼미터 대표: ‘1300조 A...",
+      "collected_at": "2026-08-03",
+      "published_at": "2026-08-03",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-08-03-27e24cd4",
+      "source_type": "news",
+      "source_url": "https://www.youthdaily.co.kr/news/article.html?no=224309",
+      "source_title": "&quot;헌혈부터 기부 러닝까지&quot;…넥슨 '블루 아카이브', 게임 IP로 사회공헌 ...",
+      "collected_at": "2026-08-03",
+      "published_at": "2026-08-03",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-08-02T02:21:16.396281+00:00"
+  "last_fetched": "2026-08-03T02:23:49.028638+00:00"
 }
