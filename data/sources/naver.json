@@ -16274,7 +16274,82 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-08-07-77bfdcb3",
+      "source_type": "news",
+      "source_url": "https://www.ilovepc.co.kr/news/articleView.html?idxno=60257",
+      "source_title": "제이웍스, '블루 아카이브' 체리 한정판 게이밍 기어 2차 예약 판매 개시",
+      "collected_at": "2026-08-07",
+      "published_at": "2026-08-07",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-08-07-b8cbe468",
+      "source_type": "news",
+      "source_url": "https://www.newspim.com/news/view/20260807000472",
+      "source_title": "ETHER, 100인 작가 아카이브 'Portrait' 출범…전시와 출판의 융합 실험",
+      "collected_at": "2026-08-07",
+      "published_at": "2026-08-07",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-08-07-5d0eb95e",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/891155069",
+      "source_title": "[뉴공 아카이브]퍼니포: 뉴스공장 첫 공개방송… 특급 게스트 ‘겸공의...",
+      "collected_at": "2026-08-07",
+      "published_at": "2026-08-07",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-08-07-419470fe",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/891153756",
+      "source_title": "[뉴공 아카이브]백년위원회: 李대통령의 ‘독자 대입제도’… 백년위가...",
+      "collected_at": "2026-08-07",
+      "published_at": "2026-08-07",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-08-07-ef91f9ee",
+      "source_type": "news",
+      "source_url": "https://www.kmib.co.kr/article/view.asp?arcid=1785916329&code=14150000&cp=nv",
+      "source_title": "[미각 아카이브] 복날, 더위를 이기는 뜨거운 음식… 계삼탕에서 삼계탕...",
+      "collected_at": "2026-08-07",
+      "published_at": "2026-08-07",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-08-06T02:07:03.772656+00:00"
+  "last_fetched": "2026-08-07T02:26:04.741341+00:00"
 }
