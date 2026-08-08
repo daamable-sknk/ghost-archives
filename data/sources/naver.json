@@ -16349,7 +16349,22 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-08-07-a0d7b2e0",
+      "source_type": "news",
+      "source_url": "https://www.epnc.co.kr/news/articleView.html?idxno=405288",
+      "source_title": "CHERRY, '블루 아카이브' 아리스 콜라보 키보드 2차 예약판매",
+      "collected_at": "2026-08-08",
+      "published_at": "2026-08-07",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-08-07T02:26:04.741341+00:00"
+  "last_fetched": "2026-08-08T01:13:42.265299+00:00"
 }
