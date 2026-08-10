@@ -16394,7 +16394,82 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-08-10-efa6c078",
+      "source_type": "news",
+      "source_url": "https://www.theguru.co.kr/news/article.html?no=105581",
+      "source_title": "하이브, 日잉크스투엔터와 합작 ‘걸스 아카이브’ 출격…넷플릭스 영...",
+      "collected_at": "2026-08-10",
+      "published_at": "2026-08-10",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-08-10-f5c6c066",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/891372834",
+      "source_title": "[뉴공 아카이브]겸손NSC: 사우디·튀르키예·파키스탄 ‘3국 메카 방위협...",
+      "collected_at": "2026-08-10",
+      "published_at": "2026-08-10",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-08-10-177e3a5f",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/891371672",
+      "source_title": "[뉴공 아카이브]박시영 박시영TV 대표, 이택수 리얼미터 대표: 2030 민심...",
+      "collected_at": "2026-08-10",
+      "published_at": "2026-08-10",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-08-10-f422a3b2",
+      "source_type": "news",
+      "source_url": "https://www.sportsseoul.com/news/read/1627619?ref=naver",
+      "source_title": "인제군, 한국시집박물관 ‘님의 침묵, 100년 100권 아카이브 특별전’​...",
+      "collected_at": "2026-08-10",
+      "published_at": "2026-08-10",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-08-09-f8a5850e",
+      "source_type": "news",
+      "source_url": "https://www.inews365.com/news/article.html?no=930977",
+      "source_title": "국립한국교통대학교, 제천 기적의도서관에서 천체사진전 '별빛 아카이브...",
+      "collected_at": "2026-08-10",
+      "published_at": "2026-08-09",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-08-09T01:18:11.106773+00:00"
+  "last_fetched": "2026-08-10T01:20:21.433994+00:00"
 }
