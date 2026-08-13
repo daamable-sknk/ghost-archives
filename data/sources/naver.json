@@ -17039,7 +17039,52 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-08-13-01d5d4cc",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/891604560",
+      "source_title": "[뉴공 아카이브]송영길 전 더불어민주당 대표: 민주당 전당대회 D-4… 현...",
+      "collected_at": "2026-08-13",
+      "published_at": "2026-08-13",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-08-13-1f20f774",
+      "source_type": "news",
+      "source_url": "https://www.ddaily.co.kr/page/view/2026081308582925581",
+      "source_title": "LG전자 라이프집, 첫 단독 페어 '하우스 아카이브' 개최",
+      "collected_at": "2026-08-13",
+      "published_at": "2026-08-13",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-08-13-77eec68a",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/891601827",
+      "source_title": "[뉴공 아카이브]백년위원회: AI 시대, 민주주의는 살아남을 수 있는가? ...",
+      "collected_at": "2026-08-13",
+      "published_at": "2026-08-13",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-08-12T01:26:21.054264+00:00"
+  "last_fetched": "2026-08-13T01:28:16.790757+00:00"
 }
