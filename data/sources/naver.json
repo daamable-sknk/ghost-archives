@@ -17729,7 +17729,22 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-08-15-db578645",
+      "source_type": "news",
+      "source_url": "https://www.newsis.com/view/NISX20260814_0003748977",
+      "source_title": "아카이브 앱크, 서촌에 '센타 작업실' 연다…브랜드 경험 확대",
+      "collected_at": "2026-08-16",
+      "published_at": "2026-08-15",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-08-15T00:57:23.567773+00:00"
+  "last_fetched": "2026-08-16T01:00:20.338765+00:00"
 }
