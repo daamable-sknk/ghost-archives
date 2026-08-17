@@ -17744,7 +17744,52 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-08-17-eb1b5586",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/891920907",
+      "source_title": "[뉴공 아카이브]겸손NSC: 李대통령, 종전 논의 위한 다자협의 제안… 남...",
+      "collected_at": "2026-08-17",
+      "published_at": "2026-08-17",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-08-17-33a1ca73",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/891920323",
+      "source_title": "[뉴공 아카이브]박시영 박시영TV대표, 이택수 리얼미터 대표: 부정 평가...",
+      "collected_at": "2026-08-17",
+      "published_at": "2026-08-17",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-08-16-3976615d",
+      "source_type": "news",
+      "source_url": "https://www.mk.co.kr/article/12128876",
+      "source_title": "서촌서 ‘센타’ 와 손잡고 팝업 연 아카이브 앱크",
+      "collected_at": "2026-08-17",
+      "published_at": "2026-08-16",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-08-16T01:00:20.338765+00:00"
+  "last_fetched": "2026-08-17T00:58:35.431466+00:00"
 }
