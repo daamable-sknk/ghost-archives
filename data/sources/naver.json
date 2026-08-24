@@ -18479,7 +18479,82 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-08-24-c8564620",
+      "source_type": "news",
+      "source_url": "https://www.fashionbiz.co.kr/article/228802",
+      "source_title": "'해외 수주↑' MMIC, 2026 F/W 컬렉션 ‘Private Archive’ 국내 론칭",
+      "collected_at": "2026-08-24",
+      "published_at": "2026-08-24",
+      "keyword": "archive",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-08-23-07a089ce",
+      "source_type": "news",
+      "source_url": "https://www.jemin.com/news/articleView.html?idxno=841990",
+      "source_title": "제주학 아카이브 15년 성과와 미래를 묻다",
+      "collected_at": "2026-08-24",
+      "published_at": "2026-08-23",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-08-23-b0d33512",
+      "source_type": "news",
+      "source_url": "https://www.topstarnews.net/news/articleView.html?idxno=16170843",
+      "source_title": "이시영, 뮤제라 FW 아카이브에서 전한 따뜻한 가을 감성",
+      "collected_at": "2026-08-24",
+      "published_at": "2026-08-23",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-08-23-5bc070d7",
+      "source_type": "news",
+      "source_url": "https://www.jejudomin.co.kr/news/articleView.html?idxno=321535",
+      "source_title": "제주 기록의 미래는…제주학 아카이브 네트워크 포럼 개최",
+      "collected_at": "2026-08-24",
+      "published_at": "2026-08-23",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-08-23-5499f1ab",
+      "source_type": "news",
+      "source_url": "http://www.samdailbo.com/news/articleView.html?idxno=269348",
+      "source_title": "제주학 아카이브 네트워크 포럼 27일 호텔 시리우스",
+      "collected_at": "2026-08-24",
+      "published_at": "2026-08-23",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-08-23T01:02:03.427316+00:00"
+  "last_fetched": "2026-08-24T00:59:41.929346+00:00"
 }
