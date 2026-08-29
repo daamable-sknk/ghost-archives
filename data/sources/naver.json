@@ -19004,7 +19004,37 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-08-28-f2a22310",
+      "source_type": "news",
+      "source_url": "https://www.newstnt.com/news/articleView.html?idxno=715730",
+      "source_title": "대전아카이브포럼, '제4회 대전아카이브포럼' 개최",
+      "collected_at": "2026-08-29",
+      "published_at": "2026-08-28",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-08-28-c75aeca6",
+      "source_type": "news",
+      "source_url": "https://www.lecturernews.com/news/articleView.html?idxno=209528",
+      "source_title": "[허나영의 아트 아카이브] 『가장 뛰어난 화가, 조각가, 건축가들의 삶...",
+      "collected_at": "2026-08-29",
+      "published_at": "2026-08-28",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-08-28T08:43:52.492355+00:00"
+  "last_fetched": "2026-08-29T05:21:17.170692+00:00"
 }
