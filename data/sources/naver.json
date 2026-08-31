@@ -19034,7 +19034,82 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-08-31-6aa0b352",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/893047674",
+      "source_title": "[뉴공 아카이브]퍼니포: 李대통령 지지율 하락 속 중폭 개각… 2기 내각...",
+      "collected_at": "2026-08-31",
+      "published_at": "2026-08-31",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-08-31-dc0a399a",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/893042310",
+      "source_title": "[뉴공 아카이브]박시영 경제평론가·12시에 만나요 진행자, 이광수 광수...",
+      "collected_at": "2026-08-31",
+      "published_at": "2026-08-31",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-08-31-ab2de4b5",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/893041202",
+      "source_title": "[뉴공 아카이브]박시영 박시영TV대표, 이택수 리얼미터 대표: 李대통령...",
+      "collected_at": "2026-08-31",
+      "published_at": "2026-08-31",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-08-31-cdd407f4",
+      "source_type": "news",
+      "source_url": "https://www.donga.com/news/Culture/article/all/20260828/134558346/2",
+      "source_title": "구찌는 30년 전 G스트링, 샤넬은 100년 전 LBD…명품의 ‘아카이브 회귀...",
+      "collected_at": "2026-08-31",
+      "published_at": "2026-08-31",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-08-30-13e66a41",
+      "source_type": "news",
+      "source_url": "https://www.elle.co.kr/article/1907861",
+      "source_title": "케이트 모스와 젬마 워드, 런웨이의 ‘살아 있는 아카이브’가 돌아왔다",
+      "collected_at": "2026-08-31",
+      "published_at": "2026-08-30",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-08-30T03:15:59.554396+00:00"
+  "last_fetched": "2026-08-31T03:11:05.720902+00:00"
 }
