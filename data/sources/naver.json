@@ -19664,7 +19664,37 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-09-04-e8453b61",
+      "source_type": "news",
+      "source_url": "https://magazine.hankyung.com/business/article/202609044967b",
+      "source_title": "젠지가 보는 시선으로…아카이브 다시 쓰는 패션 브랜드[최수진의 패션...",
+      "collected_at": "2026-09-05",
+      "published_at": "2026-09-04",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-09-04-7364fcc5",
+      "source_type": "news",
+      "source_url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609041039284920102971",
+      "source_title": "[더벨][영상 | 아카이브 읽어주는 기자] 유일한이 뿌린 씨앗, FDA 신약으...",
+      "collected_at": "2026-09-05",
+      "published_at": "2026-09-04",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-09-04T02:37:23.806799+00:00"
+  "last_fetched": "2026-09-05T02:38:28.558252+00:00"
 }
