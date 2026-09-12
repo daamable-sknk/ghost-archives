@@ -20384,7 +20384,52 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-09-12-6621120f",
+      "source_type": "news",
+      "source_url": "https://www.mediatoday.co.kr/news/articleView.html?idxno=337042",
+      "source_title": "&quot;경향신문 아닌 독자적 브랜드로&quot; 여성 서사 아카이브 '플랫'의 6년",
+      "collected_at": "2026-09-12",
+      "published_at": "2026-09-12",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-09-11-978dd255",
+      "source_type": "news",
+      "source_url": "https://www.yna.co.kr/view/AKR20260911114400056?input=1195m",
+      "source_title": "&quot;제주 민속, 옛것 아닌 미래자원&quot;…전담조직·아카이브 필요",
+      "collected_at": "2026-09-12",
+      "published_at": "2026-09-11",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-09-11-225d4132",
+      "source_type": "news",
+      "source_url": "https://www.koreadaily.com/article/20260910213705176",
+      "source_title": "한인들의 역사, 디지털로…KYCC ‘K-타운 아카이브’ 개설",
+      "collected_at": "2026-09-12",
+      "published_at": "2026-09-11",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-09-11T02:41:18.431258+00:00"
+  "last_fetched": "2026-09-12T02:50:40.273772+00:00"
 }
