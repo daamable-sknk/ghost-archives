@@ -20429,7 +20429,22 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-09-13-2290740f",
+      "source_type": "news",
+      "source_url": "http://www.ftoday.co.kr/news/articleView.html?idxno=365346",
+      "source_title": "서울시립 미술아카이브, 오윤 작고 40주기 맞아 기획전 개최",
+      "collected_at": "2026-09-13",
+      "published_at": "2026-09-13",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-09-12T02:50:40.273772+00:00"
+  "last_fetched": "2026-09-13T02:49:17.757380+00:00"
 }
