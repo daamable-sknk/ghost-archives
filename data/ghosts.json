@@ -4,7 +4,7 @@
     "description": "'아카이브'라는 단어의 용례 수집",
     "last_updated": "2026-09-17T03:05:41.357461+00:00",
     "total_count": 8781,
-    "reviewed_count": 8776
+    "reviewed_count": 8777
   },
   "items": [
     {
@@ -948,8 +948,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "마케팅",
+      "implied_meaning": "과거 패션 기록",
       "note": null
     },
     {
