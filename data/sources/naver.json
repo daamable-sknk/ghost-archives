@@ -21209,7 +21209,52 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-09-19-5df197f1",
+      "source_type": "news",
+      "source_url": "https://kstar.kbs.co.kr/list_view.html?idx=410332",
+      "source_title": "'다큐 인사이트' 100년 전, 우리들의 초상...KBS 영상 아카이브 ‘우리의...",
+      "collected_at": "2026-09-19",
+      "published_at": "2026-09-19",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-09-18-04f95c83",
+      "source_type": "news",
+      "source_url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=701708",
+      "source_title": "K-서브컬처 신작, 일본 TGS 집결…'블루 아카이브·니케' 뒤 잇나",
+      "collected_at": "2026-09-19",
+      "published_at": "2026-09-18",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-09-18-821482b7",
+      "source_type": "news",
+      "source_url": "http://www.osen.co.kr/article/G1112877740",
+      "source_title": "[Oh!쎈 초점] ‘블루 아카이브’ 성공 잇는다… 넥슨게임즈 ‘파레이돌...",
+      "collected_at": "2026-09-19",
+      "published_at": "2026-09-18",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-09-18T02:53:24.851725+00:00"
+  "last_fetched": "2026-09-19T02:51:42.565204+00:00"
 }
