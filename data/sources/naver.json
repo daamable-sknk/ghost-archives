@@ -21254,7 +21254,37 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-09-19-e84a7de6",
+      "source_type": "news",
+      "source_url": "https://www.woodkorea.co.kr/news/articleView.html?idxno=91464",
+      "source_title": "국립청도숲체원, '숲속 아카이브 in 청도'…목공예품·나무 캔버스 작품...",
+      "collected_at": "2026-09-20",
+      "published_at": "2026-09-19",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-09-20-cde4f161",
+      "source_type": "news",
+      "source_url": "http://www.incheonin.com/news/articleView.html?idxno=120939",
+      "source_title": "'인천을 기록하다: 공공기관과 극장'.. '인천 만년(萬年) 아카이빙Ⅲ'",
+      "collected_at": "2026-09-20",
+      "published_at": "2026-09-20",
+      "keyword": "아카이빙",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-09-19T02:51:42.565204+00:00"
+  "last_fetched": "2026-09-20T03:03:49.370752+00:00"
 }
