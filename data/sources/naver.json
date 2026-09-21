@@ -21284,7 +21284,82 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-09-21-5ce62d99",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/895077708",
+      "source_title": "[뉴공 아카이브]복덕위원회: 李 100분 기자회견… 부동산 전문가들이 주...",
+      "collected_at": "2026-09-21",
+      "published_at": "2026-09-21",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-09-21-2d41aa22",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/895078216",
+      "source_title": "[뉴공 아카이브]백세위원회: 닮은꼴 가족들은 질병까지 닮을까? 유전과...",
+      "collected_at": "2026-09-21",
+      "published_at": "2026-09-21",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-09-21-1a538ca4",
+      "source_type": "news",
+      "source_url": "http://www.inews24.com/view/2007703",
+      "source_title": "'블루 아카이브'로 K-서브컬처 알린 넥슨게임즈…'파레이돌리아'로 기세...",
+      "collected_at": "2026-09-21",
+      "published_at": "2026-09-21",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-09-21-ad795af9",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/895071551",
+      "source_title": "[뉴공 아카이브]퍼니포: 李, 공소취소·연임개헌 입장까지… 100분 기자...",
+      "collected_at": "2026-09-21",
+      "published_at": "2026-09-21",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-09-21-e4a644e7",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/895070408",
+      "source_title": "[뉴공 아카이브]이택수 리얼미터 대표: 李대통령 대국민 기자회견… 국...",
+      "collected_at": "2026-09-21",
+      "published_at": "2026-09-21",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-09-20T03:03:49.370752+00:00"
+  "last_fetched": "2026-09-21T03:00:41.989141+00:00"
 }
