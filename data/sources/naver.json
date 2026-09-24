@@ -21644,7 +21644,52 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-09-24-2517e49e",
+      "source_type": "news",
+      "source_url": "https://www.gamevu.co.kr/news/articleView.html?idxno=61044",
+      "source_title": "넥슨 '블루 아카이브' 모집 BM 개편한다, 4분기 글로벌 적용",
+      "collected_at": "2026-09-24",
+      "published_at": "2026-09-24",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-09-23-bdd5410b",
+      "source_type": "news",
+      "source_url": "http://www.opinionnews.co.kr/news/articleView.html?idxno=144861",
+      "source_title": "[박혜진의 블록체인 아카이브] 엉터리 코인 과세, 누가 설계했고 누가 ...",
+      "collected_at": "2026-09-24",
+      "published_at": "2026-09-23",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-09-23-3a3bcc5c",
+      "source_type": "news",
+      "source_url": "https://www.ekn.kr/web/view.php?key=20260923025168549",
+      "source_title": "강의실 배움의 기록이 성장으로…오산대, ‘나의 수업 아카이브’ 결실...",
+      "collected_at": "2026-09-24",
+      "published_at": "2026-09-23",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-09-23T03:00:42.120018+00:00"
+  "last_fetched": "2026-09-24T02:51:50.714050+00:00"
 }
