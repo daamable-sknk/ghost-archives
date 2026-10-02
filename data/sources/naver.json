@@ -22199,7 +22199,67 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-10-02-50900fca",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/896100084",
+      "source_title": "[뉴공 아카이브]퍼니포: 공소청 · 중수청 출범… 78년 정치 검찰 카르텔...",
+      "collected_at": "2026-10-02",
+      "published_at": "2026-10-02",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-10-02-89e8ca96",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/896091666",
+      "source_title": "[뉴공 아카이브]겸손NSC: 트럼프 ‘일방 발표’에 “이의 제기”… 팩트...",
+      "collected_at": "2026-10-02",
+      "published_at": "2026-10-02",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-10-01-14972646",
+      "source_type": "news",
+      "source_url": "https://www.kyeongin.com/article/1771862",
+      "source_title": "근현대 인천 기록 공유 ‘모씨네 디지털 아카이브’ 개관 [인천문화산책...",
+      "collected_at": "2026-10-02",
+      "published_at": "2026-10-01",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-10-01-0cfc79c5",
+      "source_type": "news",
+      "source_url": "https://www.newsmin.co.kr/news/137697/",
+      "source_title": "“10월항쟁 계기로 전시작전권 이양 검토”···새 사료 아카이브 전시",
+      "collected_at": "2026-10-02",
+      "published_at": "2026-10-01",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-10-01T03:48:09.502035+00:00"
+  "last_fetched": "2026-10-02T03:46:33.424593+00:00"
 }
