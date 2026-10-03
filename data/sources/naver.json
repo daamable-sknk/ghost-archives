@@ -22259,7 +22259,22 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-10-02-7785ab15",
+      "source_type": "news",
+      "source_url": "https://www.sommeliertimes.com/news/articleView.html?idxno=131692",
+      "source_title": "샤토 오브리옹, 수세기 걸쳐 수집한 와인·미식 아카이브 공개",
+      "collected_at": "2026-10-03",
+      "published_at": "2026-10-02",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-10-02T03:46:33.424593+00:00"
+  "last_fetched": "2026-10-03T03:30:59.243353+00:00"
 }
