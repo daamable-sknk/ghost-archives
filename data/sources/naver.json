@@ -22274,7 +22274,37 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-10-04-febf85a7",
+      "source_type": "news",
+      "source_url": "https://www.joongang.co.kr/article/25466946",
+      "source_title": "[단독] 수십억 들인 한국은행 아카이브, 하루 10명도 안 찾았다",
+      "collected_at": "2026-10-04",
+      "published_at": "2026-10-04",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-10-03-65342644",
+      "source_type": "news",
+      "source_url": "http://www.incheonin.com/news/articleView.html?idxno=121227",
+      "source_title": "인천예총, 「인천 만년(萬年) 아카이빙Ⅲ-옛 공공기관과 극장」 전시",
+      "collected_at": "2026-10-04",
+      "published_at": "2026-10-03",
+      "keyword": "아카이빙",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-10-03T03:30:59.243353+00:00"
+  "last_fetched": "2026-10-04T03:59:12.180885+00:00"
 }
