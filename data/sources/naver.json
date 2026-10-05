@@ -22304,7 +22304,82 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-10-05-fca82d6c",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/896321935",
+      "source_title": "[뉴공 아카이브]황희두 노무현재단 이사, 박대희 깨어있는대구시민들 기...",
+      "collected_at": "2026-10-05",
+      "published_at": "2026-10-05",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-10-05-1d9a385e",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/896321777",
+      "source_title": "[뉴공 아카이브]백세위원회: 의료인류학자가 본 말기 돌봄의 세계… 《...",
+      "collected_at": "2026-10-05",
+      "published_at": "2026-10-05",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-10-05-055ba0f8",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/896315450",
+      "source_title": "[뉴공 아카이브]퍼니포: DMZ 정보 출처 해명 요구에… 한동훈 ‘고 노무...",
+      "collected_at": "2026-10-05",
+      "published_at": "2026-10-05",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-10-05-bf81fc87",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/896314272",
+      "source_title": "[뉴공 아카이브]박시영 박시영TV 대표: 추석 이후 李대통령 지지율, 민심...",
+      "collected_at": "2026-10-05",
+      "published_at": "2026-10-05",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-10-05-28cd2323",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/896314976",
+      "source_title": "[뉴공 아카이브]겸손NSC: 美 안보 수뇌부 극비 회의… 이란·예멘 전쟁 ...",
+      "collected_at": "2026-10-05",
+      "published_at": "2026-10-05",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-10-04T03:59:12.180885+00:00"
+  "last_fetched": "2026-10-05T03:44:24.393534+00:00"
 }
