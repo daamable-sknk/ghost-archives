@@ -23294,7 +23294,22 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-10-09-c60b329b",
+      "source_type": "news",
+      "source_url": "http://www.newsbrite.net/news/articleView.html?idxno=200832",
+      "source_title": "아카이브 앱크, 브랜드 첫 모델로 김도연 캐스팅... '패피 접점' 시동",
+      "collected_at": "2026-10-10",
+      "published_at": "2026-10-09",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-10-09T04:16:55.038654+00:00"
+  "last_fetched": "2026-10-10T04:01:44.879525+00:00"
 }
