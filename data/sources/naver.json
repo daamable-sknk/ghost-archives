@@ -23309,7 +23309,67 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-10-11-982da09c",
+      "source_type": "news",
+      "source_url": "https://www.munhwa.com/article/11622550?ref=naver",
+      "source_title": "“전시도 보고, 고래도 그리고”…울산고래축제 30주년 아카이브展 개최",
+      "collected_at": "2026-10-11",
+      "published_at": "2026-10-11",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-10-11-71fb0753",
+      "source_type": "news",
+      "source_url": "https://www.sedaily.com/article/20099523?ref=naver",
+      "source_title": "울산고래축제 30주년 아카이브전 개최…장생포문화창고서 13일 개막",
+      "collected_at": "2026-10-11",
+      "published_at": "2026-10-11",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-10-11-df409d97",
+      "source_type": "news",
+      "source_url": "https://www.newsis.com/view/NISX20261008_0003819683",
+      "source_title": "박명수와 GS샵 쇼핑…아카이브 앱크 입은 김도연[유통가 새 얼굴]",
+      "collected_at": "2026-10-11",
+      "published_at": "2026-10-11",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-10-10-03f6faed",
+      "source_type": "news",
+      "source_url": "https://www.ksilbo.co.kr/news/articleView.html?idxno=1069192",
+      "source_title": "고래문화재단 '제30회 울산고래축제 기념 아카이브展'",
+      "collected_at": "2026-10-11",
+      "published_at": "2026-10-10",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-10-10T04:01:44.879525+00:00"
+  "last_fetched": "2026-10-11T03:37:00.036347+00:00"
 }
