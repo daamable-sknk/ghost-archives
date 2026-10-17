@@ -24689,7 +24689,22 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-10-17-374030a0",
+      "source_type": "news",
+      "source_url": "https://www.techm.kr/news/articleView.html?idxno=156192",
+      "source_title": "[주말에 뭐하지] '블루 아카이브' '우마무스메' 신규 스토리 '관심'...배...",
+      "collected_at": "2026-10-17",
+      "published_at": "2026-10-17",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-10-16T02:52:43.415688+00:00"
+  "last_fetched": "2026-10-17T02:43:54.853412+00:00"
 }
