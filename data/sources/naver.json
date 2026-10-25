@@ -26024,7 +26024,82 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-10-25-208e8779",
+      "source_type": "news",
+      "source_url": "https://sports.khan.co.kr/article/202610251034003?pt=nv",
+      "source_title": "넥슨 ‘블루 아카이브 5주년 페스티벌’ 11월 7~8일 개최",
+      "collected_at": "2026-10-25",
+      "published_at": "2026-10-25",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-10-25-97939b79",
+      "source_type": "news",
+      "source_url": "https://zdnet.co.kr/view/?no=20261024112909",
+      "source_title": "그라비티 '라그나로크 온라인 PLUS+' 첫 발걸음…공식 가이드·아카이브...",
+      "collected_at": "2026-10-25",
+      "published_at": "2026-10-25",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-10-25-81784885",
+      "source_type": "news",
+      "source_url": "https://www.fetv.co.kr/news/articleView.html?idxno=312363",
+      "source_title": "넥슨, '블루 아카이브' 5주년 페스티벌 11월 7·8일 개최…1.2만명 초청",
+      "collected_at": "2026-10-25",
+      "published_at": "2026-10-25",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-10-24-94a69d61",
+      "source_type": "news",
+      "source_url": "https://www.sportschosun.com/entertainment/2026-10-24/202610240100151930009911",
+      "source_title": "'블루 아카이브' 5주년 페스티벌, 1만2000명 초청…'키보토스 라이브'도...",
+      "collected_at": "2026-10-25",
+      "published_at": "2026-10-24",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-10-24-88930a29",
+      "source_type": "news",
+      "source_url": "https://www.globale.co.kr/news/articleView.html?idxno=41202",
+      "source_title": "넥슨 〈블루아카이브〉 5주년 축제···킨텍스서 1만2,000명 결집",
+      "collected_at": "2026-10-25",
+      "published_at": "2026-10-24",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-10-24T03:01:23.792010+00:00"
+  "last_fetched": "2026-10-25T02:55:12.486321+00:00"
 }
