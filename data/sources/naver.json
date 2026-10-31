@@ -27224,7 +27224,52 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-10-30-78ca5a70",
+      "source_type": "news",
+      "source_url": "https://www.sportsseoul.com/news/read/1645200?ref=naver",
+      "source_title": "김남희 도의원 “강원특별자치도형 ‘AI 스마트 아카이브’제도적 기반...",
+      "collected_at": "2026-10-31",
+      "published_at": "2026-10-30",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-10-30-5f6d5bc9",
+      "source_type": "news",
+      "source_url": "https://www.marieclairekorea.com/culture/2026/10/meiro-koizumi/?utm_source=naver&utm_medium=partnership",
+      "source_title": "불, 어느 아카이브 | 작가 고이즈미 메이로 인터뷰 | 마리끌레르 코리아",
+      "collected_at": "2026-10-31",
+      "published_at": "2026-10-30",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-10-30-2aa86f06",
+      "source_type": "news",
+      "source_url": "https://www.slist.kr/news/articleView.html?idxno=777815",
+      "source_title": "브룩스브라더스, 수박빈티지와 '아카이브 컬렉션' 출시",
+      "collected_at": "2026-10-31",
+      "published_at": "2026-10-30",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-10-30T04:05:07.962970+00:00"
+  "last_fetched": "2026-10-31T03:49:16.755140+00:00"
 }
