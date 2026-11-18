@@ -31394,7 +31394,82 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-11-18-c886a867",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/899133802",
+      "source_title": "[뉴공 아카이브]퍼니포: 추경호 ‘계엄 해제 표결 방해’ 1심 선고… 고...",
+      "collected_at": "2026-11-18",
+      "published_at": "2026-11-18",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-11-18-2815db1b",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/899133205",
+      "source_title": "[뉴공 아카이브]주식아가방: 코스피 장중 5천 선 붕괴… 외국인 매도세...",
+      "collected_at": "2026-11-18",
+      "published_at": "2026-11-18",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-11-18-b2ffb862",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/899125413",
+      "source_title": "[뉴공 아카이브]안민석 경기도교육감: 수능 D-1, 스마트안경 등 AI 부정...",
+      "collected_at": "2026-11-18",
+      "published_at": "2026-11-18",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-11-18-55e12fe7",
+      "source_type": "news",
+      "source_url": "http://www.ddanzi.com/899125576",
+      "source_title": "[뉴공 아카이브]박현광 겸손방송국 기자: APEC 참석한 李 대통령… 푸틴...",
+      "collected_at": "2026-11-18",
+      "published_at": "2026-11-18",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
+    },
+    {
+      "id": "ghost-2026-11-17-173cbb44",
+      "source_type": "news",
+      "source_url": "https://www.cnbizm.com/news/articleView.html?idxno=321847",
+      "source_title": "경기문화재단, 2026 경기문화예술로 CIRCLE 31의 아카이브 전시 '돌고 돌...",
+      "collected_at": "2026-11-18",
+      "published_at": "2026-11-17",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-11-17T06:14:10.891501+00:00"
+  "last_fetched": "2026-11-18T05:41:20.404655+00:00"
 }
