@@ -4,7 +4,7 @@
     "description": "'아카이브'라는 단어의 용례 수집",
     "last_updated": "2026-11-25T06:42:47.244465+00:00",
     "total_count": 13263,
-    "reviewed_count": 0
+    "reviewed_count": 10721
   },
   "items": [
     {
@@ -5328,8 +5328,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "과거 작품 모음",
       "note": null
     },
     {
@@ -9093,8 +9093,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "언론 기록 보존",
       "note": null
     },
     {
@@ -14043,8 +14043,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "예술",
+      "implied_meaning": "음악 사진 자료",
       "note": null
     },
     {
@@ -20793,8 +20793,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "시민",
+      "implied_meaning": "팬 커뮤니티 기록",
       "note": null
     },
     {
@@ -21918,8 +21918,8 @@
       "language": "ko",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "제도",
+      "implied_meaning": "공공 기록 보존",
       "note": null
     },
     {
@@ -23673,8 +23673,8 @@
       "language": "en",
       "auto_collected": true,
       "reviewed": false,
-      "category": null,
-      "implied_meaning": null,
+      "category": "큐레이션",
+      "implied_meaning": "지난 경기 영상 모음",
       "note": null
     },
     {
