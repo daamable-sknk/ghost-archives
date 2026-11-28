@@ -33239,7 +33239,22 @@
       "category": null,
       "implied_meaning": null,
       "note": null
+    },
+    {
+      "id": "ghost-2026-11-27-464bdad3",
+      "source_type": "news",
+      "source_url": "https://www.thisisgame.com/articles/433478",
+      "source_title": "'블루 아카이브' 성우 토크쇼부터 코스프레쇼까지, AGF 2026",
+      "collected_at": "2026-11-28",
+      "published_at": "2026-11-27",
+      "keyword": "아카이브",
+      "language": "ko",
+      "auto_collected": true,
+      "reviewed": false,
+      "category": null,
+      "implied_meaning": null,
+      "note": null
     }
   ],
-  "last_fetched": "2026-11-27T06:24:12.836954+00:00"
+  "last_fetched": "2026-11-28T06:00:09.926880+00:00"
 }
